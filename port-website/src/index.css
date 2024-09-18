@@ -111,7 +111,7 @@ nav:hover{
   width: 100%;
   background: #06060f;
   border-left: 2px solid #ee0653;
-  animation: typing 2.5s steps(10) infinite;
+  animation: typing 2.5s steps(13) infinite;
 
  }
  @keyframes typing {
