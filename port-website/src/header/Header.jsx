@@ -2,7 +2,7 @@ import React from 'react'
 import Home from '../home/Home'
 function Header() {
   return (
-    <div>
+    <div className='headerbody'>
       <div className='mt-8 z-20 '>
         <nav>
       
@@ -16,6 +16,7 @@ function Header() {
         </nav>
   <Home/>    
       </div>
+      
     </div>
   )
 }
