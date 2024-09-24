@@ -12,8 +12,7 @@
 }
 
 body{
-  background: linear-gradient(to bottom right,#06060f, #080811, #080811,#29242b,#9f5272);
-
+  background: #06060f;
     color: white;
 
 }
@@ -24,7 +23,7 @@ body{
     display: flex;
     justify-content:space-evenly;
     flex-direction: row;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
 
@@ -131,3 +130,34 @@ nav:hover{
     margin:0 -35px 0 35px ;
   }
  }
+ .icon-div {
+  width: 100px;
+  height: 100px;
+  color: #eee;
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.icon-div i {
+  width: 100%;
+  position: relative;
+  top: 25%;
+  margin-left: -90px;
+  font-size: 1.8em;
+  transition: 0.5s all;
+}
+.icon-div span {
+   margin-left: -80px;
+  opacity: 0;
+  position: relative;
+  top: 35%;
+  transition: 0.5s all;
+}
+.icon-div:hover i {
+  top: 2%;
+  font-size: 2.2em;
+  color: rgb(207, 192, 149);
+}
+.icon-div:hover span {
+  opacity: 1;
+}
