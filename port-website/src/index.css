@@ -12,9 +12,10 @@
 }
 
 body{
-    background-color: #06060f;
+  background: linear-gradient(to bottom right,#06060f, #080811, #080811,#29242b,#9f5272);
+
     color: white;
-background: #06060f; 
+
 }
 
   .headerbody{
