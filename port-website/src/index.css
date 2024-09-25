@@ -201,6 +201,9 @@ nav:hover{
   opacity: 0;
   transition: 0.3s ease-out;
  }
+ .card-button:hover{
+  background-color: #caafb8;
+ }
  .custom-icon {
   background:#fff;
   background:rgba(0,0,0,0.4);
