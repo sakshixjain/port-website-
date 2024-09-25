@@ -26,7 +26,7 @@ function Home() {
                     </div>  
                     </div>
  </div>
-              <img className='w-72 h-80 rounded-lg' src="/src/pexels-fathi-vee-1020478.jpg" alt="" style={{filter: 'drop-shadow(5px 5px 5px wheat)'}} />
+              <img className='w-64 h-72 rounded-lg' src="/src/pexels-fathi-vee-1020478.jpg" alt="" style={{filter: 'drop-shadow(5px 5px 5px wheat)'}} />
 </div>
   
     

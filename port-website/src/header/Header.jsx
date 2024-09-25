@@ -1,5 +1,6 @@
 import React from 'react'
 import Home from '../home/Home'
+import Info from '../Information/Info'
 function Header() {
   return (
     <div className='headerbody'>
@@ -14,7 +15,8 @@ function Header() {
             <a href="#">Contact</a>
         
         </nav>
-  <Home/>    
+  <Home/>   
+  <Info/> 
       </div>
       
     </div>
