@@ -24,9 +24,13 @@ function Home() {
                     <a href="https://leetcode.com/u/sakshijain36/"><i className="fa-solid fa-link"></i></a>
                     <span>Leetcode</span>
                     </div>  
+                    <div className='icon-div'>
+                    <a href="https://www.geeksforgeeks.org/user/sakshijain36/"><i className="fa-solid fa-link"></i></a>
+                    <span>G-For-G</span>
+                    </div> 
                     </div>
  </div>
-              <img className='w-64 h-72 rounded-lg' src="/src/pexels-fathi-vee-1020478.jpg" alt="" style={{filter: 'drop-shadow(5px 5px 5px wheat)'}} />
+              <img className='w-64 h-72 rounded-xl' src="/src/pexels-fathi-vee-1020478.jpg" alt="" />
 </div>
   
     

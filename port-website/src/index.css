@@ -26,8 +26,6 @@ body{
     /* overflow: hidden; */
   }
 
-
-
   nav{
     display: flex;
    justify-content:space-evenly;
@@ -79,21 +77,19 @@ nav:hover{
   margin-top: 90px; 
  display: flex;
  justify-content: space-evenly;
-  margin-left: -200px;
-  margin-right: -250px;
  }
  .wrapper .static-txt{
   color: #fff;
   font-size: 40px;
   font-weight: 400;
-  margin-left: -70px;
+  
  }
  .wrapper .dynamic-txt{
   margin-left: 15px;
   height: 60px;
   line-height: 60px;
   overflow: hidden;
-  margin-left: -130px;
+  margin-left: -100px;
  }
  .dynamic-txt li{
   color: #ee0653;
