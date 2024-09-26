@@ -14,42 +14,54 @@
 body{
   background: #06060f;
     color: white;
-
 }
-
   .headerbody{
-    width: 100%;
-    height: 100vh;
-    display: flex;
+  display: flex;
     justify-content:space-evenly;
     flex-direction: row;
-    /* overflow: hidden; */
   }
 
   nav{
     display: flex;
-   justify-content:space-evenly;
+   justify-content:center;
    text-align: center;
    font-size: 22px;
   font-weight: 600;
    background-color:  #06060f;
-   /* border-bottom: 2px solid #898989; */
-  
    color: white;
-   padding: 20px;
+   padding: 17px;
    z-index: 2;
 }
 nav:hover{
   transition: .5s;
   box-shadow: 2px 5px 5px 0 rgba(100, 100, 100, 0.5); 
 }
-
+nav button{
+  text-align: center;
+  justify-content: center;
+  font-size: 22px;
+  color: #fff;
+  margin-left: 38px;
+  padding-bottom: 8px;
+  margin-right: 20px;
+}
+nav button:hover{
+  background:#f33776;
+  border-radius:100%;
+  border:3px solid #ccc;
+  color:#fff;
+	box-shadow: 0 1px 10px rgba(245, 243, 243, 0.46);
+  width:40px;
+  margin-left: 30px;
+  height:40px;
+  transition: .9s;
+}
  nav a{
   text-decoration: none;
   color: #898989;
   font-size: 20px;
   font-weight: 600;
-  padding: 0,10px;
+  padding: 0 10px;
   margin: 0 30px;
   position: relative;
  }             
@@ -60,10 +72,10 @@ nav:hover{
  nav a::before{
   content: ' ';
   position: absolute;
-  bottom:  -5px;
+  bottom:  -2px;
   left: 0;
   width: 0%;
-  height: 3px;
+  height: 2px;
   background-color: #ee0653;
   transition: all .3s;
  }
@@ -74,28 +86,29 @@ nav:hover{
  
  .wrapper{
   text-align: left;
-  margin-top: 90px; 
+  margin-top: 100px; 
  display: flex;
  justify-content: space-evenly;
  }
  .wrapper .static-txt{
   color: #fff;
   font-size: 40px;
+  margin-left: 5px;
   font-weight: 400;
-  
  }
  .wrapper .dynamic-txt{
   margin-left: 15px;
   height: 60px;
   line-height: 60px;
   overflow: hidden;
-  margin-left: -100px;
+  margin-left: -180px;
  }
  .dynamic-txt li{
   color: #ee0653;
   list-style: none;
   font-size: 50px;
   font-weight: 400;
+  
   position: relative;
   top: 0;
   animation: slide 5s steps(2) infinite;
@@ -233,3 +246,4 @@ nav:hover{
   transform: translate(-50%, 50%);
   opacity: 1;
  }
+
