@@ -1,6 +1,5 @@
 import React from 'react'
-import Home from '../home/Home'
-import Info from '../Information/Info'
+
 function Header() {
   return (
     <div className='headerbody'>
@@ -12,7 +11,6 @@ function Header() {
             <a href="#">Portfolio</a>
             <a href="#">About</a>
             <a href="#">Contact</a>
-           <button><i className="fa-solid fa-down-long"></i></button>
         </nav>
       </div>
     </div>

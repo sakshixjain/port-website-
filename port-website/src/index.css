@@ -36,26 +36,25 @@ nav:hover{
   transition: .5s;
   box-shadow: 2px 5px 5px 0 rgba(100, 100, 100, 0.5); 
 }
-nav button{
-  text-align: center;
-  justify-content: center;
-  font-size: 22px;
-  color: #fff;
-  margin-left: 38px;
-  padding-bottom: 8px;
-  margin-right: 20px;
-}
-nav button:hover{
-  background:#f33776;
+.custom-ic{
+  background:rgba(0,0,0,0.4);
+  padding:15px;
   border-radius:100%;
   border:3px solid #ccc;
   color:#fff;
 	box-shadow: 0 1px 10px rgba(245, 243, 243, 0.46);
-  width:40px;
-  margin-left: 30px;
-  height:40px;
-  transition: .9s;
+  width:55px;
+  height:55px;
+  font-size: 22px;
+margin-left: -20px;
+margin-bottom: 20px;
 }
+.custom-ic:hover{
+  background: #fff;
+  color: #06060f;
+  
+}
+
  nav a{
   text-decoration: none;
   color: #898989;
@@ -144,7 +143,7 @@ nav button:hover{
   height: 100px;
   color: #eee;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 2px;
   cursor: pointer;
 }
 .icon-div i {
