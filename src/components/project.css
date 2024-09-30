@@ -1,6 +1,6 @@
 
  .image-gallery-container {
-  overflow:hidden;
+  overflow:hidden; 
  padding: 35px 0;
    white-space: nowrap;
    position: relative;
@@ -10,8 +10,7 @@
   display:flex;
   height: 480px;
   animation: 20s slide infinite linear;
-}
-
+}   
 .image-gallery-container::before, 
 .image-gallery-container::after{
   position: absolute;

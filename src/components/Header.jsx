@@ -41,8 +41,8 @@ function Header() {
 
                     </div>
  </div>
-              <img className='w-64 h-64 rounded-full' src="/src/pexels-fathi-vee-1020478.jpg" alt="" />
-</div>
+              <img className='w-64 h-64 rounded-full' src="pexels-fathi-vee-1020478.jpg" alt="" />
+</div>/
     </>
   )
 }
