@@ -7,7 +7,7 @@ function Contact() {
 <div className="my-6">
 <h1 className='text-center justify-center mt-20 mb-8 text-4xl h1pro'>Contact me</h1>
     
-            <div className="grid sm:grid-cols-2 items-center gap-16 p-8 mx-auto max-w-4xl bg-[#06060f] shadow-[0_2px_10px_-3px_rgba(231,231,231,0.9)] rounded-md text-[#817f7f] font-[sans-serif]">
+            <div className="grid sm:grid-cols-2 items-center gap-16 p-8 mx-auto max-w-3xl bg-[#06060f] shadow-[0_2px_10px_-3px_rgba(231,231,231,0.9)] rounded-3xl text-[#ebe5b5] font-[sans-serif]">
                 <div>
                     <h1 className="text-3xl font-extrabold">Let's Talk</h1>
                     <p className="text-sm text-gray-200 mt-3">Have some big idea or brand to develop and need help? Then reach out we'd love to hear about your project  and provide help.</p>

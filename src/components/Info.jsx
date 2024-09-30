@@ -16,11 +16,6 @@ function Info() {
     <h3
         className="h3 line-height-3 resume-topic-item resume-topic-one fw-500 text-white position-absolute">
         Education</h3>
-    <h3
-        className="h3 line-height-3 resume-topic-item resume-topic-two fw-500 text-white position-absolute">
-        Software Skills
-    </h3>
-
 </div>
 </div>
 <div className="col-12 col-lg-10">
@@ -67,166 +62,7 @@ function Info() {
     </div>
 </div>
 {/* <!-- resume skills row --> */}
-<div data-aos="fade-up" data-aos-delay="200" data-aos-duration="800"
-    className="resume-skills bg-[#11111b] mt-4">
-    <div className="row">
-        {/* <!-- skills first column --> */}
-        <div className="col-lg-4 resume-first-item">
-            <h4 className="h4 text-white fw-500">
-                CourseWork
-            </h4>
-            <div className="row mt-10 justify-content-between">
-                <p
-                    className="col-10 p secondary-black fw-400 line-height-7 skill-name position-relative">
-                    C++
-                </p>
-                <p className="col-2 p secondary-black fw-400 line-height-7">
-                    80%
-                </p>
-            </div>
-            <div className="row mt-10 justify-content-between">
-                <p
-                    className="col-10 p secondary-black fw-400 line-height-7 skill-name position-relative">
-                    Data Structures & Algoritms
-                </p>
-                <p className="col-2 p secondary-black fw-400 line-height-7">
-                    70%
-                </p>
-            </div>
-            <div className="row mt-10 justify-content-between">
-                <p
-                    className="col-10 p secondary-black fw-400 line-height-7 skill-name position-relative">
-                    Computer Networking 
-                </p>
-                <p className="col-2 p secondary-black fw-400 line-height-7">
-                    70%
-                </p>
-            </div>
-            <div className="row mt-10 justify-content-between">
-                <p
-                    className="col-10 p secondary-black fw-400 line-height-7 skill-name position-relative">
-                    Operating system
-                </p>
-                <p className="col-2 p secondary-black fw-400 line-height-7">
-                    70%
-                </p>
-            </div>
-            
-            <div className="row justify-content-between mt-10">
-                <p
-                    className="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
-                    Oops Concept
-                </p>
-                <p className="p col-2 secondary-black fw-400 line-height-7">
-                    80%
-                </p>
-            </div>
-        </div>
-        {/* <!-- skills second column --> */}
-        <div className="col-lg-4 resume-second-item">
-            <h4 className="h4 text-white fw-500">
-                Web Developement
-            </h4>
-            
-            <div className="row justify-content-between mt-10">
-                <p
-                    className="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
-                    React.js
-                </p>
-                <p className="p col-2 secondary-black fw-400 line-height-7">
-                    80%
-                </p>
-            </div>
-            <div className="row justify-content-between mt-10">
-                <p
-                    className="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
-                    Node.js
-                </p>
-                <p className="p col-2 secondary-black fw-400 line-height-7">
-                    80%
-                </p>
-            </div>
-            <div className="row justify-content-between mt-10">
-                <p
-                    className="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
-                    Express.js
-                </p>
-                <p className="p col-2 secondary-black fw-400 line-height-7">
-                    80%
-                </p>
-            </div>
-            <div className="row justify-content-between mt-10">
-                <p
-                    className="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
-                    Mysql
-                </p>
-                <p className="p col-2 secondary-black fw-400 line-height-7">
-                    90%
-                </p>
-            </div>
-            <div className="row justify-content-between mt-10">
-                <p
-                    className="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
-                    MongoDB
-                </p>
-                <p className="p col-2 secondary-black fw-400 line-height-7">
-                    90%
-                </p>
-            </div>
-        </div>
-        {/* <!-- skills thirdt column --> */}
-        <div className="col-lg-4 resume-third-item">
-            <h4 className="h4 text-white fw-500">
-                Web Designing
-            </h4>
-            <div className="row mt-10 justify-content-between">
-                <p
-                    className="col-10 p secondary-black fw-400 line-height-7 skill-name position-relative">
-                    HTML5
-                </p>
-                <p className="col-2 p secondary-black fw-400 line-height-7">
-                    92%
-                </p>
-            </div>
-            <div className="row justify-content-between mt-10">
-                <p
-                    className="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
-                    CSS
-                </p>
-                <p className="p col-2 secondary-black fw-400 line-height-7">
-                    87%
-                </p>
-            </div>
-            <div className="row justify-content-between mt-10">
-                <p
-                    className="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
-                    JavaScript
-                </p>
-                <p className="p col-2 secondary-black fw-400 line-height-7">
-                    87%
-                </p>
-            </div>
-            <div className="row justify-content-between mt-10">
-                <p
-                    className="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
-                    Bootstrap5
-                </p>
-                <p className="p col-2 secondary-black fw-400 line-height-7">
-                    82%
-                </p>
-            </div>
-            <div className="row justify-content-between mt-10">
-                <p
-                    className="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
-                    Tailwind css
-                </p>
-                <p className="p col-2 secondary-black fw-400 line-height-7">
-                    82%
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
+
      </div>
      </div>
           </div>
@@ -234,6 +70,8 @@ function Info() {
         </div>
   </div>
         </section>
+        <h1 className='text-center justify-center mt-4 mb-16 text-4xl h1pro'>Software Skills</h1>
+
     <div className='flex  justify-center'>
       <div className="card">
   <div className="card-details">
