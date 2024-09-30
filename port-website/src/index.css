@@ -54,7 +54,24 @@ margin-bottom: 20px;
   color: #06060f;
   
 }
+.custom-i{
+  background:rgba(0,0,0,0.4);
+  padding:15px;
+  border-radius:100%;
+  border:3px solid #ccc;
+  color:#fff;
+	box-shadow: 0 1px 10px rgba(245, 243, 243, 0.46);
+  width:51px;
+  height:50px;
+  font-size: 20px;
+margin-top: 10px;
 
+}
+.custom-i:hover{
+  background: #fff;
+  color: #06060f;
+  
+}
  nav a{
   text-decoration: none;
   color: #898989;

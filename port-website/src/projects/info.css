@@ -35,15 +35,6 @@
   animation-play-state: paused;
 }
 
-@keyframes slide {
-  from {
-    transform: translateX(0);
-  }
-  to{
-    transform: translateX(-100%);
-  }
-}
-
 .image-gallery div{
   margin-left: 35px;
   padding: 10px;
@@ -93,3 +84,11 @@ justify-content: center;
   
 }
 
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
