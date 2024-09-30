@@ -1,14 +1,13 @@
-import Header from "./header/Header"
-import Info from "./Information/Info"
-import Project from "./projects/Project"
-import Contact from "./Contact/Contact"
+import Header from "./components/Header"
+import Info from "./components/Info"
+import Project from "./components/Project"
+import Contact from "./components/Contact"
 function App() {
   return (
     <>
   <Header/>
     <Info/> 
   <Project/> 
-
   <Contact/>
    </>
   )

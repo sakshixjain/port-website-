@@ -1,5 +1,5 @@
 import React from 'react'
-import './inf.css'
+import '../components/info.css'
 function Info() {
   return (
     <>
