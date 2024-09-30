@@ -3,19 +3,13 @@ import '../components/info.css'
 function Info() {
   return (
     <>
-            <h1 className='text-center justify-center  mt-28 text-4xl h1pro'>About me</h1>
+            <h1 className='text-center justify-center mt-24 text-4xl h1pro'>About me</h1>
              <section id="resume" className="resume">
             <div className="container">
                 <div className="row">
 <div className="col-12">
 <div className="resume-wrapper">
-<div className="section-heading-middle">
-<div className="sub-heading d-flex align-items-center mx-auto">
-
-</div>
-
-</div>
-<div className="row mt-50 row-mobile-margin">
+<div className="row  row-mobile-margin">
 <div className="col-12 col-lg-2">
 <div
     className="resume-topics h-100 flex-column justify-content-center position-relative">
