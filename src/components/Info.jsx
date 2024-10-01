@@ -3,7 +3,7 @@ import '../components/info.css'
 function Info() {
   return (
     <>
-            <h1 className='text-center justify-center mt-24 text-4xl h1pro'>About me</h1>
+            <h1 className='text-center justify-center mt-20 text-4xl h1pro'>About me</h1>
              <section id="resume" className="resume">
             <div className="container">
                 <div className="row">
@@ -14,7 +14,7 @@ function Info() {
 <div
     className="resume-topics h-100 flex-column justify-content-center position-relative">
     <h3
-        className="h3 line-height-3 resume-topic-item resume-topic-one fw-500 text-white position-absolute">
+        className="h3 line-height-1 resume-topic-item resume-topic-one fw-500 text-white position-absolute">
         Education</h3>
 </div>
 </div>
@@ -25,22 +25,22 @@ function Info() {
     <div className="row">
         {/* <!-- education first column --> */}
         <div className="col-lg-4 resume-first-item">
-            <h4 className="h4 text-white fw-500">
+            <h4 className="h4 text-pink-600 font-semibold">
                 B-Tech in Computer Science & Engineering
             </h4>
-            <p className="p secondary-black fw-400 line-height-7 mt-10">
+            <p className="p secondary-black fw-400 text-lg line-height-7 mt-10">
                 Maharshi Dayananad University (2021 - 2024)
             </p>
             <p className="p secondary-black fw-400 line-height-7 mt-4 text-lg">
-              learnings:  <b>software development,</b> <b>web technologies</b>, and <b>data structures</b>, providing a strong foundation for my career as a full-stack web developer
+                <b>Software development,</b> <b>web technologies</b>, and <b>data structures</b>, providing a strong foundation for my career as a full-stack web developer
             </p>
         </div>
         {/* <!-- education second column --> */}
         <div className="col-lg-4 resume-second-item">
-            <h4 className="h4 text-white fw-500">
+            <h4 className="h4 text-pink-600 font-semibold">
                 Diploma in Digital Electronics
             </h4>
-            <p className="p secondary-black fw-400 line-height-7 mt-10">
+            <p className="p secondary-black text-lg fw-400 line-height-7 mt-10">
                 Borad Of Technical Education (2017 - 2020)
             </p>
             <p className="p secondary-black fw-400 line-height-7 mt-4 text-lg">
@@ -49,10 +49,10 @@ function Info() {
         </div>
         {/* <!-- education third column --> */}
         <div className="col-lg-4 resume-third-item">
-            <h4 className="h4 text-white fw-500">
+            <h4 className="h4 text-pink-600 font-semibold">
                 Secondary School Education
             </h4>
-            <p className="p secondary-black fw-400 line-height-7 mt-10">
+            <p className="p secondary-black text-lg fw-400 line-height-7 mt-10">
                 VPS(2016 - 2017)
             </p>
             <p className="p secondary-black fw-400 line-height-7 mt-4 text-lg">
@@ -61,8 +61,6 @@ function Info() {
         </div>
     </div>
 </div>
-{/* <!-- resume skills row --> */}
-
      </div>
      </div>
           </div>
@@ -99,7 +97,7 @@ function Info() {
 </div>
 <div className="card">
   <div className="card-details">
-  <i className="fa-solid fa-code text-3xl text-center custom-icon"></i>
+  <i className="fa-brands fa-figma text-3xl text-center custom-icon"></i>
     <p className="text-title">UI/UX Designer</p>
     <p className="text-white">Being well versed with variety of concepts in UI/UX principles and technologies, I can design as well as implement your website's interface to optimize user experience to the fullest!</p>
   </div>

@@ -61,14 +61,16 @@ padding: 12px;
   border-radius: 1rem;
   border: none;
   background-color: #a1a4a5;
- 
   align-items: center;
   color: #000000;
   font-size: 1rem;
   padding: .5rem;
-justify-content: center;
-  
+justify-content: center; 
+&:hover{
+  background-color: antiquewhite;
 }
+}
+
 
 @keyframes slide {
   from {
