@@ -109,24 +109,27 @@ margin-top: 10px;
  }
  .wrapper .static-txt{
   color: #fff;
-  font-size: 40px;
-  margin-left: 5px;
-  font-weight: 400;
+  font-size: 45px;
+  margin-left: 10px;
+  font-weight: 500;
  }
  .wrapper .dynamic-txt{
-  margin-left: 15px;
+  margin-left: 10px;
   height: 60px;
   line-height: 60px;
   overflow: hidden;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(238, 236, 236);
   margin-left: -160px;
  }
  .dynamic-txt li{
-  color: #fa0477;
+  color: #ee0653;
   list-style: none;
-  font-size: 50px;
-  font-weight: 400;
+  font-size: 55px;
+  font-weight: 500;
   position: relative;
   top: 0;
+  margin-left: 6px;
   animation: slide 5s steps(2) infinite;
 }
 @keyframes slide {
@@ -161,12 +164,11 @@ margin-top: 10px;
   cursor: pointer;
 }
 .icon-div i {
-  background:rgba(0,0,0,0.4);
-  padding:13px;
+  background:#06060f;
+  padding:15px;
   border-radius:100%;
-  border:3px solid #ccc;
+	box-shadow: 0 1px 1px rgba(245, 243, 243, 0.46);
   color:#fff;
-	box-shadow: 0 1px 10px rgba(245, 243, 243, 0.46);
   width:56px;
   height:55px;
   margin-left: 20px;
@@ -174,8 +176,14 @@ margin-top: 10px;
   top: 25%;
   font-size: 1.5em;
 }
+.icon-div:hover i{
+  transform: scale(1.1);
+  transition: 0.5s;
+	box-shadow: 0 1px 20px rgba(245, 243, 243, 0.46);
+
+}
 .icon-div span {
-   margin-left: 40px;
+   margin-left: 25px;
   opacity: 0;
   position: relative;
   margin-top: 9px;
