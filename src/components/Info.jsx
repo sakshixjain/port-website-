@@ -5,10 +5,10 @@ function Info() {
     <>
             <h1 className='text-center justify-center mt-20 text-4xl h1pro'>About me</h1>
              <section id="resume" className="resume">
-            <div className="container">
-                <div className="row">
+            <div className="container" >
+                <div className="row" >
 <div className="col-12">
-<div className="resume-wrapper">
+<div className="resume-wrapper" >
 <div className="row  row-mobile-margin">
 <div className="col-12 col-lg-2">
 <div
@@ -21,14 +21,14 @@ function Info() {
 <div className="col-12 col-lg-10">
 {/* <!-- resume education row --> */}
 <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
-    className="resume-education bg-[#11111b]">
+    className="resume-education bg-[#06060f]" >
     <div className="row">
         {/* <!-- education first column --> */}
         <div className="col-lg-4 resume-first-item">
-            <h4 className="h4 text-pink-600 font-semibold">
+            <h4 className="h4 text-[#eebcbc] font-bold">
                 B-Tech in Computer Science & Engineering
             </h4>
-            <p className="p secondary-black fw-400 text-lg line-height-7 mt-10">
+            <p className="p secondary-black fw-400 text-xl line-height-7 mt-10">
                 Maharshi Dayananad University (2021 - 2024)
             </p>
             <p className="p secondary-black fw-400 line-height-7 mt-4 text-lg">
@@ -37,10 +37,10 @@ function Info() {
         </div>
         {/* <!-- education second column --> */}
         <div className="col-lg-4 resume-second-item">
-            <h4 className="h4 text-pink-600 font-semibold">
+            <h4 className="h4 text-[#eebcbc] font-bold">
                 Diploma in Digital Electronics
             </h4>
-            <p className="p secondary-black text-lg fw-400 line-height-7 mt-10">
+            <p className="p secondary-black text-xl fw-400 line-height-7 mt-10">
                 Borad Of Technical Education (2017 - 2020)
             </p>
             <p className="p secondary-black fw-400 line-height-7 mt-4 text-lg">
@@ -49,11 +49,11 @@ function Info() {
         </div>
         {/* <!-- education third column --> */}
         <div className="col-lg-4 resume-third-item">
-            <h4 className="h4 text-pink-600 font-semibold">
+            <h4 className="h4 text-[#eebcbc] font-bold">
                 Secondary School Education
             </h4>
-            <p className="p secondary-black text-lg fw-400 line-height-7 mt-10">
-                VPS(2016 - 2017)
+            <p className="p secondary-black text-xl fw-400 line-height-7 mt-10">
+                VPS, Baraut (2016 - 2017)
             </p>
             <p className="p secondary-black fw-400 line-height-7 mt-4 text-lg">
             Completed with a focus on foundational subjects in mathematics, science, and computer studies, sparking my interest in technology and software development

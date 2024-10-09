@@ -76,7 +76,7 @@ setInterval(()=>{
                     <textarea placeholder='Message' rows="6"
                         className="w-full rounded-md px-4 border text-sm pt-2.5  bg-[#06060f] "></textarea>
                     <button type='button'
-                        className="text-white bg-[#ee0653] hover:bg-orange-100 hover:text-black font-semibold rounded-md text-sm px-4 py-2.5 w-full">Send</button>
+                        className="text-white bg-[#c7708d] hover:bg-orange-100 hover:text-black font-semibold rounded-md text-sm px-4 py-2.5 w-full">Send</button>
                 </form>
             </div>
             </div>

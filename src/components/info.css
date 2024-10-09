@@ -26,20 +26,21 @@
 .resume-skills {
     padding: 33px;
     border-radius: 6px;
+    box-shadow: 0 4px 18px 0 rgba(238, 236, 236, 0.25);
 }
 
 .resume-first-item {
-    padding-right: 78px;
+    padding-right: 58px;
 }
 
 .resume-second-item {
-    padding-right: 39px;
-    padding-left: 50px;
+    padding-right: 25px;
+    padding-left: 40px;
     position: relative;
 }
 
 .resume-third-item {
-    padding-left: 78px;
+    padding-left: 68px;
 }
 
 .resume-second-item::before {

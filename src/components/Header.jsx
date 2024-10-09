@@ -39,9 +39,12 @@ function Header() {
                     <a href="https://www.geeksforgeeks.org/user/sakshijain36/"><i className="fa-solid fa-link "></i></a>
                     <span>GForG</span>
                     </div> 
-                    
                     </div>
-                    <button><a href="">cv<i className="fa-solid fa-download"></i></a></button>
+                    <div className='text-left justify-start text-2xl -ml-60 '>
+                    <button className='border-2 border-white m-4 p-2 rounded-md'><a href="">Hire me !</a></button>
+                    <button  className='border-2 border-black text-black bg-white p-2 rounded-md'><a href="">Resume <i className="fa-solid fa-arrow-down"></i></a></button>
+                    </div>
+                    
  </div>
               <img className='w-80 h-80 mr-28 rounded-s-3xl ' src="pexels-fathi-vee-1020478.jpg" alt="" />
 </div>/

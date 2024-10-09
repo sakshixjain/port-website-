@@ -39,7 +39,7 @@ nav:hover{
   box-shadow: 2px 5px 5px 0 rgba(100, 100, 100, 0.5); 
 }
 .custom-ic{
-  background:rgba(0,0,0,0.4);
+  background:#06060f;
   padding:15px;
   border-radius:100%;
   border:3px solid #ccc;
@@ -111,22 +111,20 @@ margin-top: 10px;
   color: #fff;
   font-size: 45px;
   margin-left: 10px;
-  font-weight: 500;
+  font-weight: 700;
  }
  .wrapper .dynamic-txt{
   margin-left: 10px;
   height: 60px;
   line-height: 60px;
   overflow: hidden;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgb(238, 236, 236);
-  margin-left: -160px;
+  margin-left: -150px;
  }
  .dynamic-txt li{
-  color: #ee0653;
+  color: #f54982;
   list-style: none;
   font-size: 55px;
-  font-weight: 500;
+  font-weight: 550;
   position: relative;
   top: 0;
   margin-left: 6px;
@@ -207,7 +205,7 @@ margin-top: 10px;
   transition: 0.5s ease-out;
   overflow: visible;
   &:hover {
-    border-color: #000000;
+    border-color: #06060f;
     box-shadow: 0 4px 18px 0 rgba(238, 236, 236, 0.25);
    }
  }
@@ -242,7 +240,7 @@ margin-top: 10px;
  
  .custom-icon {
   background:#fff;
-  background:rgba(0,0,0,0.4);
+  background:#06060f;
   padding:15px;
   border-radius:100%;
   border:3px solid #ccc;
@@ -270,8 +268,8 @@ margin-top: 10px;
   opacity: 1;
  }
  .card:hover .custom-icon{
-  background-color:rgb(245, 230, 203);
-  color: black;
+  background-color:#fff;
+  color: #06060f;
  }
 
  /* skiis percentage */
