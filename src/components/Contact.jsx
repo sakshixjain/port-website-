@@ -54,7 +54,7 @@ setInterval(()=>{
     
 
 <div className="my-6 ">
-<h1 className='text-center justify-center mt-20 mb-8 text-4xl h1pro'>Contact me</h1>
+<h1 className='text-center justify-center mt-20 mb-8 text-5xl h1pro'>Contact me</h1>
     
     <div className='flex '>
             <div className=" sm:grid-cols-2 items-center gap-16 p-8 ml-20 max-w-xl bg-[#06060f] shadow-[0_2px_10px_-3px_rgba(231,231,231,0.9)] rounded-3xl text-[#fffce7] font-[sans-serif]">
