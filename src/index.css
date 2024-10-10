@@ -10,6 +10,10 @@
   box-sizing: border-box;
    font-family: 'Poppins', sans-serif;
 }
+.photo-img{
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; */
+  box-shadow: rgba(146, 139, 139, 0.5) 0px 7px 29px 0px;
+}
 
 body{
   background: #06060f;
@@ -177,15 +181,15 @@ margin-top: 10px;
 .icon-div:hover i{
   transform: scale(1.1);
   transition: 0.5s;
-	box-shadow: 0 1px 20px rgba(245, 243, 243, 0.46);
+	box-shadow: 0 5px 20px  rgba(245, 243, 243, 0.46);
 
 }
 .icon-div span {
    margin-left: 25px;
   opacity: 0;
   position: relative;
-  margin-top: 9px;
-  top: 25%;
+  /* margin-top: 9px; */
+  top: 30%;
 }
 .icon-div:hover span {
   transition: 0.5s all;
