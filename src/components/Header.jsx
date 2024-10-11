@@ -22,7 +22,7 @@ function Header() {
                 <li><span>Sakshi Jain</span></li>
                 <li><span>Full Stack Developer</span></li>
             </ul >
-                    <p className='text-xl -ml-56 mt-2 text-gray-500'>I'm Sakshi Jain, a Full Stack Developer with a degree from Maharshi <br /> Dayanand University,(MDU) Rohtak. With a passion for clean  code <br /> and problem-solving,  I thrive in crafting seamless user experiences <br /> and efficient backend solutions.</p>   
+                    <p className='text-xl -ml-64 mt-2 text-gray-500'>I'm Sakshi Jain, a Full Stack Developer with a degree from Maharshi <br /> Dayanand University,(MDU) Rohtak. With a passion for clean  code <br /> and problem-solving,  I thrive in crafting seamless user experiences <br /> and efficient backend solutions.</p>   
                     <div className='flex -ml-64'>
                     <div className='icon-div'> 
                    <a href="https://github.com/sakshixjain"><i className="fa-brands fa-github "></i></a> 

@@ -114,15 +114,15 @@ margin-top: 10px;
  .wrapper .static-txt{
   color: #fff;
   font-size: 45px;
-  margin-left: 10px;
+  margin-left: -10px;
   font-weight: 700;
  }
  .wrapper .dynamic-txt{
-  margin-left: 10px;
+  /* margin-left: 10px; */
   height: 60px;
   line-height: 60px;
   overflow: hidden;
-  margin-left: -150px;
+  margin-left: -190px;
  }
  .dynamic-txt li{
   color: #f54982;
@@ -464,7 +464,7 @@ html {
   scroll-behavior: smooth;
 }
 
-
+                      /* project side scrollbar */
  .image-gallery-container {
   overflow:hidden; 
  padding: 35px 0;
@@ -475,7 +475,7 @@ html {
   margin: 0;
   display:flex;
   height: 480px;
-  animation: 20s slide infinite linear;
+  animation: 20s scroll infinite linear;
 }   
  .image-gallery-container::before, 
 .image-gallery-container::after{
@@ -488,7 +488,7 @@ html {
 } 
 
 .image-gallery div{
-  margin-left: 35px;
+  margin-left: 55px;
   padding: 10px;
   position: relative;
   box-shadow: rgba(161, 155, 155, 0.35) 0px 5px 9px;
@@ -537,8 +537,7 @@ justify-content: center;
 }
 }
 
-
-@keyframes slide {
+@keyframes scroll {
   from {
     transform: translateX(0);
   }
