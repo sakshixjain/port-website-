@@ -4,7 +4,6 @@ function Info() {
   return (
     <>
             <h1 className='text-center justify-center mt-32 mb-8 text-5xl h1pro'>About me</h1>
-            <h1 className='text-center justify-center mt-32 text-5xl h1pro'>About me</h1>
              <section id="resume" className="resume">
             <div className="container" >
                 <div className="row" >
