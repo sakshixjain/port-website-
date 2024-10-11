@@ -2,59 +2,59 @@ import React from 'react'
 
 const Contact=()=> {
 
-    let number1= document.getElementById("number1");
-    let number2= document.getElementById("number2");
-    let number3= document.getElementById("number3");
-    let number4= document.getElementById("number4");
+//     let number1= document.getElementById("number1");
+//     let number2= document.getElementById("number2");
+//     let number3= document.getElementById("number3");
+//     let number4= document.getElementById("number4");
 
-    let counter1= 0,counter2=0,counter3=0, counter4=0;
-    setInterval(()=>{
-        if(counter1 ==80){
-            clearInterval();
-        }
-        else{
-            counter1 += 1;
-        number1.innerHTML = counter1+ "%";    
-        }
+//     let counter1= 0,counter2=0,counter3=0, counter4=0;
+//     setInterval(()=>{
+//         if(counter1 ==80){
+//             clearInterval();
+//         }
+//         else{
+//             counter1 += 1;
+//         number1.innerHTML = counter1+ "%";    
+//         }
     
-    },40);
-    setInterval(()=>{
-      if(counter2 ==77){
-          clearInterval();
-      }
-      else{
-          counter2 += 1;
-      number2.innerHTML = counter2+ "%";    
-      }
+//     },40);
+//     setInterval(()=>{
+//       if(counter2 ==77){
+//           clearInterval();
+//       }
+//       else{
+//           counter2 += 1;
+//       number2.innerHTML = counter2+ "%";    
+//       }
 
-  },39);
-  setInterval(()=>{
-    if(counter3 ==71){
-        clearInterval();
-    }
-    else{
-        counter3 += 1;
-    number3.innerHTML = counter3+ "%";    
-    }
+//   },39);
+//   setInterval(()=>{
+//     if(counter3 ==71){
+//         clearInterval();
+//     }
+//     else{
+//         counter3 += 1;
+//     number3.innerHTML = counter3+ "%";    
+//     }
 
-},39);
-setInterval(()=>{
-  if(counter4 ==50){
-      clearInterval();
-  }
-  else{
-      counter4 += 1;
-  number4.innerHTML = counter4+ "%";    
-  }
+// },39);
+// setInterval(()=>{
+//   if(counter4 ==50){
+//       clearInterval();
+//   }
+//   else{
+//       counter4 += 1;
+//   number4.innerHTML = counter4+ "%";    
+//   }
 
-},39);
+// },39);
 
   return (
 
     
 
 <div className="my-6 ">
-<h1 className='text-center justify-center mt-20 mb-8 text-4xl h1pro'>Contact me</h1>
+<h1 className='text-center justify-center mt-16 mb-16 text-5xl h1pro'>Contact me</h1>
     
     <div className='flex '>
             <div className=" sm:grid-cols-2 items-center gap-16 p-8 ml-20 max-w-xl bg-[#06060f] shadow-[0_2px_10px_-3px_rgba(231,231,231,0.9)] rounded-3xl text-[#fffce7] font-[sans-serif]">
@@ -76,7 +76,7 @@ setInterval(()=>{
                     <textarea placeholder='Message' rows="6"
                         className="w-full rounded-md px-4 border text-sm pt-2.5  bg-[#06060f] "></textarea>
                     <button type='button'
-                        className="text-white bg-[#c7708d] hover:bg-orange-100 hover:text-black font-semibold rounded-md text-sm px-4 py-2.5 w-full">Send</button>
+                        className="text-black bg-[#f35187] hover:bg-orange-100 font-semibold rounded-md text-sm px-4 py-3 ml-28 w-60">Send</button>
                 </form>
             </div>
             </div>
@@ -89,7 +89,7 @@ setInterval(()=>{
     <div className="outer">
         <div className="inner">
             <div id="number1">
-                {counter1}
+                
             </div>
         </div>
     </div>

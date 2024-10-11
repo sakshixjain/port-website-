@@ -424,3 +424,130 @@ svg{
     stroke-dashoffset: 236;
   }
 }
+
+
+                 /* Customize scrollbar */
+                 
+::-webkit-scrollbar {
+  width: 8px;
+ 
+  background-color: #f1f1f1; /* Background color of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient( rgba(241, 0, 121, 0.863), #fff,#4d4b4b);/* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+  transition: background-color 0.3s ease-in-out; /* Smooth transition for the color */
+}
+
+/* Scrollbar animation */
+@keyframes scrollbarFade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+::-webkit-scrollbar-thumb {
+  animation: scrollbarFade 1.5s ease-in-out;
+}
+
+body {
+  scrollbar-color:rgba(233, 11, 122, 0.863) #fff; /* For Firefox */
+  scrollbar-width: thin; /* For Firefox */
+}
+
+/* For smoother scrolling on the page */
+html {
+  scroll-behavior: smooth;
+}
+
+
+ .image-gallery-container {
+  overflow:hidden; 
+ padding: 35px 0;
+   white-space: nowrap;
+   position: relative;
+}
+.image-gallery {
+  margin: 0;
+  display:flex;
+  height: 480px;
+  animation: 20s slide infinite linear;
+}   
+ .image-gallery-container::before, 
+.image-gallery-container::after{
+  position: absolute;
+  width: 50px;
+  top: 0;
+  height: 480px;
+  content: "";
+  z-index: 2; 
+} 
+
+.image-gallery div{
+  margin-left: 35px;
+  padding: 10px;
+  position: relative;
+  box-shadow: rgba(161, 155, 155, 0.35) 0px 5px 9px;
+  
+}
+figure {
+  width: 330px;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-item img {
+margin: 0 ;
+  padding: 6px;
+background-color: #06060f;
+   border-radius: 0.5rem;
+   -webkit-transform: scale(1);
+   transform: scale(1);
+   -webkit-transition: .3s ease-in-out;
+   transition: .3s ease-in-out;
+}
+.image-item:hover img{
+  -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+}
+div .caption {
+text-align: center;
+font-size: 23px;
+font-weight: 700;
+width: 320px;
+padding: 12px;
+
+}
+.skill-btn{
+  width: 40%;
+  border-radius: 1rem;
+  border: none;
+  background-color: #a1a4a5;
+  align-items: center;
+  color: #000000;
+  font-size: 1rem;
+  padding: .5rem;
+justify-content: center; 
+&:hover{
+  background-color: antiquewhite;
+}
+}
+
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
+
+.image-gallery-container:hover .image-gallery{
+  animation-play-state: paused;
+}  
+

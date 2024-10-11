@@ -1,16 +1,16 @@
 import React from 'react'
-
+import { NavLink } from 'react-router-dom'
 function Header() {
   return (
     <>
     <div className='headerbody'>
       <div className=' z-20 top-0  fixed'>
         <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Skills</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/about">About</NavLink>
+            <NavLink to="/project">Skills</NavLink>
+            <NavLink to="/project">Projects</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
             <button  className='border-2 border-white h-10 w-10 animate-bounce hover:animate-none hover:bg-white hover:text-black rounded-full'><i className="fa-solid fa-arrow-down"></i></button>
         </nav>
       </div>
