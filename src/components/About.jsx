@@ -3,7 +3,7 @@ import '../components/about.css'
 function Info() {
   return (
     <>
-            <h1 className='text-center justify-center mt-32 mb-8 text-5xl h1pro'>About me</h1>
+            <h1 id='about' className='text-center justify-center mt-32 mb-8 text-5xl h1pro'>About me</h1>
              <section id="resume" className="resume">
             <div className="container" >
                 <div className="row" >
@@ -68,7 +68,7 @@ function Info() {
         </div>
   </div>
         </section>
-        <h1 className='text-center justify-center mt-16 mb-28  text-5xl h1pro'>Software Skills</h1>
+        <h1 id="skill"  className='text-center justify-center mt-16 mb-28  text-5xl h1pro'>Software Skills</h1>
     <div className='flex  justify-center'>
       <div className="card">
   <div className="card-details">

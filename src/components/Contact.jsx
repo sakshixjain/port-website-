@@ -51,7 +51,7 @@ const Contact=()=> {
 
   return (
 
-<div className="my-6 ">
+<div id="contact" className="my-6 ">
 <h1 className='text-center justify-center mt-16 mb-16 text-5xl h1pro'>Contact me</h1>
     
     <div className='flex '>

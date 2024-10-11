@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-              /* header */
+                    /* header */
 *{
   margin: 0;
   padding: 0;
@@ -15,17 +15,17 @@
   position: relative;
   width: 400px;
   height: 400px;
-  background-color: #000000;
+  background-color: #06060f;
   border-radius: 50%;
   overflow: hidden;
 }
 .imgbox::before{
   content: '';
   position: absolute;
-  inset: -10px 140px;
-  background: linear-gradient(315deg, #ec0854 , #fff);
+  inset: -10px 100px;
+  background: linear-gradient(315deg,#caafb8, #e40650be, #ec0854 , #fff);
   transition: 0.5s;
-  animation: animate 4s linear infinite;
+  animation: animate 3s linear infinite;
 }
 .imgbox:hover::before{
   inset: -20px 0px;
