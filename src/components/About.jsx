@@ -70,8 +70,6 @@ function Info() {
   </div>
         </section>
         <h1 className='text-center justify-center mt-16 mb-28  text-5xl h1pro'>Software Skills</h1>
-        <h1 className='text-center justify-center mt-4 mb-16 text-5xl h1pro'>Software Skills</h1>
-
     <div className='flex  justify-center'>
       <div className="card">
   <div className="card-details">
