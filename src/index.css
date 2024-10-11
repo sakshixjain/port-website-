@@ -10,9 +10,103 @@
   box-sizing: border-box;
    font-family: 'Poppins', sans-serif;
 }
-.photo-img{
-  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; */
-  box-shadow: rgba(146, 139, 139, 0.5) 0px 7px 29px 0px;
+
+.imgbox{
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: #000000;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.imgbox::before{
+  content: '';
+  position: absolute;
+  inset: -10px 140px;
+  background: linear-gradient(315deg, #ec0854 , #fff);
+  transition: 0.5s;
+  animation: animate 4s linear infinite;
+}
+.imgbox:hover::before{
+  inset: -20px 0px;
+}
+@keyframes animate {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.imgbox::after{
+  content: '';
+  position: absolute;
+  inset: 6px;
+  background: #06060f;
+  border-radius: 50%;
+  z-index: 1;
+
+}
+
+.content{
+  position: absolute;
+  inset: 30px;
+  border: 6px solid #000000;
+  z-index: 3;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.imgbox:hover .content img{
+  opacity: 0;
+}
+.content h2{
+  position: relative;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+  
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+.content h2 span{
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.content a{
+  position: relative;
+  margin-top: 10px;
+  padding: 10px 20px;
+  /* background: #5d5d7a; */
+  color: #fff;
+  border-radius: 25px;
+  font-weight: 500;
+  text-align: center;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.content a:hover{
+  
+  letter-spacing: 0.2rem;
 }
 
 body{
@@ -114,15 +208,14 @@ margin-top: 10px;
  .wrapper .static-txt{
   color: #fff;
   font-size: 45px;
-  margin-left: -10px;
+  margin-left: 10px;
   font-weight: 700;
  }
  .wrapper .dynamic-txt{
-  /* margin-left: 10px; */
   height: 60px;
   line-height: 60px;
   overflow: hidden;
-  margin-left: -190px;
+  margin-left: -170px;
  }
  .dynamic-txt li{
   color: #f54982;

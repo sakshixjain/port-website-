@@ -11,7 +11,7 @@ function Header() {
             <NavLink to="/project">Skills</NavLink>
             <NavLink to="/project">Projects</NavLink>
             <NavLink to="/contact">Contact</NavLink>
-            <button  className='border-2 border-white h-10 w-10 animate-bounce hover:animate-none hover:bg-white hover:text-black rounded-full'><i className="fa-solid fa-arrow-down"></i></button>
+         
         </nav>
       </div>
     </div>
@@ -22,7 +22,7 @@ function Header() {
                 <li><span>Sakshi Jain</span></li>
                 <li><span>Full Stack Developer</span></li>
             </ul >
-                    <p className='text-xl -ml-64 mt-2 text-gray-500'>I'm Sakshi Jain, a Full Stack Developer with a degree from Maharshi <br /> Dayanand University,(MDU) Rohtak. With a passion for clean  code <br /> and problem-solving,  I thrive in crafting seamless user experiences <br /> and efficient backend solutions.</p>   
+                    <p className='text-xl -ml-56 mt-2 text-gray-500'>I'm Sakshi Jain, a Full Stack Developer with a degree from Maharshi <br /> Dayanand University,(MDU) Rohtak. With a passion for clean  code <br /> and problem-solving,  I thrive in crafting seamless user experiences <br /> and efficient backend solutions.</p>   
                     <div className='flex -ml-64'>
                     <div className='icon-div'> 
                    <a href="https://github.com/sakshixjain"><i className="fa-brands fa-github "></i></a> 
@@ -47,7 +47,14 @@ function Header() {
                     </div>
                     
  </div>
-              <img className='w-80 h-80 photo-img object-cover rounded-full ' src="photo.jpg" alt="" />
+              <div className='imgbox'>
+                <div className="content">
+                  <img src="photo.jpg"/>
+                  <h2>A Younger<br /><span>Frontend Developer</span></h2>
+                  <a href="#">Hire me</a>
+                </div>
+              
+              </div>
 </div>/
     </>
   )
