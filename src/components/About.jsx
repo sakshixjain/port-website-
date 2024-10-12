@@ -14,48 +14,48 @@ function Info() {
 <div
     className="resume-topics h-100 flex-column justify-content-center position-relative">
     <h3
-        className="h3 line-height-1 resume-topic-item resume-topic-one fw-500 text-white position-absolute">
+        className="h3 line-height-1 resume-topic-item resume-topic-one font-medium text-white position-absolute">
         Education</h3>
 </div>
 </div>
 <div className="col-12 col-lg-10">
 {/* <!-- resume education row --> */}
-<div data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
-    className="resume-education bg-[#06060f]" >
+<div data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" id='box' 
+    className="resume-education gradient-border bg-[#06060f]" >
     <div className="row">
         {/* <!-- education first column --> */}
         <div className="col-lg-4 resume-first-item">
-            <h4 className="h4 text-[#eebcbc] font-bold">
+            <h4 className="h4 mt-4 text-pink-600 font-bold">
                 B-Tech in Computer Science & Engineering
             </h4>
-            <p className="p secondary-black fw-400 text-xl line-height-7 mt-10">
+            <p className="p secondary-black font-semibold text-xl line-height-12 mt-10">
                 Maharshi Dayananad University (2021 - 2024)
             </p>
-            <p className="p secondary-black fw-400 line-height-7 mt-4 text-lg">
+            <p className="p secondary-black fw-400 line-height-12 mt-10 text-lg text-gray-400">
                 <b>Software development,</b> <b>web technologies</b>, and <b>data structures</b>, providing a strong foundation for my career as a full-stack web developer
             </p>
         </div>
         {/* <!-- education second column --> */}
         <div className="col-lg-4 resume-second-item">
-            <h4 className="h4 text-[#eebcbc] font-bold">
+            <h4 className="h4 mt-4 text-pink-600 font-bold">
                 Diploma in Digital Electronics
             </h4>
-            <p className="p secondary-black text-xl fw-400 line-height-7 mt-10">
+            <p className="p secondary-black text-xl font-semibold line-height-12 mt-10">
                 Borad Of Technical Education (2017 - 2020)
             </p>
-            <p className="p secondary-black fw-400 line-height-7 mt-4 text-lg">
+            <p className="p secondary-black fw-400 line-height-12 mt-10 text-lg text-gray-400">
             Gained a solid understanding of programming, software development, and web technologies, laying the groundwork for my journey as a full-stack web developer.
             </p>
         </div>
         {/* <!-- education third column --> */}
         <div className="col-lg-4 resume-third-item">
-            <h4 className="h4 text-[#eebcbc] font-bold">
+            <h4 className="h4 mt-4 text-pink-600 font-bold">
                 Secondary School Education
             </h4>
-            <p className="p secondary-black text-xl fw-400 line-height-7 mt-10">
+            <p className="p secondary-black text-xl font-semibold line-height-12 mt-10">
                 VPS, Baraut (2016 - 2017)
             </p>
-            <p className="p secondary-black fw-400 line-height-7 mt-4 text-lg">
+            <p className="p secondary-black fw-400 line-height-12 mt-10 text-lg text-gray-400">
             Completed with a focus on foundational subjects in mathematics, science, and computer studies, sparking my interest in technology and software development
             </p>
         </div>
