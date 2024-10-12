@@ -74,7 +74,7 @@ function Info() {
   <div className="card-details">
      <i className="fa-solid fa-laptop text-center text-3xl custom-icon"></i> 
     <p className="text-title">Frontend Development</p>
-    <p className="text-white">Just like this portfolio website, I can make customised web apps and websites according to user's convinience and demands in variety of tech stacks!</p>
+    <p className="text-gray-400 text-[17px]">Just like this portfolio website, I can make customised web apps and websites according to user's convinience and demands in variety of tech stacks!</p>
   </div>
  <a href="https://github.com/sakshixjain"> <button className="card-button">More info</button></a>
 </div>
@@ -82,7 +82,7 @@ function Info() {
   <div className="card-details">
   <i className="fa-solid fa-gear text-3xl text-center custom-icon"></i>
     <p className="text-title">Backend Development</p>
-    <p className="text-white">Making backend from scratch, connecting with database or fixing bugs, you name it and I can do it, just give me the command and I'll try my best to give you a satisfied service!!</p>
+    <p className="text-gray-400 text-[17px]">Making backend from scratch, connecting with database or fixing bugs, you name it and I can do it, just give me the command and I'll try my best to give you a satisfied service!!</p>
   </div>
   <a href="https://github.com/sakshixjain"> <button className="card-button">More info</button></a>
 </div>
@@ -90,7 +90,7 @@ function Info() {
   <div className="card-details">
   <i className="fa-solid fa-code text-3xl text-center custom-icon"></i>
     <p className="text-title">Problem Solving</p>
-    <p className="text-white">I have a good command over variety of concepts in Data Structures and Algorithms using which I can solve bugs or implement solutions in programming language of your choice!</p>
+    <p className="text-gray-400 text-[17px]">I have a good command over variety of concepts in Data Structures and Algorithms using which I can solve bugs or implement solutions in programming language of your choice!</p>
   </div>
  <a href="https://leetcode.com/u/sakshijain36/"> <button className="card-button">More info</button></a>
 </div>
@@ -98,7 +98,7 @@ function Info() {
   <div className="card-details">
   <i className="fa-brands fa-figma text-3xl text-center custom-icon"></i>
     <p className="text-title">UI/UX Designer</p>
-    <p className="text-white">Being well versed with variety of concepts in UI/UX principles and technologies, I can design as well as implement your website's interface to optimize user experience to the fullest!</p>
+    <p className="text-gray-400 text-[17px]">Being well versed with variety of concepts in UI/UX principles and technologies, I can design as well as implement your website's interface to optimize user experience to the fullest!</p>
   </div>
  <a href="https://leetcode.com/u/sakshijain36/"> <button className="card-button">More info</button></a>
 </div>

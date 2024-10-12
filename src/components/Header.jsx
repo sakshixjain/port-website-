@@ -43,9 +43,9 @@ function Header() {
                     <span>GForG</span>
                     </div> 
                     </div>
-                    <div className='text-left justify-start text-xl font-semibold -ml-60 mt-3'>
-                    <buthrefn className='border-2 border-white m-4 p-2 rounded-md hover:bg-white hover:text-black'><a href="">Hire me Now !</a></buthrefn>
-                    <buthrefn  className='border-2 border-black text-black bg-white p-2 rounded-md animate-pulse'><a href="">Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></buthrefn>
+                    <div className='text-left justify-start text-xl font-semibold -ml-60 mt-9'>
+                    <buthrefn className='border-2 border-white m-4 p-3 rounded-md hover:bg-white hover:text-black'><a href="">Hire me Now !</a></buthrefn>
+                    <buthrefn  className='border-2 border-black text-black bg-white p-3 rounded-md animate-pulse'><a href="">Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></buthrefn>
                     </div>
                     
  </div>

@@ -292,8 +292,8 @@ margin-top: 10px;
 .card {
   text-align: center;
   margin-left: 25px;
-  width: 305px;
-  height: 340px;
+  width: 315px;
+  height: 390px;
   border-radius: 20px;
   background: #06060f;
   position: relative;
@@ -310,7 +310,7 @@ margin-top: 10px;
  .card-details {
   color: #fff;
   height: 100%;
-  gap: .5em;
+  gap: 0.5em;
   background-color: #06060f;
   display: grid;
   place-content: center;
@@ -331,7 +331,7 @@ margin-top: 10px;
   opacity: 0;
   transition: 0.3s ease-out;
 &:hover{
-  background-color: #caafb8;
+  background-color: #e6dbde;
  }  
  }
  
@@ -339,6 +339,7 @@ margin-top: 10px;
   background:#fff;
   background:#06060f;
   padding:15px;
+  margin-bottom: 5px;
   border-radius:100%;
   border:3px solid #ccc;
   color:#fff;
@@ -354,6 +355,7 @@ margin-top: 10px;
  
  /*Text*/
  .text-title {
+  margin-bottom: 10px;
   font-size: 1.5em;
   font-weight: bold;
  }
