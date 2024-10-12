@@ -25,7 +25,7 @@ function Info() {
     <div className="row">
         {/* <!-- education first column --> */}
         <div className="col-lg-4 resume-first-item">
-            <h4 className="h4 mt-4 text-pink-600 font-bold">
+            <h4 className="h4 mt-4 text-[#f54982] font-bold">
                 B-Tech in Computer Science & Engineering
             </h4>
             <p className="p secondary-black font-semibold text-xl line-height-12 mt-10">
@@ -37,7 +37,7 @@ function Info() {
         </div>
         {/* <!-- education second column --> */}
         <div className="col-lg-4 resume-second-item">
-            <h4 className="h4 mt-4 text-pink-600 font-bold">
+            <h4 className="h4 mt-4 text-[#f54982] font-bold">
                 Diploma in Digital Electronics
             </h4>
             <p className="p secondary-black text-xl font-semibold line-height-12 mt-10">
@@ -49,7 +49,7 @@ function Info() {
         </div>
         {/* <!-- education third column --> */}
         <div className="col-lg-4 resume-third-item">
-            <h4 className="h4 mt-4 text-pink-600 font-bold">
+            <h4 className="h4 mt-4 text-[#f54982] font-bold">
                 Secondary School Education
             </h4>
             <p className="p secondary-black text-xl font-semibold line-height-12 mt-10">

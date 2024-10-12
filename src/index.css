@@ -323,8 +323,8 @@ margin-top: 10px;
   width: 60%;
   border-radius: 1rem;
   border: none;
-  background-color: #9ba0a3;
-  color: #06060f;
+  background-color: #07070e;
+  color: #f54982;
   font-size: 1rem;
   padding: .5rem 1rem;
   position: absolute;
@@ -334,6 +334,7 @@ margin-top: 10px;
   transition: 0.3s ease-out;
 &:hover{
   background-color: #e6dbde;
+  color: #06060f;
  }  
  }
  
@@ -369,8 +370,10 @@ margin-top: 10px;
   opacity: 1;
  }
  .card:hover .custom-icon{
-  background-color:#fff;
+  /* background-color:#fff; */
   color: #06060f;
+  background: linear-gradient(45deg, #f54982,rgb(221, 125, 141)) border-box;
+  border: none;
  }
 
  /* skiis percentage */
@@ -623,14 +626,15 @@ padding: 12px;
   width: 40%;
   border-radius: 1rem;
   border: none;
-  background-color: #a1a4a5;
+  background-color: #07070e;
   align-items: center;
-  color: #000000;
+  color: #f54982;
   font-size: 1rem;
   padding: .5rem;
 justify-content: center; 
 &:hover{
   background-color: antiquewhite;
+  color: #06060f;
 }
 }
 
