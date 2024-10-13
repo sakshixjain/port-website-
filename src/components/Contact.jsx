@@ -55,7 +55,7 @@ const Contact=()=> {
 <h1 className='text-center justify-center mt-16 mb-16 text-5xl h1pro'>Contact me</h1>
     
     <div className='flex contact-response'>
-            <div className="response1 sm:grid-cols-2 items-center gap-16 p-8 ml-20 max-w-xl bg-[#06060f] shadow-[0_2px_10px_-3px_rgba(231,231,231,0.9)] rounded-3xl text-[#fffce7] font-[sans-serif]">
+            <div className="response1 sm:grid-cols-2 items-center gap-16 p-8 ml-28 max-w-xl bg-[#06060f] shadow-[0_2px_10px_-3px_rgba(231,231,231,0.9)] text-[#fffce7] font-[sans-serif]">
                 <div>
                     <h1 className="text-3xl font-extrabold">Let's Talk</h1>
                     <p className="text-sm text-gray-200 mt-3">Have some big idea or brand to develop and need help? Then reach out we'd love to hear about your project  and provide help.</p>
@@ -79,7 +79,7 @@ const Contact=()=> {
             </div>
             </div>
  
-            <div className=" response2 sm:grid-cols-1 items-center gap-16 p-8 ml-20 max-w-xl w-full bg-[#06060f] shadow-[0_2px_10px_-3px_rgba(231,231,231,0.9)] rounded-3xl text-[#fffce7] font-[sans-serif]">
+            <div className=" response2 sm:grid-cols-1 items-center gap-16 p-8 ml-20 max-w-xl w-full bg-[#06060f] shadow-[0_2px_10px_-3px_rgba(231,231,231,0.9)] text-[#fffce7] font-[sans-serif]">
             <h1 className="text-3xl text-center font-extrabold">My Skills</h1> 
             <div className='flex flex-wrap justify-center'>
  

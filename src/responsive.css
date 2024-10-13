@@ -102,19 +102,22 @@
         margin-left: 180px;
         /* text-align: center; */
     }
-    .resume-education{
-        height: 100%;
-        width: 100%;
-    }
+
     .h4{
         text-align: center;
     }
     .ham{
-        margin-left: 990px;
+        margin-left: 360px;
         display: block;
         text-align: end;
         justify-content: end;
         align-items: end;
+    }
+    .world{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        text-wrap: nowrap;
     }
     .icon-anima{
         margin-left: 250px;
@@ -156,22 +159,23 @@
     .resume-education{
         margin-left: 50px;
         height: 100%;
-        width: 600px;
+        width: 650px;
     }
     .card-response{
         align-items: center;
         flex-wrap: wrap-reverse;
     }
     .card{
-        width: 395px;
-        height: 440px;
+        width: 425px;
+        height: 470px;
          margin-left: 140px;
          margin-right: -140px;
          padding: 40px;
         margin-bottom: 50px;
     }
+ 
     .card p{
-        font-size: 20px;
+        font-size: 22px;
     }
  .custom-icon{
     margin-left: 125px;
@@ -185,10 +189,34 @@
         margin-left: 120px;
         width: 500px;
         height: 500px;
-        /* text-align: center; */
         justify-content: center;
-        /* align-items: center; */
     }
+    .aboutimg{
+
+        width: 600px;
+        height: 400px;
+        margin-bottom: 70px;
+    }
+    .award-response{
+        display: inline;
+    }
+    .text-response{
+        margin-right: 70px;
+        text-wrap: nowrap;
+        margin-left: 60px;
+    }
+    .text-response1{
+        margin-right: 70px;
+        text-wrap: nowrap;
+        margin-left: 60px;
+    }
+    .award-btn{
+        margin-top: -12px;
+       margin-left: -430px;
+    }
+     .award-btn1{
+        margin-left: 40px;
+     }
     .contact-response{
         align-items: center;
         justify-content: center;
@@ -199,6 +227,7 @@
     margin-top: 15px;
     width: 600px;
     margin-bottom: 45px;
+    
     }
     .response2{
         margin-top: 30px;
@@ -211,4 +240,7 @@
         margin-right: -320px;
         margin-left: 40px;
     }
+    .image-gallery {  
+        animation: 7s scroll infinite linear;
+      } 
 }
