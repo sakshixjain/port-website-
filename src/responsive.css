@@ -150,10 +150,13 @@
         align-items: center;
         justify-content: center;
     }
+    .h3{
+        display: none;
+    }
     .resume-education{
-        margin-left: 30px;
+        margin-left: 50px;
         height: 100%;
-        width: 660px;
+        width: 600px;
     }
     .card-response{
         align-items: center;
