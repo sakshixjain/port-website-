@@ -1,6 +1,6 @@
 import React from 'react'
 import { useRef,useEffect } from 'react';
-import './Skeleton.css'
+import './skeleton.css'
 function Header() {
   const elementsRef = useRef([]);
 
