@@ -68,7 +68,26 @@ function Info() {
         </div>
   </div>
         </section>
-        <h1 id="skill"  className='text-center justify-center mt-16 mb-28  text-5xl h1pro'>Software Skills</h1>
+
+        <section>
+        <h1 className='text-center justify-center mt-4 mb-24 text-[#e92b6a] text-4xl h2pro' ><span className='dot'></span> Awards</h1> 
+        <div className='flex'>
+          <img src="about.jpg" alt="" className='ml-16' />
+          <div>
+          <h1>Software Developer</h1>
+          <br />
+          <p>Good at problem solving by implementing DSA and Web Development using variety of stacks</p>
+          
+          
+          <div className='text-left justify-start text-xl font-semibold  '>
+                    <button className='border-2 border-white m-4 p-2 rounded-md hover:bg-white hover:text-black'><a href="">Main Skills</a></button>
+                    <button  className='border-2 border-black text-black bg-white p-2 rounded-md '><a href="">Awards</a></button>
+                    </div>  
+                    </div>
+                    </div>
+        </section>
+        <h1 id="skill"  className='text-center justify-center mt-16 mb-8  text-5xl h1pro'>Software Skills</h1>
+        <h1 className='text-center justify-center mt-4 mb-24 text-[#e92b6a] text-4xl h2pro' ><span className='dot'></span> My Service</h1>
     <div className='flex  justify-center card-response'>
       <div className="card">
   <div className="card-details">

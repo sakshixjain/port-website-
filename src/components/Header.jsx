@@ -14,11 +14,10 @@ function Header() {
         </nav>
       </div>
     </div>
+          <h1 className='mt-8 -mb-16 ml-44 text-gray-300 text-3xl'>Welcome to my World !...</h1>
         <div className='wrapper'>
-          {/* <div>
-          <h1>Welcome href my portfolio</h1>
-          </div> */}
-        <div className="static-txt">I'm </div>
+         
+         <div className="static-txt">I'm </div>
         <div>
             <ul className="dynamic-txt">
                 <li><span>Sakshi Jain</span></li>
@@ -47,8 +46,8 @@ function Header() {
                     </div> 
                     </div>
                     <div className='text-left justify-start text-xl font-semibold -ml-60 mt-12 header-btn'>
-                    <buthrefn className='border-2 border-white m-4 p-3 rounded-md hover:bg-white hover:text-black'><a href="">Hire me Now !</a></buthrefn>
-                    <buthrefn  className='border-2 border-black text-black bg-white p-3 rounded-md animate-pulse'><a href="">Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></buthrefn>
+                    <button className='border-2 border-white m-4 p-3 rounded-md hover:bg-white hover:text-black'><a href="">Hire me Now !</a></button>
+                    <button  className='border-2 border-black text-black bg-white p-3 rounded-md animate-pulse'><a href="">Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></button>
                     </div>
                     
  </div>
