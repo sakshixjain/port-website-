@@ -286,6 +286,7 @@ margin-top: 10px;
   /* margin-top: 9px; */
   top: 30%;
 }
+
 .icon-div:hover span {
   transition: 0.5s all;
   opacity: 1;
@@ -360,6 +361,7 @@ margin-top: 10px;
  .text-title {
   margin-bottom: 10px;
   font-size: 1.5em;
+  color:#f54982 ;
   font-weight: bold;
  color:#f54982;
 
@@ -379,6 +381,9 @@ margin-top: 10px;
   color: #06060f;
   background: linear-gradient(45deg, #f54982,rgb(221, 125, 141)) border-box;
   border: none;
+ }
+ .card:hover .text-title{
+  color: #fff;
  }
 
  /* skiis percentage */

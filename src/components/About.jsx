@@ -69,7 +69,7 @@ function Info() {
   </div>
         </section>
         <h1 id="skill"  className='text-center justify-center mt-16 mb-28  text-5xl h1pro'>Software Skills</h1>
-    <div className='flex  justify-center'>
+    <div className='flex  justify-center card-response'>
       <div className="card">
   <div className="card-details">
      <i className="fa-solid fa-laptop text-center text-3xl custom-icon"></i> 
@@ -78,6 +78,7 @@ function Info() {
   </div>
  <a href="https://github.com/sakshixjain"> <button className="card-button">More info</button></a>
 </div>
+
 <div className="card">
   <div className="card-details">
   <i className="fa-solid fa-gear text-3xl text-center custom-icon"></i>

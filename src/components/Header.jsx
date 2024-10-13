@@ -10,7 +10,7 @@ function Header() {
             <a href="#skill">Skills</a>
             <a href="#project">Projects</a>
             <a href="#contact">Contact</a>
-         
+            <i className= " fa-solid fa-bars hidden ham"></i>
         </nav>
       </div>
     </div>
@@ -24,7 +24,7 @@ function Header() {
                 <li><span>Sakshi Jain</span></li>
                 <li><span>Full Stack Developer</span></li>
             </ul >
-                    <p className='text-xl -ml-56 mt-2 text-gray-500'>I'm Sakshi Jain, a Full Stack Developer with a degree from Maharshi <br /> Dayanand University,(MDU) Rohtak. With a passion for clean  code <br /> and problem-solving,  I thrive in crafting seamless user experiences <br /> and efficient backend solutions.</p>   
+                    <p className='text-xl -ml-56 mt-2 text-gray-500 text-respo'>I'm Sakshi Jain, a Full Stack Developer with a degree from Maharshi <br /> Dayanand University,(MDU) Rohtak. With a passion for clean  code <br /> and problem-solving,  I thrive in crafting seamless user experiences <br /> and efficient backend solutions.</p>   
                     <div className='flex -ml-60 icon-anima'>
                     <div className='icon-div'> 
                    <a href="https://github.com/sakshixjain">
@@ -46,7 +46,7 @@ function Header() {
                     <span>GForG</span>
                     </div> 
                     </div>
-                    <div className='text-left justify-start text-xl font-semibold -ml-60 mt-12'>
+                    <div className='text-left justify-start text-xl font-semibold -ml-60 mt-12 header-btn'>
                     <buthrefn className='border-2 border-white m-4 p-3 rounded-md hover:bg-white hover:text-black'><a href="">Hire me Now !</a></buthrefn>
                     <buthrefn  className='border-2 border-black text-black bg-white p-3 rounded-md animate-pulse'><a href="">Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></buthrefn>
                     </div>

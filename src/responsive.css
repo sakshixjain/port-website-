@@ -1,0 +1,92 @@
+@media (max-width:1100px){
+    .card-response{
+        flex-wrap: wrap;
+    }
+    /* .resume-education{
+        height: 100%;
+    } */
+    .icon-anima{
+        margin-left: 10px;
+        margin-top: 25px;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-btn{
+        margin-left: 20px;
+        text-align: center;
+    }
+    .wrapper{
+        display:inline;
+        text-align: center;
+    }
+}
+
+@media (max-width:800px) {
+    nav a {
+        display: none;
+        
+    }
+    .ham{
+        margin-left: 590px;
+        display: block;
+        text-align: end;
+        justify-content: end;
+        align-items: end;
+    }
+    .icon-anima{
+        margin-left: 10px;
+        margin-top: 25px;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-btn{
+        margin-left: 20px;
+        text-align: center;
+    }
+    .wrapper{
+        display:inline;
+        text-align: center;
+    }
+
+    .dynamic-txt{
+       margin-left: 190px;
+        text-align: center;
+        justify-content: center;
+   
+    }
+    .text-respo{
+        /* text-align: center; */
+        margin: 0 15px 0 15px;
+        text-wrap:nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .resume-education{
+        height: 100%;
+    }
+    .card-response{
+        flex-wrap: wrap-reverse;
+    }
+    .card{
+        margin: 7px;
+      
+    }
+ 
+    .imgbox{
+        margin-top: 65px;
+        margin-left: 190px;
+        /* text-align: center; */
+        justify-content: center;
+        /* align-items: center; */
+    }
+    .contact-response{
+        align-items: center;
+        justify-content: center;
+        display: inline;
+        margin: 15px;
+    }
+    .response1{
+    margin-top: 15px;
+    margin-bottom: 45px;
+    }
+}
