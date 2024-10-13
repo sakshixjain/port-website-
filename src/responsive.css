@@ -2,9 +2,11 @@
     .card-response{
         flex-wrap: wrap;
     }
-    /* .resume-education{
+    .resume-education{
         height: 100%;
-    } */
+        width: 100%;
+    
+    }
     .icon-anima{
         margin-left: 10px;
         margin-top: 25px;
@@ -41,7 +43,7 @@
     }
     .header-btn{
         margin-left: 20px;
-        text-align: center;
+        align-items: center;
     }
     .wrapper{
         display:inline;
@@ -55,7 +57,7 @@
    
     }
     .text-respo{
-        /* text-align: center; */
+    
         margin: 0 15px 0 15px;
         text-wrap:nowrap;
         align-items: center;
@@ -75,6 +77,98 @@
     .imgbox{
         margin-top: 65px;
         margin-left: 190px;
+        
+        justify-content: center;
+   
+    }
+    .contact-response{
+        align-items: center;
+        justify-content: center;
+        display: inline;
+        margin: 15px;
+    }
+    .response1{
+    margin-top: 15px;
+    margin-bottom: 45px;
+    }
+}
+
+@media (max-width:440px){
+    nav a {
+        display: none;
+        
+    }
+    .header-btn{
+        margin-left: 180px;
+        /* text-align: center; */
+    }
+    .resume-education{
+        height: 100%;
+        width: 100%;
+    }
+    .h4{
+        text-align: center;
+    }
+    .ham{
+        margin-left: 590px;
+        display: block;
+        text-align: end;
+        justify-content: end;
+        align-items: end;
+    }
+    .icon-anima{
+        margin-left: 220px;
+        margin-top: 45px;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-btn{
+    /* padding: 30px; */
+        margin-top: 50px;
+        margin-left: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+    .wrapper{
+        display:inline;
+        text-align: center;
+    }
+        .static-txt{
+            margin-right: -230px;
+        }
+    .dynamic-txt{
+       margin-right: -360px;
+   
+    }
+    .text-respo{
+        /* text-align: center; */
+        margin: 0 25px 0 25px;
+        word-spacing: 0.4rem;
+        text-wrap:nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .resume-education{
+        margin-left: 30px;
+        height: 100%;
+        width: 500px;
+    }
+    .card-response{
+        align-items: center;
+        flex-wrap: wrap-reverse;
+    }
+    .card{
+        width: 325px;
+        height: 400px;
+         margin-left: 100px;
+         margin-right: -120px;
+        margin-bottom: 47px;
+      
+    }
+ 
+    .imgbox{
+        margin-top: 75px;
+        margin-left: 150px;
         /* text-align: center; */
         justify-content: center;
         /* align-items: center; */
