@@ -110,14 +110,15 @@
         text-align: center;
     }
     .ham{
-        margin-left: 590px;
+        margin-left: 990px;
         display: block;
         text-align: end;
         justify-content: end;
         align-items: end;
     }
     .icon-anima{
-        margin-left: 220px;
+        margin-left: 250px;
+        padding-left: 10px;
         margin-top: 45px;
         align-items: center;
         justify-content: center;
@@ -126,6 +127,7 @@
     /* padding: 30px; */
         margin-top: 50px;
         margin-left: 40px;
+        margin-right: -230px;
         align-items: center;
         justify-content: center;
     }
@@ -151,24 +153,35 @@
     .resume-education{
         margin-left: 30px;
         height: 100%;
-        width: 500px;
+        width: 660px;
     }
     .card-response{
         align-items: center;
         flex-wrap: wrap-reverse;
     }
     .card{
-        width: 325px;
-        height: 400px;
-         margin-left: 100px;
-         margin-right: -120px;
-        margin-bottom: 47px;
-      
+        width: 395px;
+        height: 440px;
+         margin-left: 140px;
+         margin-right: -140px;
+         padding: 40px;
+        margin-bottom: 50px;
     }
- 
+    .card p{
+        font-size: 20px;
+    }
+ .custom-icon{
+    margin-left: 125px;
+    width:70px;
+    height:70px;
+    padding:15px;
+    margin-bottom: 5px;  
+ }
     .imgbox{
         margin-top: 75px;
-        margin-left: 150px;
+        margin-left: 120px;
+        width: 500px;
+        height: 500px;
         /* text-align: center; */
         justify-content: center;
         /* align-items: center; */
@@ -181,6 +194,18 @@
     }
     .response1{
     margin-top: 15px;
+    width: 600px;
     margin-bottom: 45px;
+    }
+    .response2{
+        margin-top: 30px;
+        width: 600px;
+    }
+    .h1pro{
+        margin-right: -290px;
+    }
+    .image-gallery-container{
+        margin-right: -320px;
+        margin-left: 40px;
     }
 }
