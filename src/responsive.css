@@ -138,6 +138,7 @@
     .world{
         text-align: center;
         margin-top: 10px;
+        margin-left: 170px;
         margin-bottom: 30px;
         text-wrap: nowrap;
     }
