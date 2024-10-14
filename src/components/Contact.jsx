@@ -1,7 +1,49 @@
 import React from 'react'
-
+import { useEffect } from 'react';
 const Contact=()=> {
+    useEffect(() => {
+        const h1 = document.querySelectorAll('.h1pro');
+        const response1= document.querySelectorAll('.response1');
+        const response2= document.querySelectorAll('.response2');
 
+        const observerOptions = {
+          threshold: 0.2, // Trigger when 10% of the element is visible
+        };
+    
+        const observerCallback = (entries, observer) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('animate');
+              observer.unobserve(entry.target); // Stop observing once visible
+            }
+          });
+        };
+    
+        const observer = new IntersectionObserver(observerCallback, observerOptions);
+    
+        h1.forEach((section) => {
+          observer.observe(section);
+        });
+        response1.forEach((section) => {
+          observer.observe(section);
+        });
+        response2.forEach((section) => {
+          observer.observe(section);
+        });
+     
+        return () => {
+          h1.forEach((section) => {
+            observer.unobserve(section);
+          });
+          response1.forEach((section) => {
+            observer.unobserve(section);
+          });
+         response2.forEach((section) => {
+            observer.unobserve(section);
+          });
+       
+        };
+      }, []);
 //     let number1= document.getElementById("number1");
 //     let number2= document.getElementById("number2");
 //     let number3= document.getElementById("number3");
@@ -55,7 +97,7 @@ const Contact=()=> {
 <h1 className='text-center justify-center mt-16 mb-16 text-5xl h1pro'>Contact me</h1>
     
     <div className='flex contact-response'>
-            <div className="response1 sm:grid-cols-2 items-center gap-16 p-8 ml-28 max-w-xl bg-[#06060f] shadow-[0_2px_10px_-3px_rgba(231,231,231,0.9)] text-[#fffce7] font-[sans-serif]">
+            <div className="response1 animationn3 sm:grid-cols-2 items-center gap-16 p-8 ml-28 max-w-xl bg-[#06060f] shadow-[0_2px_10px_-3px_rgba(231,231,231,0.9)] text-[#fffce7] font-[sans-serif]">
                 <div>
                     <h1 className="text-3xl font-extrabold">Let's Talk</h1>
                     <p className="text-sm text-gray-200 mt-3">Have some big idea or brand to develop and need help? Then reach out we'd love to hear about your project  and provide help.</p>
@@ -79,7 +121,7 @@ const Contact=()=> {
             </div>
             </div>
  
-            <div className=" response2 sm:grid-cols-1 items-center gap-16 p-8 ml-20 max-w-xl w-full bg-[#06060f] shadow-[0_2px_10px_-3px_rgba(231,231,231,0.9)] text-[#fffce7] font-[sans-serif]">
+            <div className=" response2 animationn2 sm:grid-cols-1 items-center gap-16 p-8 ml-20 max-w-xl w-full bg-[#06060f] shadow-[0_2px_10px_-3px_rgba(231,231,231,0.9)] text-[#fffce7] font-[sans-serif]">
             <h1 className="text-3xl text-center font-extrabold">My Skills</h1> 
             <div className='flex flex-wrap justify-center'>
  

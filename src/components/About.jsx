@@ -1,35 +1,82 @@
-import React from 'react'
-import { useState, useEffect , useRef} from 'react';
+
+import {  useEffect } from 'react';
 import '../components/about.css'
+import '../components/skeleton.css'
 function Info() {
-  const elementsRef = useRef([]);
-
+  
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('animate');
-          } else {
-            entry.target.classList.remove('animate'); // Optional: remove for keeping animation once visible.
-          }
-        });
-      },
-      { threshold: 0.2 }
-    );
+    const h = document.querySelectorAll('.h3');
+    const h1pro= document.querySelectorAll('.h1pro');
+    const h2pro= document.querySelectorAll('.h2pro');
+    const textResponse= document.querySelectorAll('.text-response');
+    const img= document.querySelectorAll('.aboutimg');
+    const h1= document.querySelectorAll('.h1');
+   const card= document.querySelectorAll('.card');
+    const resumeEducation= document.querySelectorAll('.resume-education');
+    const observerOptions = {
+      threshold: 0.2, // Trigger when 10% of the element is visible
+    };
 
-    elementsRef.current.forEach((el) => {
-      if (el) observer.observe(el);
-    });
-    elementsRef.current.forEach((el1) => {
-      if (el1) observer.observe(el1);
-    });
-    return () => {
-      elementsRef.current.forEach((el) => {
-        if (el) observer.unobserve(el);
+    const observerCallback = (entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate');
+          observer.unobserve(entry.target); // Stop observing once visible
+        }
       });
-      elementsRef.current.forEach((el1) => {
-        if (el1) observer.unobserve(el1);
+    };
+
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+   h.forEach((section) => {
+      observer.observe(section);
+    });
+    h1pro.forEach((section) => {
+      observer.observe(section);
+    });
+    h2pro.forEach((section) => {
+      observer.observe(section);
+    });
+    textResponse.forEach((section) => {
+      observer.observe(section);
+    });
+    img.forEach((section) => {
+      observer.observe(section);
+    });
+    h1.forEach((section) => {
+      observer.observe(section);
+    });
+    card.forEach((section) => {
+      observer.observe(section);
+    });
+    resumeEducation.forEach((section) => {
+      observer.observe(section);
+    });
+
+    return () => {
+      h.forEach((section) => {
+        observer.unobserve(section);
+      });
+      h1pro.forEach((section) => {
+        observer.unobserve(section);
+      });
+      h2pro.forEach((section) => {
+        observer.unobserve(section);
+      });
+      textResponse.forEach((section) => {
+        observer.unobserve(section);
+      });
+      img.forEach((section) => {
+        observer.unobserve(section);
+      });
+      h1.forEach((section) => {
+        observer.unobserve(section);
+      });
+      card.forEach((section) => {
+        observer.unobserve(section);
+      });
+      resumeEducation.forEach((section) => {
+        observer.unobserve(section);
       });
     };
   }, []);
@@ -37,9 +84,7 @@ function Info() {
     <>
                <h1
         id="about"
-        className="text-center justify-center mt-32 mb-8 text-5xl h1pro slide-in-bottom-left"
-        ref={(el) => elementsRef.current.push(el)}
-      >
+        className="text-center justify-center mt-32 mb-8 text-5xl h1pro animationn9">
         About me
       </h1>
       <section id="resume" className="resume">
@@ -50,10 +95,10 @@ function Info() {
                 <div className="row row-mobile-margin">
                   <div className="col-12 col-lg-2">
                     <div
-                      className="resume-topics h-100 flex-column justify-content-center position-relative slide-in-up"
-                      ref={(el) => elementsRef.current.push(el)}
+                      className="resume-topics h-100 flex-column justify-content-center position-relative "
+                      
                     >
-                      <h3 className="h3 line-height-1 resume-topic-item resume-topic-one font-medium text-white position-absolute">
+                      <h3 className="h3 animationn2 line-height-1 resume-topic-item resume-topic-one font-medium text-white position-absolute">
                         Education
                       </h3>
                     </div>
@@ -64,8 +109,8 @@ function Info() {
                       data-aos-delay="100"
                       data-aos-duration="800"
                       id="box"
-                      className="resume-education gradient-border bg-[#06060f] slide-in-down"
-                      ref={(el) => elementsRef.current.push(el)}
+                      className="resume-education animationn5 gradient-border bg-[#06060f] wn"
+                      
                     >
                       <div className="row">
                         <div className="col-lg-4 resume-first-item">
@@ -119,29 +164,29 @@ function Info() {
                                {/* main section */}
 
         <section>
-        <h1 className='text-center justify-center mt-4 mb-20 text-[#e92b6a] text-4xl h2pro slide-in-bottom-right'ref={(el1) => elementsRef.current.push(el1)} ><span className='dot'></span> Awards</h1> 
+        <h1 className='text-center justify-center mt-4 mb-20 text-[#e92b6a] text-4xl h2pro animationn8' ><span className='dot'></span> Awards</h1> 
         <div className='flex award-response '>
-          <img src="ABOU.jpg" alt="" className='ml-16 w-[700px] h-[500px] aboutimg slide-in-left'ref={(el1) => elementsRef.current.push(el1)} />
+          <img src="ABOU.jpg" alt="" className='ml-16 w-[700px] h-[500px] aboutimg animationn8' />
           <div>
-          <h1 className='text-[#f54982] ml-8 -mt-4 font-bold text-4xl'>Software Developer</h1>
+          <h1 className='text-[#f54982] ml-8 -mt-4 font-bold text-4xl animationn1 h1'>Software Developer</h1>
           <br />
-          <p className='text-gray-500 text-xl ml-8 mr-16 -mt-2 text-response1 slide-in-top-left'ref={(el1) => elementsRef.current.push(el1)}>Good at problem solving by implementing DSA and Web Development using variety of stacks</p>
+          <p className='text-gray-500 text-xl ml-8 mr-16 -mt-2 text-response1 animation4'>Good at problem solving by implementing DSA and Web Development using variety of stacks</p>
           
           
           <div className='text-left justify-start text-xl ml-4 font-semibold award-btn1 '>
                     <button className='border-2 border-white m-3 p-2 rounded-md hover:bg-white hover:text-black '><a href="">Main Skills</a></button>
                     <button  className='border-2 border-black text-black bg-white p-2 rounded-md '><a href="">Awards</a></button>
                     </div>  
-                  <h1 className='text-gray-500 text-xl ml-8 mr-16 text-response slide-in-top-right'ref={(el1) => elementsRef.current.push(el1)}>Data Structures and Algorithms</h1>
+                  <h1 className='text-gray-500 text-xl ml-8 mr-16 text-response '>Data Structures and Algorithms</h1>
 
-                <p className='text-[#f54892] text-xl ml-8 mr-16 text-response slide-in-right'ref={(el1) => elementsRef.current.push(el1)}>Execute and design algorithms and implement data structures</p>
+                <p className='text-[#f54892] text-xl ml-8 mr-16 text-response animationn4'>Execute and design algorithms and implement data structures</p>
                 <br />
-                <h1 className='text-gray-500 text-xl ml-8 mr-16 text-response silde-in-bottom-left'ref={(el1) => elementsRef.current.push(el1)}>Frontend development</h1>
-                <p className='text-[#f54892] text-xl ml-8 mr-16 text-response slide-in-left'ref={(el1) => elementsRef.current.push(el1)}>Delight the user and make it work.</p>
+                <h1 className='text-gray-500 text-xl ml-8 mr-16 text-response '>Frontend development</h1>
+                <p className='text-[#f54892] text-xl ml-8 mr-16 text-response animationn4'>Delight the user and make it work.</p>
                 <br />
-                <h1 className='text-gray-500 text-xl ml-8 mr-16 text-response slide-in-bottom-right'ref={(el1) => elementsRef.current.push(el1)}>Backend development</h1>
+                <h1 className='text-gray-500 text-xl ml-8 mr-16 text-response '>Backend development</h1>
 
-                <p className='text-[#f54892] text-xl ml-8 mr-16 text-response silde-in-down'ref={(el1) => elementsRef.current.push(el1)}>Manage backend, database, hosting and deployment</p>
+                <p className='text-[#f54892] text-xl ml-8 mr-16 text-response animationn4'>Manage backend, database, hosting and deployment</p>
                 <div className='text-left justify-start text-xl ml-8 font-semibold mt-8  header-btn'>
                     <button  className='border-2 text-black bg-white p-2 rounded-md hover:bg-black hover:text-white award-btn'><a href="">Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></button>
                     </div>
@@ -153,10 +198,10 @@ function Info() {
 
                                   
 
-        <h1 id="skill"  className='text-center justify-center mt-16 mb-8  text-5xl h1pro slide-in-left'ref={(el) => elementsRef.current.push(el)}>Software Skills</h1>
+        <h1 id="skill"  className='text-center justify-center mt-16 mb-8  text-5xl h1pro animationn9'>Software Skills</h1>
         <h1 className='text-center justify-center mt-4 mb-24 text-[#e92b6a] text-4xl h2pro' ><span className='dot'></span> My Service</h1>
     <div className='flex  justify-center card-response'>
-      <div className="card slide-in-up" ref={(el) => elementsRef.current.push(el)}>
+      <div className="card animationn1" >
   <div className="card-details">
      <i className="fa-solid fa-laptop text-center text-3xl custom-icon"></i> 
     <p className="text-title">Frontend Development</p>
@@ -165,7 +210,7 @@ function Info() {
  <a href="https://github.com/sakshixjain"> <button className="card-button">More info</button></a>
 </div>
 
-<div className="card slide-in-down"ref={(el) => elementsRef.current.push(el)} >
+<div className="card animationn6" >
   <div className="card-details">
   <i className="fa-solid fa-gear text-3xl text-center custom-icon"></i>
     <p className="text-title">Backend Development</p>
@@ -173,7 +218,7 @@ function Info() {
   </div>
   <a href="https://github.com/sakshixjain"> <button className="card-button">More info</button></a>
 </div>
-<div className="card slide-in-top-left"ref={(el) => elementsRef.current.push(el)}>
+<div className="card animationn7">
   <div className="card-details">
   <i className="fa-solid fa-code text-3xl text-center custom-icon"></i>
     <p className="text-title">Problem Solving</p>
@@ -181,7 +226,7 @@ function Info() {
   </div>
  <a href="https://leetcode.com/u/sakshijain36/"> <button className="card-button">More info</button></a>
 </div>
-<div className="card slide-in-bottom-right" ref={(el) => elementsRef.current.push(el)}>
+<div className="card animationn2" >
   <div className="card-details">
   <i className="fa-brands fa-figma text-3xl text-center custom-icon"></i>
     <p className="text-title">UI/UX Designer</p>
