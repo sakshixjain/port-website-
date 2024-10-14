@@ -84,7 +84,7 @@ function Info() {
     <>
                <h1
         id="about"
-        className="text-center justify-center mt-32 mb-8 text-5xl h1pro animationn9">
+        className="text-center justify-center mt-32 mb-8 text-5xl h1pro animationn7">
         About me
       </h1>
       <section id="resume" className="resume">
