@@ -1,4 +1,18 @@
 @media (max-width:1100px){
+    .world{
+        margin-left: 290px;
+        margin-bottom: 40px;
+    }
+    .imgbox{
+        margin-top: 30px;
+        margin-left: 240px;
+    }
+    .dynamic-txt{
+        margin-right: -180px;
+    }
+    .text-respo{
+        margin-left: 40px;
+    }
     .card-response{
         flex-wrap: wrap;
     }
@@ -6,6 +20,10 @@
         height: 100%;
         width: 100%;
     
+    }
+    .award-response{
+     
+        display: inline;
     }
     .icon-anima{
         margin-left: 10px;
@@ -21,6 +39,7 @@
         display:inline;
         text-align: center;
     }
+    
 }
 
 @media (max-width:800px) {
@@ -28,8 +47,11 @@
         display: none;
         
     }
+    .award-response{
+        display: inline;
+    }
     .ham{
-        margin-left: 590px;
+        margin-left: 30px;
         display: block;
         text-align: end;
         justify-content: end;
