@@ -166,7 +166,7 @@ function Info() {
         <section>
         <h1 className='text-center justify-center mt-4 mb-20 text-[#e92b6a] text-4xl h2pro animationn8' ><span className='dot'></span> Awards</h1> 
         <div className='flex award-response '>
-          <img src="ABOU.jpg" alt="" className='ml-16 w-[700px] h-[500px] aboutimg animationn8' />
+          <img src="ABOU.jpg" alt="" className='ml-16 w-[700px] h-[500px] aboutimg animationn6' />
           <div>
           <h1 className='text-[#f54982] ml-8 -mt-4 font-bold text-4xl animationn1 h1'>Software Developer</h1>
           <br />
