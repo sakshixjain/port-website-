@@ -98,8 +98,8 @@ function Header() {
                     </div> 
                     </div>
                     <div className='text-left justify-start text-xl font-semibold -ml-60 mt-12 header-btn'>
-                    <button className='border-2 border-white m-4 p-3 rounded-md hover:bg-white hover:text-black'><a href="">Hire me Now !</a></button>
-                    <button  className='border-2 border-black text-black bg-white p-3 rounded-md animate-pulse'><a href="">Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></button>
+                    <button className='border-2 border-white m-4 p-3 rounded-md hover:bg-white hover:text-black'><a href="https://www.linkedin.com/in/sakshi-jain-a0048621b/">Hire me Now !</a></button>
+                    <button  className='border-2 border-black text-black bg-white p-3 rounded-md animate-pulse'><a href="https://github.com/sakshixjain/Curriculum-vitae--CV-/blob/main/sakshi-jain%20(1).docx">Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></button>
                     </div>
                     
  </div>
@@ -107,7 +107,7 @@ function Header() {
                 <div className="content">
                   <img src="photo.jpg"/>
                   <h2>A Younger<br /><span>Full Stack Developer</span></h2>
-                  <a href="#">Hire me</a>
+                  <a href="https://www.linkedin.com/in/sakshi-jain-a0048621b/">Hire me</a>
                 </div>
               
               </div>
