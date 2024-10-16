@@ -40,7 +40,7 @@ function Project () {
               <a href="https://github.com/sakshixjain"> <button className='skill-btn'>More info</button></a>
           </div>
           <div className="image-item h-[422px]" >
-           <figure> <img src="chat-app.png" alt="Cinque Terre" className="image-scroll " /></figure>
+           <figure> <img src="Screenshot 2024-10-16 145727.png" alt="Cinque Terre" className="image-scroll " /></figure>
             
               <p  className="caption text-[#f54982]">Chat Application</p>
              
