@@ -13,8 +13,8 @@
 
 .imgbox{
   position: relative;
-  width: 400px;
-  height: 400px;
+  width: 450px;
+  height: 450px;
   background-color: #06060f;
   border-radius: 50%;
   overflow: hidden;
@@ -215,7 +215,7 @@ margin-top: 10px;
   height: 60px;
   line-height: 60px;
   overflow: hidden;
-  margin-left: -170px;
+  margin-left: -150px;
  }
  .dynamic-txt li{
   color: #f54982;
@@ -584,7 +584,7 @@ html {
 .image-gallery {
   margin: 0;
   display:flex;
-  height: 480px;
+  height: 520px;
   animation: 20s scroll infinite linear;
 }   
  .image-gallery-container::before, 

@@ -75,7 +75,7 @@ function Header() {
                 <li><span>Full Stack Developer</span></li>
             </ul >
                     <p className='text-xl -ml-56 mt-2 text-gray-500 text-respo animationn8'
-          >I'm Sakshi Jain, a Full Stack Developer with a degree from Maharshi <br /> Dayanand University,(MDU) Rohtak. With a passion for clean  code <br /> and problem-solving,  I thrive in crafting seamless user experiences <br /> and efficient backend solutions.</p>   
+          >I'm Sakshi Jain, a Full Stack Developer with a degree from Maharshi <br /> Dayanand University,(MDU) Rohtak. With a passion for clean  code <br /> and problem-solving,  I thrive in crafting seamless user experiences . <br /> I am always eager to learn and adapt to new technologies, <br />striving to build user-centric, efficient, and high-quality web solutions.</p>   
                     <div className='flex -ml-60 icon-anima animationn6' >
                     <div className='icon-div'> 
                    <a href="https://github.com/sakshixjain">
@@ -97,13 +97,13 @@ function Header() {
                     <span>GForG</span>
                     </div> 
                     </div>
-                    <div className='text-left justify-start text-xl font-semibold -ml-60 mt-12 header-btn'>
-                    <button className='border-2 border-white m-4 p-3 rounded-md hover:bg-white hover:text-black'><a href="https://www.linkedin.com/in/sakshi-jain-a0048621b/">Hire me Now !</a></button>
-                    <button  className='border-2 border-black text-black bg-white p-3 rounded-md animate-pulse'><a href="https://github.com/sakshixjain/Curriculum-vitae--CV-/blob/main/sakshi-jain%20(1).docx">Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></button>
+                    <div className='text-left justify-start text-xl font-semibold -ml-60 mt-8 header-btn'>
+                    <button className='border-2 border-white m-4 p-2 rounded-md hover:bg-white hover:text-black'><a href="https://www.linkedin.com/in/sakshi-jain-a0048621b/">Hire me Now !</a></button>
+                    <button  className='border-2 border-black text-black bg-white p-2 rounded-md animate-pulse'><a href="https://github.com/sakshixjain/Curriculum-vitae--CV-/blob/main/sakshi-jain%20(1).docx">Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></button>
                     </div>
                     
  </div>
-              <div className='imgbox animationn2' >
+              <div className='imgbox animationn2 ' >
                 <div className="content">
                   <img src="photo.jpg"/>
                   <h2>A Younger<br /><span>Full Stack Developer</span></h2>
