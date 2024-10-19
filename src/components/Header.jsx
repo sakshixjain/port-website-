@@ -75,7 +75,7 @@ function Header() {
                 <li><span>Full Stack Developer</span></li>
             </ul >
                     <p className='text-xl -ml-56 mt-2 text-gray-500 text-respo animationn8'
-          >I'm Sakshi Jain, a Full Stack Developer with a degree from Maharshi Dayanand University,(MDU) Rohtak. With a passion for clean code and problem-solving, I thrive in crafting seamless user experiences . I am always eager to learn and adapt to new technologies striving to build user-centric, efficient, and high-quality web solutions.</p>   
+          >I'm Sakshi Jain, a Full Stack Developer with a degree from Maharshi <br /> Dayanand University,(MDU) Rohtak. With a passion for clean  code <br /> and problem-solving,  I thrive in crafting seamless user experiences . <br /> I am always eager to learn and adapt to new technologies, <br />striving to build user-centric, efficient, and high-quality web solutions.</p>   
                     <div className='flex -ml-60 icon-anima animationn6' >
                     <div className='icon-div'> 
                    <a href="https://github.com/sakshixjain">

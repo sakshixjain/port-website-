@@ -115,10 +115,14 @@
     .response1{
     margin-top: 15px;
     margin-bottom: 45px;
+    
     }
 }
 
 @media only screen and (max-width:440px){
+    nav{
+        width: 100%;
+    }
     nav:hover{
       transition: none;
       box-shadow: none;
@@ -196,6 +200,9 @@ font-size: 50px;
    
     }
     .text-respo{
+        br{
+            display: none;
+        }
          font-size: 35px;
         margin-left:25px;
         word-spacing: 0.4rem;
