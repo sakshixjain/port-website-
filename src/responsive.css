@@ -43,6 +43,9 @@
 }
 
 @media (max-width:800px) {
+    nav{
+        width: 900px;
+    }
     nav a {
         display: none;
         
@@ -116,6 +119,9 @@
 }
 
 @media only screen and (max-width:440px){
+    nav{
+        width: 1130px;
+    }
     nav a {
         display: none;
         
@@ -129,6 +135,7 @@
         text-align: center;
     }
     .ham{
+        font-size: 33px;
         margin-left: 360px;
         display: block;
         text-align: end;
@@ -136,11 +143,26 @@
         align-items: end;
     }
     .world{
+        font-size: 33px;
         text-align: center;
         margin-top: 10px;
         margin-left: 170px;
         margin-bottom: 30px;
         text-wrap: nowrap;
+    }
+    .icon-div {
+        text-align: center;
+        width: 170px;
+    }
+    .icon-div i{
+        padding: 18px;
+        margin: 20px;
+        width:91px;
+        height:90px;
+font-size: 50px;
+    }
+    .icon-div span{
+        font-size: 1.7rem;
     }
     .icon-anima{
         margin-left: 250px;
@@ -152,69 +174,87 @@
     .header-btn{
     /* padding: 30px; */
         margin-top: 50px;
-        margin-left: 40px;
-        margin-right: -230px;
-        align-items: center;
-        justify-content: center;
+        margin-left: 80px;
+        margin-right: -190px;
+    }
+    .header-btn button{
+        padding: 20px;
+        margin: 10px;
+        font-size: 34px;
     }
     .wrapper{
         display:inline;
         text-align: center;
     }
         .static-txt{
+            /* font-size: 45px; */
             margin-right: -230px;
         }
     .dynamic-txt{
+        /* font-size: 45px; */
        margin-right: -360px;
    
     }
     .text-respo{
-        /* text-align: center; */
-        margin: 0 25px 0 25px;
+         font-size: 35px;
+        /* margin: 0 25px 0 25px; */
         word-spacing: 0.4rem;
-        text-wrap:nowrap;
+        text-wrap:wrap;
+        margin-right: -340px;
         align-items: center;
         justify-content: center;
     }
+   
     .h3{
         display: none;
     }
+
     .resume-education{
         margin-left: 50px;
         height: 100%;
         width: 650px;
+    }
+    .h4{
+        font-size: 30px;
+    }
+    .secondary-black{
+        margin-bottom: 10px;
+        font-size: 26px;
     }
     .card-response{
         align-items: center;
         flex-wrap: wrap-reverse;
     }
     .card{
-        width: 425px;
-        height: 470px;
-         margin-left: 140px;
-         margin-right: -140px;
+        width: 925px;
+        height: 670px;
+         margin-left: 70px;
+         margin-right: -290px;
          padding: 40px;
         margin-bottom: 50px;
     }
- 
     .card p{
-        font-size: 22px;
+        font-size: 34px;
     }
  .custom-icon{
-    margin-left: 125px;
-    width:70px;
-    height:70px;
-    padding:15px;
+    margin-left: 200px;
+    width:130px;
+    height:130px;
+    font-size: 53px;
+    padding:43px;
+    padding-left: 32px;
     margin-bottom: 5px;  
  }
+
     .imgbox{
         margin-top: 75px;
-        margin-left: 120px;
-        width: 500px;
-        height: 500px;
+        margin-left: 40px;
+        width: 690px;
+        height: 690px;
         justify-content: center;
     }
     .h1{
+        font-size: 40px;
         margin-left: 160px;
         margin-right: -140px;
     }
@@ -229,14 +269,16 @@
         display: inline;
     }
     .text-response{
-        margin-right: -70px;
-        text-wrap: nowrap;
-        margin-left: 110px;
+        font-size: 27px;
+        margin-right: -310px;
+        text-wrap: wrap;
+        margin-left: 90px;
     }
     .text-response1{
-        margin-right: -210px;
+        font-size: 27px;
+        margin-right: -250px;
         text-wrap: wrap;
-        margin-left: 110px;
+        margin-left: 90px;
     }
     .award-btn{
         margin-top: -12px;
@@ -245,11 +287,18 @@
     }
      .award-btn1{
         margin-left: 190px;
-        margin-right: -80px;
+        margin-top: 10px;
+        margin-right: -180px;
         margin-bottom: 7px;
+     }
+     .award-btn1 button{
+        padding: 30px;
+        margin: 10px;
+        font-size: 34px;
      }
 
     .contact-response{
+       
         align-items: center;
         justify-content: center;
         display: inline;
@@ -261,7 +310,7 @@
     }
     .response1{
     margin-top: 15px;
-    width: 600px;
+    width: 900px;
     margin-left: 90px;
     margin-bottom: 45px;
     
@@ -275,10 +324,10 @@
         margin-right: -290px;
     }
     .image-gallery-container{
-        margin-right: -320px;
-        margin-left: 40px;
+        margin-right: -350px;
+        /* margin-left: 40px; */
     }
     .image-gallery {  
-        animation: 7s scroll infinite linear;
+        animation: 3s scroll infinite linear;
       } 
 }
