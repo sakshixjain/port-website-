@@ -119,12 +119,12 @@
 }
 
 @media only screen and (max-width:440px){
-    nav{
-        width: 1130px;
+    nav:hover{
+      transition: none;
+      box-shadow: none;
     }
     nav a {
-        display: none;
-        
+        display: none;   
     }
     .header-btn{
         margin-left: 180px;
@@ -135,7 +135,7 @@
         text-align: center;
     }
     .ham{
-        font-size: 33px;
+        font-size: 39px;
         margin-left: 360px;
         display: block;
         text-align: end;
@@ -146,7 +146,7 @@
         font-size: 33px;
         text-align: center;
         margin-top: 10px;
-        margin-left: 170px;
+        margin-left: 190px;
         margin-bottom: 30px;
         text-wrap: nowrap;
     }
@@ -197,10 +197,11 @@ font-size: 50px;
     }
     .text-respo{
          font-size: 35px;
-        /* margin: 0 25px 0 25px; */
+        margin-left:25px;
         word-spacing: 0.4rem;
+        line-height: 3rem;
         text-wrap:wrap;
-        margin-right: -340px;
+        margin-right: -330px;
         align-items: center;
         justify-content: center;
     }
@@ -219,6 +220,7 @@ font-size: 50px;
     }
     .secondary-black{
         margin-bottom: 10px;
+        margin-right: -40px;
         font-size: 26px;
     }
     .card-response{
@@ -259,10 +261,7 @@ font-size: 50px;
         margin-right: -140px;
     }
     .aboutimg{
-       /* margin-right: -290px; */
-       margin-left: 140px;
-        width: 100%;
-        height: 400px;
+       margin-left: 90px;
         margin-bottom: 70px;
     }
     .award-response{
@@ -325,7 +324,6 @@ font-size: 50px;
     }
     .image-gallery-container{
         margin-right: -350px;
-        /* margin-left: 40px; */
     }
     .image-gallery {  
         animation: 3s scroll infinite linear;
