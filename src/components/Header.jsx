@@ -69,7 +69,7 @@ function Header() {
         <div className='wrapper'>
          
          <div className="static-txt ">I'm </div>
-        <div>
+        <div className='head-respo'>
             <ul className="dynamic-txt" >
                 <li><span>Sakshi Jain</span></li>
                 <li><span>Full Stack Developer</span></li>

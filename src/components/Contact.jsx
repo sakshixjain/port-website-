@@ -121,7 +121,7 @@ const Contact=()=> {
             </div>
             </div>
  
-            <div className=" response2 animationn2 sm:grid-cols-1 items-center gap-16 p-8 ml-20 max-w-xl w-full bg-[#06060f] shadow-[0_2px_10px_-3px_rgba(231,231,231,0.9)] text-[#fffce7] font-[sans-serif]">
+            <div className=" response2 animationn2 sm:grid-cols-1 items-center gap-16 p-8 ml-20 max-w-xl bg-[#06060f] shadow-[0_2px_10px_-3px_rgba(231,231,231,0.9)] text-[#fffce7] font-[sans-serif]">
             <h1 className="text-3xl text-center font-extrabold">My Skills</h1> 
             <div className='flex flex-wrap justify-center'>
  
