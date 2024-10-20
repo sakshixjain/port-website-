@@ -220,7 +220,7 @@ font-size: 50px;
     .resume-education{
         margin-left: 50px;
         height: 100%;
-        width: 650px;
+        width: 630px;
     }
     .h4{
         font-size: 30px;
@@ -235,7 +235,7 @@ font-size: 50px;
         flex-wrap: wrap-reverse;
     }
     .card{
-        width: 925px;
+        width: 635px;
         height: 670px;
          margin-left: 70px;
          margin-right: -290px;
