@@ -113,12 +113,6 @@ body{
   background: #06060f;
     color: white;
 }
-  .headerbody{
-    height: 100px;
-  display: flex;
-    justify-content:space-evenly;
-    flex-direction: row;
-  }
 
   nav{
     width: 1500px;
@@ -198,24 +192,23 @@ margin-top: 10px;
  nav a:hover::before{
   width: 100%;
  }
- 
+
  .wrapper{
-  text-align: left;
+  text-align: center;
   margin-top: 100px; 
  display: flex;
  justify-content: space-evenly;
  }
- .wrapper .static-txt{
+ .static-txt{
   color: #fff;
   font-size: 45px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
   font-weight: 700;
  }
- .wrapper .dynamic-txt{
+.dynamic-txt{
   height: 60px;
   line-height: 60px;
   overflow: hidden;
-  margin-left: -150px;
  }
  .dynamic-txt li{
   color: #f54982;
@@ -223,6 +216,7 @@ margin-top: 10px;
   font-size: 55px;
   font-weight: 550;
   position: relative;
+  text-align: left;
   top: 0;
   margin-left: 6px;
   animation: slide 5s steps(2) infinite;

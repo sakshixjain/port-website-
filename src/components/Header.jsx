@@ -53,7 +53,7 @@ function Header() {
   return (
     <>
     <div className='headerbody'>
-      <div className='head z-20 top-0 fixed'>
+      <header className=' z-20 top-0 fixed'>
         <nav>
             <a href="/">Home</a>
             <a href="#about">About</a>
@@ -62,21 +62,24 @@ function Header() {
             <a href="#contact">Contact</a>
             <a className= " hidden ham text-white"><span className='text-[#f54892]'>S</span>akshi </a>
         </nav>
-      </div>
+      </header>
     </div>
-          <h1 className='mt-8 -mb-16 ml-44 text-gray-300 text-3xl world animationn1'
+  
+          <h1 className='mt-40 -mb-16 ml-44 text-gray-300 text-3xl world animationn1'
         >Welcome to my World !...</h1>
-        <div className='wrapper'>
-         
-         <div className="static-txt ">I'm </div>
-        <div className='head-respo'>
+     <div className=' wrapper '>
+     
+        <div>
+          <div className='flex dynastat'>
+             <p className="static-txt ">I'm </p> 
             <ul className="dynamic-txt" >
                 <li><span>Sakshi Jain</span></li>
                 <li><span>Full Stack Developer</span></li>
             </ul >
-                    <p className='text-xl -ml-56 mt-2 text-gray-500 text-respo animationn8'
+            </div>
+                    <p className='text-xl mt-2 text-gray-500 text-respo animationn8'
           >I'm Sakshi Jain, a Full Stack Developer with a degree from Maharshi <br /> Dayanand University,(MDU) Rohtak. With a passion for clean  code <br /> and problem-solving,  I thrive in crafting seamless user experiences . <br /> I am always eager to learn and adapt to new technologies, <br />striving to build user-centric, efficient, and high-quality web solutions.</p>   
-                    <div className='flex -ml-60 icon-anima animationn6' >
+                    <div className='flex icon-anima animationn6' >
                     <div className='icon-div'> 
                    <a href="https://github.com/sakshixjain">
                    <i className="fa-brands fa-github "></i></a> 
@@ -97,7 +100,7 @@ function Header() {
                     <span>GForG</span>
                     </div> 
                     </div>
-                    <div className='text-left justify-start text-xl font-semibold -ml-60 mt-8 header-btn'>
+                    <div className='text-left justify-start text-xl font-semibold mt-8 header-btn'>
                     <button className='border-2 border-white m-4 p-2 rounded-md hover:bg-white hover:text-black'><a href="https://www.linkedin.com/in/sakshi-jain-a0048621b/">Hire me Now !</a></button>
                     <button  className='border-2 border-black text-black bg-white p-2 rounded-md animate-pulse'><a href="https://github.com/sakshixjain/Curriculum-vitae--CV-/blob/main/sakshi-jain%20(1).docx">Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></button>
                     </div>
@@ -112,6 +115,7 @@ function Header() {
               
               </div>
 </div>
+
     </>
   )
 }
