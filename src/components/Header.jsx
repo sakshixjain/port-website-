@@ -53,7 +53,7 @@ function Header() {
   return (
     <>
     <div className='headerbody'>
-      <div className=' z-20 hrefp-0  fixed'>
+      <div className='head z-20 top-0 fixed'>
         <nav>
             <a href="/">Home</a>
             <a href="#about">About</a>

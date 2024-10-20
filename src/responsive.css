@@ -1,14 +1,14 @@
 @media (max-width:1100px){
     .world{
-        margin-left: 290px;
+        /* margin-left: 290px; */
         margin-bottom: 40px;
     }
     .imgbox{
         margin-top: 30px;
-        margin-left: 240px;
+        /* margin-left: 240px; */
     }
     .dynamic-txt{
-        margin-right: -180px;
+        /* margin-right: -180px; */
     }
     .text-respo{
         margin-left: 40px;
@@ -43,8 +43,12 @@
 }
 
 @media (max-width:800px) {
+    .head{
+        z-index: -1;
+        position: relative;
+    }
     nav{
-        width: 900px;
+        background-color:transparent;
     }
     nav a {
         display: none;
@@ -76,20 +80,20 @@
     }
 
     .dynamic-txt{
-       margin-left: 190px;
-        text-align: center;
-        justify-content: center;
+       /* margin-left: 190px; */
+        /* text-align: center; */
+        /* justify-content: center; */
    
     }
     .text-respo{
     
         margin: 0 15px 0 15px;
-        text-wrap:nowrap;
+        /* text-wrap:nowrap; */
         align-items: center;
         justify-content: center;
     }
     .resume-education{
-        height: 100%;
+        /* height: 100%; */
     }
     .card-response{
         flex-wrap: wrap-reverse;
@@ -101,7 +105,7 @@
  
     .imgbox{
         margin-top: 65px;
-        margin-left: 190px;
+        /* margin-left: 190px; */
         
         justify-content: center;
    
@@ -119,7 +123,11 @@
     }
 }
 
-@media only screen and (max-width:440px){
+@media (max-width:440px){
+     .head{
+        z-index: -1;
+        position: relative;
+    }
     nav{
         width: 100%;
     }
@@ -131,7 +139,7 @@
         display: none;   
     }
     .header-btn{
-        margin-left: 180px;
+        /* margin-left: 180px; */
         /* text-align: center; */
     }
 
@@ -140,7 +148,7 @@
     }
     .ham{
         font-size: 39px;
-        margin-left: 360px;
+        /* margin-left: 270px; */
         display: block;
         text-align: end;
         justify-content: end;
@@ -150,7 +158,7 @@
         font-size: 33px;
         text-align: center;
         margin-top: 10px;
-        margin-left: 190px;
+        /* margin-left: 190px; */
         margin-bottom: 30px;
         text-wrap: nowrap;
     }
@@ -169,7 +177,7 @@ font-size: 50px;
         font-size: 1.7rem;
     }
     .icon-anima{
-        margin-left: 250px;
+        /* margin-left: 250px; */
         padding-left: 10px;
         margin-top: 45px;
         align-items: center;
@@ -178,8 +186,8 @@ font-size: 50px;
     .header-btn{
     /* padding: 30px; */
         margin-top: 50px;
-        margin-left: 80px;
-        margin-right: -190px;
+        /* margin-left: 80px; */
+        /* margin-right: -190px; */
     }
     .header-btn button{
         padding: 20px;
@@ -192,11 +200,11 @@ font-size: 50px;
     }
         .static-txt{
             /* font-size: 45px; */
-            margin-right: -230px;
+            /* margin-right: -230px; */
         }
     .dynamic-txt{
         /* font-size: 45px; */
-       margin-right: -360px;
+       /* margin-right: -360px; */
    
     }
     .text-respo{
@@ -208,9 +216,8 @@ font-size: 50px;
         word-spacing: 0.4rem;
         line-height: 3rem;
         text-wrap:wrap;
-        margin-right: -330px;
-        align-items: center;
-        justify-content: center;
+        /* width: 400px; */
+        /* margin-right: -330px; */
     }
    
     .h3{
@@ -218,16 +225,16 @@ font-size: 50px;
     }
 
     .resume-education{
-        margin-left: 50px;
-        height: 100%;
-        width: 650px;
+        /* margin-left: 50px; */
+        /* height: 100%; */
+        /* width: 650px; */
     }
     .h4{
         font-size: 30px;
     }
     .secondary-black{
         margin-bottom: 10px;
-        margin-right: -40px;
+        /* margin-right: -40px; */
         font-size: 26px;
     }
     .card-response{
@@ -235,10 +242,10 @@ font-size: 50px;
         flex-wrap: wrap-reverse;
     }
     .card{
-        width: 925px;
-        height: 670px;
-         margin-left: 70px;
-         margin-right: -290px;
+        /* width: 925px; */
+        /* height: 670px; */
+         /* margin-left: 70px; */
+         /* margin-right: -290px; */
          padding: 40px;
         margin-bottom: 50px;
     }
@@ -246,7 +253,7 @@ font-size: 50px;
         font-size: 34px;
     }
  .custom-icon{
-    margin-left: 200px;
+    /* margin-left: 200px; */
     width:130px;
     height:130px;
     font-size: 53px;
@@ -257,18 +264,18 @@ font-size: 50px;
 
     .imgbox{
         margin-top: 75px;
-        margin-left: 40px;
-        width: 690px;
-        height: 690px;
+        /* margin-left: 40px; */
+        /* width: 690px; */
+        /* height: 690px; */
         justify-content: center;
     }
     .h1{
         font-size: 40px;
-        margin-left: 160px;
-        margin-right: -140px;
+        /* margin-left: 160px; */
+        /* margin-right: -140px; */
     }
     .aboutimg{
-       margin-left: 90px;
+       /* margin-left: 90px; */
         margin-bottom: 70px;
     }
     .award-response{
@@ -276,25 +283,25 @@ font-size: 50px;
     }
     .text-response{
         font-size: 27px;
-        margin-right: -310px;
+        /* margin-right: -310px; */
         text-wrap: wrap;
-        margin-left: 90px;
+        /* margin-left: 90px; */
     }
     .text-response1{
         font-size: 27px;
-        margin-right: -250px;
+        /* margin-right: -250px; */
         text-wrap: wrap;
-        margin-left: 90px;
+        /* margin-left: 90px; */
     }
     .award-btn{
         margin-top: -12px;
-       margin-left: -40px;
+       /* margin-left: -40px; */
        margin-bottom: 10px;
     }
      .award-btn1{
-        margin-left: 190px;
+        /* margin-left: 190px; */
         margin-top: 10px;
-        margin-right: -180px;
+        /* margin-right: -180px; */
         margin-bottom: 7px;
      }
      .award-btn1 button{
@@ -311,26 +318,26 @@ font-size: 50px;
         margin: 15px;
     }
     .h2pro{
-        margin-left: 210px;
-        margin-right: -40px;
+        /* margin-left: 210px; */
+        /* margin-right: -40px; */
     }
     .response1{
     margin-top: 15px;
-    width: 900px;
-    margin-left: 90px;
+    /* width: 900px; */
+    /* margin-left: 90px; */
     margin-bottom: 45px;
     
     }
     .response2{
-        margin-left: 90px;
+        /* margin-left: 90px; */
         margin-top: 30px;
-        width: 600px;
+        /* width: 600px; */
     }
     .h1pro{
-        margin-right: -290px;
+        /* margin-right: -290px; */
     }
     .image-gallery-container{
-        margin-right: -350px;
+        /* margin-right: -350px; */
     }
     .image-gallery {  
         animation: 3s scroll infinite linear;
