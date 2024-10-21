@@ -37,7 +37,7 @@
     overflow: hidden;
     position: relative;
     padding: 30px;
-    height: 470px;
+    height: 500px;
   }
   
   .resume-education::before {
@@ -50,8 +50,7 @@
     height: 200%;
     background-color: #000;
     background-repeat: no-repeat;
-    /* background-size: 100%100%, 0%0%; */
-    /* background-position: 0 0, 10% 0, 10% 10%, 0 10%; */
+
     background-image: linear-gradient(#bd065b, pink, gray);
     animation: bgRotate 4s linear infinite;
   }

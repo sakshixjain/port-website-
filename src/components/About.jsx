@@ -164,7 +164,7 @@ function Info() {
                                {/* main section */}
 
         <section>
-        <h1 className='text-center justify-center mt-4 mb-20 text-slate-300 text-3xl h2pro animationn5' ><span className='dot'></span> Awards</h1> 
+        <h1 id="skill" className='text-center justify-center mt-4 mb-20 text-slate-300 text-3xl h2pro animationn5' ><span className='dot'></span> Awards</h1> 
         <div className='flex award-response '>
           <img src="ABOU.jpg" alt="" className='ml-16 w-[700px] h-[500px] aboutimg animationn6' />
           <div>
@@ -188,7 +188,7 @@ function Info() {
 
                 <p className='text-[#f54892] text-xl ml-8 mr-16 text-response animationn4'>Manage backend, database, hosting and deployment</p>
                 <div className='text-left justify-start text-xl ml-8 font-semibold mt-8  header-btn'>
-                    <button  className='border-2 text-black bg-white p-2 rounded-md hover:bg-black hover:text-white award-btn'><a href="https://github.com/sakshixjain/Curriculum-vitae--CV-/blob/main/sakshi-jain%20(1).docx">Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></button>
+                    <button  className='border-2 text-black bg-white p-2 rounded-md hover:bg-black hover:text-white award-btn'><a href="cv.docx"download>Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></button>
                     </div>
                     </div>
                     </div>
@@ -198,7 +198,7 @@ function Info() {
 
                                   
 
-        <h1 id="skill"  className='text-center justify-center mt-24 mb-16 text-5xl h1pro animationn3'>Software Skills</h1>
+        <h1 id="service"  className='text-center justify-center mt-24 mb-16 text-5xl h1pro animationn3'>Software Skills</h1>
         <h1 className='text-center justify-center mt-4 mb-24 text-white text-3xl h2pro' ><span className='dot'></span> My Service</h1>
     <div className='flex  justify-center card-response'>
       <div className="card animationn7" >

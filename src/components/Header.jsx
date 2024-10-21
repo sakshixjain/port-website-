@@ -55,12 +55,14 @@ function Header() {
     <div className='headerbody'>
       <header className=' z-20 top-0 fixed'>
         <nav>
+        <p className= " ham mr-32 text-white text-2xl"><span className='text-[#f54892] '>S</span>akshi </p>
             <a href="/">Home</a>
             <a href="#about">About</a>
             <a href="#skill">Skills</a>
+            <a href="#service">Service</a>
             <a href="#project">Projects</a>
-            <a href="#contact">Contact</a>
-            <a className= " hidden ham text-white"><span className='text-[#f54892]'>S</span>akshi </a>
+            <a href="#contact"><span className='text-white text-xl'>Contact us</span></a>
+      
         </nav>
       </header>
     </div>
@@ -102,7 +104,7 @@ function Header() {
                     </div>
                     <div className='text-left justify-start text-xl font-semibold mt-8 header-btn'>
                     <button className='border-2 border-white m-4 p-2 rounded-md hover:bg-white hover:text-black'><a href="https://www.linkedin.com/in/sakshi-jain-a0048621b/">Hire me Now !</a></button>
-                    <button  className='border-2 border-black text-black bg-white p-2 rounded-md animate-pulse'><a href="https://github.com/sakshixjain/Curriculum-vitae--CV-/blob/main/sakshi-jain%20(1).docx">Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></button>
+                    <button  className='border-2 border-black text-black bg-white p-2 rounded-md animate-pulse'><a href="cv.docx"download>Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></button>
                     </div>
                     
  </div>
