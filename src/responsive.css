@@ -277,13 +277,6 @@ font-size: 50px;
         font-size: 34px;
      }
 
-    .contact-response{
-       
-        align-items: center;
-        justify-content: center;
-        display: inline;
-        margin: 15px;
-    }
     .h2pro{
         margin-left: 210px;
         margin-right: -40px;
@@ -291,15 +284,47 @@ font-size: 50px;
     .response1{
     margin-top: 15px;
     width: 640px;
-    /* margin-left: 90px; */
-    margin-bottom: 45px;
+    height: 100%;
+padding-bottom: 50px;
+    margin-bottom: 85px;
     
     }
-    .response2{
-        /* margin-left: 90px; */
-        margin-top: 30px;
-        width: 640px;
+    .contact-1 h1{
+        font-size: 40px;
     }
+    .contact-1 p{
+     font-size: 25px;
+     line-height: 2rem;
+    }
+   .contact-1 form{
+    font-size: 59px;
+   }
+   .name{
+    display: inline;
+   }
+    .response2{
+        padding-bottom: 90px;
+        padding: 40px;
+         margin-top: 30px;
+        width: 640px;
+        height: 100%;
+    }
+
+    .skill{
+        margin-bottom: 80px;
+
+      }
+      
+    .skill h1{
+        padding-top: 20px;
+      
+        font-size: 30px;
+    }
+      
+      #number1, #number2, #number3, #number4{
+        font-size: 35px;
+      }
+
     .h1pro{
         /* margin-right: -290px; */
     }

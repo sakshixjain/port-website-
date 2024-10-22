@@ -135,12 +135,12 @@ const Contact=()=> {
     
     <div className='flex contact-response'>
             <div className="response1 animationn5 sm:grid-cols-2 items-center gap-16 p-8 ml-28 max-w-xl bg-[#06060f] shadow-[0_2px_10px_-3px_rgba(50,50,50,0.9)] text-[#fffce7] font-[sans-serif]">
-                <div>
+                <div className='contact-1'>
                     <h1 className="text-3xl font-extrabold">Let's Talk</h1>
                     <p className="text-sm text-gray-200 mt-3">Have some big idea or brand to develop and need help? Then reach out we'd love to hear about your project  and provide help.</p>
                             
                 <form className="ml-auo space-y-4">
-                    <div className='flex mt-4'>
+                    <div className='name flex mt-4'>
                     <input type='text' placeholder='First Name'
                         className="w-full rounded-md py-2.5 px-4 border text-sm bg-[#06060f]" />
                         <input type='text' placeholder='Last Name'
