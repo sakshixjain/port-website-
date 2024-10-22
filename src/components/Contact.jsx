@@ -1,11 +1,12 @@
 import React from 'react'
-import { useEffect } from 'react';
+import { useEffect,useState,useRef } from 'react';
+
 const Contact=()=> {
     useEffect(() => {
         const h1 = document.querySelectorAll('.h1pro');
         const response1= document.querySelectorAll('.response1');
         const response2= document.querySelectorAll('.response2');
-
+       const number1= document.querySelectorAll(".number1");
         const observerOptions = {
           threshold: 0.2, // Trigger when 10% of the element is visible
         };
@@ -30,6 +31,10 @@ const Contact=()=> {
         response2.forEach((section) => {
           observer.observe(section);
         });
+        number1.forEach((section) => {
+          observer.observe(section);
+        });
+        
      
         return () => {
           h1.forEach((section) => {
@@ -41,55 +46,87 @@ const Contact=()=> {
          response2.forEach((section) => {
             observer.unobserve(section);
           });
+          number1.forEach((section) => {
+            observer.unobserve(section);
+          });
+          
        
         };
       }, []);
-//     let number1= document.getElementById("number1");
-//     let number2= document.getElementById("number2");
-//     let number3= document.getElementById("number3");
-//     let number4= document.getElementById("number4");
 
-//     let counter1= 0,counter2=0,counter3=0, counter4=0;
-//     setInterval(()=>{
-//         if(counter1 ==80){
-//             clearInterval();
-//         }
-//         else{
-//             counter1 += 1;
-//         number1.innerHTML = counter1+ "%";    
-//         }
-    
-//     },40);
-//     setInterval(()=>{
-//       if(counter2 ==77){
-//           clearInterval();
-//       }
-//       else{
-//           counter2 += 1;
-//       number2.innerHTML = counter2+ "%";    
-//       }
 
-//   },39);
-//   setInterval(()=>{
-//     if(counter3 ==71){
-//         clearInterval();
-//     }
-//     else{
-//         counter3 += 1;
-//     number3.innerHTML = counter3+ "%";    
-//     }
+  const [counter1, setCounter1] = useState(0);
+  const [counter2, setCounter2] = useState(0);
+  const [counter3, setCounter3] = useState(0);
+  const [counter4, setCounter4] = useState(0);
 
-// },39);
-// setInterval(()=>{
-//   if(counter4 ==50){
-//       clearInterval();
-//   }
-//   else{
-//       counter4 += 1;
-//   number4.innerHTML = counter4+ "%";    
-//   }
+  const counterSectionRef = useRef(null);
 
-// },39);
+  const startCounting = () => {
+    const interval1 = setInterval(() => {
+      setCounter1((prev) => {
+        if (prev === 80) {
+          clearInterval(interval1);
+          return prev;
+        }
+        return prev + 1;
+      });
+    }, 26);
+
+    const interval2 = setInterval(() => {
+      setCounter2((prev) => {
+        if (prev === 77) {
+          clearInterval(interval2);
+          return prev;
+        }
+        return prev + 1;
+      });
+    }, 25);
+
+    const interval3 = setInterval(() => {
+      setCounter3((prev) => {
+        if (prev === 71) {
+          clearInterval(interval3);
+          return prev;
+        }
+        return prev + 1;
+      });
+    }, 30);
+
+    const interval4 = setInterval(() => {
+      setCounter4((prev) => {
+        if (prev === 50) {
+          clearInterval(interval4);
+          return prev;
+        }
+        return prev + 1;
+      });
+    }, 33);
+  };
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const entry = entries[0];
+        if (entry.isIntersecting) {
+          startCounting();
+          observer.disconnect(); // Stop observing after counting starts
+        }
+      },
+      { threshold: 0.5 } // Trigger when 50% of the section is visible
+    );
+
+    if (counterSectionRef.current) {
+      observer.observe(counterSectionRef.current);
+    }
+
+    return () => {
+      if (observer && counterSectionRef.current) {
+        observer.unobserve(counterSectionRef.current);
+      }
+    };
+  }, []);
+
 
   return (
 
@@ -97,7 +134,7 @@ const Contact=()=> {
 <h1 className='text-center justify-center mt-16 mb-16 text-5xl h1pro'>Contact me</h1>
     
     <div className='flex contact-response'>
-            <div className="response1 animationn3 sm:grid-cols-2 items-center gap-16 p-8 ml-28 max-w-xl bg-[#06060f] shadow-[0_2px_10px_-3px_rgba(50,50,50,0.9)] text-[#fffce7] font-[sans-serif]">
+            <div className="response1 animationn5 sm:grid-cols-2 items-center gap-16 p-8 ml-28 max-w-xl bg-[#06060f] shadow-[0_2px_10px_-3px_rgba(50,50,50,0.9)] text-[#fffce7] font-[sans-serif]">
                 <div>
                     <h1 className="text-3xl font-extrabold">Let's Talk</h1>
                     <p className="text-sm text-gray-200 mt-3">Have some big idea or brand to develop and need help? Then reach out we'd love to hear about your project  and provide help.</p>
@@ -123,13 +160,13 @@ const Contact=()=> {
  
             <div className=" response2 animationn2 sm:grid-cols-1 items-center gap-16 p-8 ml-20 max-w-xl bg-[#06060f] shadow-[0_2px_10px_-3px_rgba(50,50,50,0.9)] text-[#fffce7] font-[sans-serif]">
             <h1 className="text-3xl text-center font-extrabold">My Skills</h1> 
-            <div className='flex flex-wrap justify-center'>
+            <div className='flex flex-wrap justify-center' ref={counterSectionRef}>
  
    <div className="skill">
     <div className="outer">
         <div className="inner">
             <div id="number1">
-                
+            {counter1}%
             </div>
         </div>
     </div>
@@ -148,7 +185,7 @@ const Contact=()=> {
     <div className="outer">
         <div className="inner">
             <div id="number2">
-                
+            {counter2}%
             </div>
         </div>
     </div>
@@ -168,7 +205,7 @@ const Contact=()=> {
     <div className="outer">
         <div className="inner">
             <div id="number3">
-                
+            {counter3}%
             </div>
         </div>
     </div>
@@ -187,7 +224,7 @@ const Contact=()=> {
     <div className="outer">
         <div className="inner">
             <div id="number4">
-                
+            {counter4}%  
             </div>
         </div>
     </div>
