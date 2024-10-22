@@ -134,7 +134,7 @@ const Contact=()=> {
 <h1 className='text-center justify-center mt-16 mb-16 text-5xl h1pro'>Contact me</h1>
     
     <div className='flex contact-response'>
-            <div className="response1 animationn5 sm:grid-cols-2 items-center gap-16 p-8 ml-28 max-w-xl bg-[#06060f] shadow-[0_2px_10px_-3px_rgba(50,50,50,0.9)] text-[#fffce7] font-[sans-serif]">
+            <div className="response1 animationn5 border-x-2 border-x-slate-400 rounded-lg sm:grid-cols-2 items-center gap-16 p-8 ml-28 max-w-xl  bg-[#06060f] shadow-[0_2px_10px_-3px_rgba(50,50,50,0.9)] text-[#fffce7] font-[sans-serif]">
                 <div className='contact-1'>
                     <h1 className="text-3xl font-extrabold">Let's Talk</h1>
                     <p className="text-base text-gray-400 mt-3 mb-12"> I'd love to hear about your project and provide help.</p>
@@ -150,18 +150,18 @@ const Contact=()=> {
                         className="w-full rounded-md py-3 px-4 border text-sm bg-[#06060f]" />
                     <input type='text' placeholder='Subject'
                         className="w-full rounded-md py-3 px-4 border text-sm bg-[#06060f] " />
-                    <textarea placeholder='Message' rows="6"
-                        className="w-full rounded-md px-4 border text-sm pt-2.5  bg-[#06060f] "></textarea>
+                    <input placeholder='Message' rows="6"
+                        className="w-full rounded-md px-4 py-48 border text-sm pt-2.5  bg-[#06060f] "></input>
                     <button type='button'
                         className="text-black bg-[#f35187] hover:bg-orange-100 font-semibold rounded-md text-sm px-4 py-3  w-full">Send</button>
                 </form>
             </div>
             </div>
  
-            <div className=" response2 animationn2 sm:grid-cols-1 items-center gap-16 p-8 ml-8 max-w-2xl bg-[#06060f] shadow-[0_2px_10px_-3px_rgba(50,50,50,0.9)] text-[#fffce7] font-[sans-serif]">
+            <div className=" response2 animationn2 sm:grid-cols-1 border-x-2 rounded-lg border-x-slate-400 gap-16 p-8 ml-8 max-w-2xl bg-[#06060f] shadow-[0_2px_10px_-3px_rgba(50,50,50,0.9)] text-[#fffce7] font-[sans-serif]">
             <h1 className="text-3xl text-center font-extrabold">My Skills</h1> 
             <p className="text-lg text-gray-400 mt-3 text-center"> Let me help you</p>
-            <div className='flex flex-wrap justify-center' ref={counterSectionRef}>
+            <div className='flex flex-wrap justify-evenly' ref={counterSectionRef}>
  
    <div className="skill">
     <div className="outer">
@@ -172,14 +172,14 @@ const Contact=()=> {
             %
         </div>
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200px" height="200px">
          <defs>
             <linearGradient id="GradientColor">
                <stop offset="0%" stopColor="#e91e63" />
                <stop offset="100%" stopColor="#e2ebea" />
             </linearGradient>
          </defs>
-         <circle className='circle1' cx="90" cy="90" r="80" strokeLinecap="round" />
+         <circle className='circle1' cx="100" cy="100" r="90" strokeLinecap="round" />
  </svg>
 <h1 className='text-center text-xl mt-3'>Frontend</h1>
    </div>
@@ -192,14 +192,14 @@ const Contact=()=> {
             %
         </div>
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200px" height="200px">
          <defs>
             <linearGradient id="GradientColor">
                <stop offset="0%" stopColor="#e91e63" />
                <stop offset="100%" stopColor="#e2ebea" />
             </linearGradient>
          </defs>
-         <circle className='circle2' cx="90" cy="90" r="80" strokeLinecap="round" />
+         <circle className='circle2' cx="100" cy="100" r="90" strokeLinecap="round" />
  </svg>
  <h1 className='text-center text-xl mt-3'>DSA</h1>
 
@@ -213,14 +213,14 @@ const Contact=()=> {
             %
         </div>
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200px" height="200px">
          <defs>
             <linearGradient id="GradientColor">
                <stop offset="0%" stopColor="#e91e63" />
                <stop offset="100%" stopColor="#e2ebea" />
             </linearGradient>
          </defs>
-         <circle className='circle3' cx="90" cy="90" r="80" strokeLinecap="round" />
+         <circle className='circle3' cx="100" cy="100" r="90" strokeLinecap="round" />
  </svg>
  <h1 className='text-center text-xl mt-3'>Backend</h1>
    </div>
@@ -233,14 +233,14 @@ const Contact=()=> {
             %
         </div>
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200px" height="200px">
          <defs>
             <linearGradient id="GradientColor">
                <stop offset="0%" stopColor="#e91e63" />
                <stop offset="100%" stopColor="#e2ebea" />
             </linearGradient>
          </defs>
-         <circle className='circle4' cx="90" cy="90" r="80" strokeLinecap="round" />
+         <circle className='circle4' cx="100" cy="100" r="90" strokeLinecap="round" />
  </svg>
 <h1 className='text-center text-xl mt-3'>UI/UX</h1>
    </div>

@@ -386,23 +386,24 @@ margin-top: 10px;
                  /* circle percentage css */
 
 .skill{  
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   margin: 40px;
   position: relative;
+  
 }
 
 .outer{
-  height: 180px;
-  width: 180px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
   box-shadow: 3px 3px 3px -1px rgba(107, 105, 105, 0.46), -3px -3px 3px -1px rgba(107, 105, 105, 0.46);
   padding: 20px;
 }
 
 .inner{
-  height: 140px;
-  width: 140px;
+  height: 160px;
+  width: 160px;
 border-radius: 50%;
 display: flex;
 align-items: center;
@@ -414,7 +415,7 @@ box-shadow: inset 3px 3px 3px -1px rgba(107, 105, 105, 0.46), inset -3px -3px 3p
 
 #number1, #number2, #number3, #number4{
   font-weight: 600;
-  font-size: 29px;
+  font-size: 33px;
   font-family:poppins ,sans-serif;
   color: #e91e63;
 }
