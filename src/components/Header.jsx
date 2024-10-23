@@ -67,7 +67,7 @@ function Header() {
       </header>
     </div>
   
-          <h1 className='mt-40 -mb-16 ml-44 text-gray-300 text-3xl world animationn1'
+          <h1 className='mt-28 -mb-16 ml-44 text-gray-600 text-3xl world animationn1'
         >Welcome to my World !...</h1>
      <div className=' wrapper '>
      
@@ -88,7 +88,7 @@ function Header() {
                     <span>Github</span>
                     </div>
                     <div className='icon-div'>
-                   <a href="#"><i className="fa-brands fa-linkedin "></i></a>
+                   <a href="https://www.linkedin.com/in/sakshi-jain-a0048621b/"><i className="fa-brands fa-linkedin "></i></a>
                     <span>Linkedin</span>
                     </div>
                     <div className='icon-div'>
