@@ -59,7 +59,7 @@ const Contact=()=> {
   const [counter2, setCounter2] = useState(0);
   const [counter3, setCounter3] = useState(0);
   const [counter4, setCounter4] = useState(0);
-
+  const [isInView, setIsInView] = useState(false);
   const counterSectionRef = useRef(null);
 
   const startCounting = () => {
@@ -109,6 +109,7 @@ const Contact=()=> {
       (entries) => {
         const entry = entries[0];
         if (entry.isIntersecting) {
+          setIsInView(true); 
           startCounting();
           observer.disconnect(); // Stop observing after counting starts
         }
@@ -179,7 +180,7 @@ const Contact=()=> {
                <stop offset="100%" stopColor="#e2ebea" />
             </linearGradient>
          </defs>
-         <circle className='circle1' cx="100" cy="100" r="90" strokeLinecap="round" />
+         <circle  className={isInView ? "circle1" : ""}  cx="100" cy="100" r="90" strokeLinecap="round"  />
  </svg>
 <h1 className='text-center text-xl mt-3'>Frontend</h1>
    </div>
@@ -199,7 +200,7 @@ const Contact=()=> {
                <stop offset="100%" stopColor="#e2ebea" />
             </linearGradient>
          </defs>
-         <circle className='circle2' cx="100" cy="100" r="90" strokeLinecap="round" />
+         <circle className={isInView ? "circle2" : ""}  cx="100" cy="100" r="90" strokeLinecap="round" />
  </svg>
  <h1 className='text-center text-xl mt-3'>DSA</h1>
 
@@ -220,7 +221,7 @@ const Contact=()=> {
                <stop offset="100%" stopColor="#e2ebea" />
             </linearGradient>
          </defs>
-         <circle className='circle3' cx="100" cy="100" r="90" strokeLinecap="round" />
+         <circle className={isInView ? "circle3" : ""}  cx="100" cy="100" r="90" strokeLinecap="round" />
  </svg>
  <h1 className='text-center text-xl mt-3'>Backend</h1>
    </div>
@@ -240,7 +241,7 @@ const Contact=()=> {
                <stop offset="100%" stopColor="#e2ebea" />
             </linearGradient>
          </defs>
-         <circle className='circle4' cx="100" cy="100" r="90" strokeLinecap="round" />
+         <circle className={isInView ? "circle4" : ""}  cx="100" cy="100" r="90" strokeLinecap="round" />
  </svg>
 <h1 className='text-center text-xl mt-3'>UI/UX</h1>
    </div>

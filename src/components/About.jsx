@@ -164,8 +164,8 @@ function Info() {
                                {/* main section */}
 
         <section>
-        <h1 id="skill" className='text-center justify-center mt-4 mb-20 text-slate-300 text-3xl h2pro animationn5' ><span className='dot'></span> Awards</h1> 
-        <div className='flex award-response '>
+   
+        <div className='flex award-response mt-20'>
           <img src="ABOU.jpg" alt="" className='ml-16 w-[700px] h-[500px] aboutimg animationn6' />
           <div>
           <h1 className='text-[#f54982] ml-8 -mt-4 font-bold text-4xl animationn1 h1'>Software Developer</h1>
@@ -198,9 +198,9 @@ function Info() {
 
                                   
 
-        <h1 id="service"  className='text-center justify-center mt-24 mb-16 text-5xl h1pro animationn3'>Software Skills</h1>
-        <h1 className='text-center justify-center mt-4 mb-24 text-white text-3xl h2pro' ><span className='dot'></span> My Service</h1>
-    <div className='flex  justify-center card-response'>
+        <h1 id="service"  className='text-center justify-center mt-24 text-5xl h1pro animationn3'>Software Skills</h1>
+        <h1 className='text-center justify-center mt-4 mb-24 text-slate-500 text-3xl h2pro' >My Service</h1>
+    <div className='flex  justify-center card-response '>
       <div className="card animationn7" >
   <div className="card-details">
      <i className="fa-solid fa-laptop text-center text-3xl custom-icon"></i> 

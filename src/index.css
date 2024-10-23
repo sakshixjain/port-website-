@@ -291,14 +291,16 @@ margin-top: 10px;
 
 .card {
   text-align: center;
-  margin-left: 25px;
-  width: 315px;
-  height: 390px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 300px;
+  height: 410px;
   border-radius: 10px;
   background: #06060f;
   position: relative;
-  padding: 1.2rem;
-  border: 1px solid #c3c6ce;
+  padding: 1rem;
+  /* border: 1px solid #c3c6ce; */
+  border-color: #bd065b pink gray;
   transition: 0.5s ease-out;
   overflow: visible;
   &:hover {
@@ -321,7 +323,7 @@ margin-top: 10px;
   width: 60%;
   border-radius: 1rem;
   border: none;
-  background-color: #07070e;
+  background-color: #16161b;
   color: #f54982;
   font-size: 1rem;
   padding: .5rem 1rem;
@@ -339,15 +341,15 @@ margin-top: 10px;
  .custom-icon {
   background:#fff;
   background:#06060f;
-  padding:15px;
+  padding:20px;
   margin-bottom: 5px;
   border-radius:100%;
   border:3px solid #ccc;
   color:#fff;
 	box-shadow: 0 1px 10px rgba(245, 243, 243, 0.46);
   margin-left: 95px;
-  width:70px;
-  height:70px;
+  width:80px;
+  height:80px;
 }
  
  .text-body {

@@ -5,8 +5,8 @@ function Project () {
 
   return (
     <>
-            <h1 id="project" className='text-center justify-center mt-28 mb-16 text-5xl h1pro'>My Projects</h1>
-            <h1 className='text-center justify-center mt-4 mb-12 text-white text-3xl h2pro animationn5' ><span className='dot'></span> My Latest work</h1>
+            <h1 id="project" className='text-center justify-center mt-28 text-5xl h1pro'>My Projects</h1>
+            <h1 className='text-center justify-center mt-4 mb-12 text-slate-500 text-3xl h2pro animationn5' >My Latest work</h1>
       <div className='image-gallery-container '>
   <div className='image-gallery'>
   <div className="image-item h-[450px]" >

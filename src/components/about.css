@@ -19,10 +19,7 @@
     border-radius: 50%;
     display: inline-block;
   }
-  .h2pro{
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: gray;
-  }
+ 
 
 .resume {
     background-color: var(--light-color);
