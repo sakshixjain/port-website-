@@ -109,7 +109,7 @@ function Info() {
                       data-aos-delay="100"
                       data-aos-duration="800"
                       id="box"
-                      className="resume-education animationn5 gradient-border bg-[#06060f] wn"
+                      className="resume-education animationn5 bg-[#06060f] wn"
                       
                     >
                       <div className="row">

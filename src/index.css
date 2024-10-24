@@ -294,7 +294,7 @@ margin-top: 10px;
   margin-left: 20px;
   margin-right: 20px;
   width: 300px;
-  height: 410px;
+  height: 430px;
   border-radius: 10px;
   background: #06060f;
   position: relative;
@@ -343,13 +343,18 @@ margin-top: 10px;
   background:#06060f;
   padding:20px;
   margin-bottom: 5px;
+  overflow: hidden;
+  position: relative;
   border-radius:100%;
-  border:3px solid #ccc;
   color:#fff;
-	box-shadow: 0 1px 10px rgba(245, 243, 243, 0.46);
+	box-shadow: 0 1px 10px rgba(126, 125, 125, 0.46);
   margin-left: 95px;
   width:80px;
   height:80px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
  
  .text-body {
@@ -377,7 +382,9 @@ margin-top: 10px;
  .card:hover .custom-icon{
   /* background-color:#fff; */
   color: #06060f;
-  background: linear-gradient(45deg, #f54982,rgb(221, 125, 141)) border-box;
+  -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+  background: linear-gradient(45deg, #f54982, #b37171, #bd065b) border-box;
   border: none;
  }
  .card:hover .text-title{

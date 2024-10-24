@@ -72,19 +72,19 @@
 
 
 .resume-first-item {
-    padding-left: 50px;
-    padding-right: 58px;
+    padding-left: 40px;
+    padding-right: 38px;
 }
 
 .resume-second-item {
-    padding-right: 58px;
-    padding-left: 50px;
+    padding-right: 48px;
+    padding-left: 40px;
     position: relative;
 }
 
 .resume-third-item {
     padding-right: 58px;
-    padding-left: 50px;
+    padding-left: 60px;
 }
 
 .resume-second-item::before {
