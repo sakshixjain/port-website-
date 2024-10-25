@@ -87,6 +87,33 @@ function Info() {
         className="text-center justify-center mt-32 mb-8 text-5xl h1pro animationn7">
         About me
       </h1>
+
+       <section>
+        <div className='flex justify-around ml-16 mt-24 mb-16'>
+       <div className='imgbox ' >
+                <div className="content">
+                  <img src="photo.jpg"/>
+                  <h2>A Younger<br /><span>Full Stack Developer</span></h2>
+                  <a href="https://www.linkedin.com/in/sakshi-jain-a0048621b/">Hire me</a>
+                </div>
+              
+              </div>
+        <div>
+          <h1 className='text-5xl font-semibold mb-8'>I Can Develop And Design <br /> Anything You Want</h1>
+       <p className='text-lg mt-2 text-gray-500 text-respo flex-wrap mr-8'
+> I’m a dedicated Full-Stack Web Developer with experience in building  <br /> responsive,high-performance web applications.  Skilled in front-end technologies <br />like React, JavaScript, and HTML5, and back-end tools like Node.js, Express, <br /> and MongoDB, I specialize in creating seamless user experiences and scalable <br /> solutions. With a passion for problem-solving  and continuous learning, I enjoy <br /> turning ideas into functional products and  integrating services like Google login <br /> for added functionality.</p> 
+<div className='flex mt-12'>
+<i className="fa-regular fa-circle-check text-5xl border-2 border-stone-900 bg-slate-950 rounded-lg p-2 m-2"></i>
+  <p> <span className='text-3xl text-pink-700'>10+</span><br /> <span className='text-2xl'>Complete Project</span></p>
+</div>
+<div className='text-left justify-start text-xl font-semibold mt-8 pl-4 header-btn'>
+                   
+                    <button  className='border-2 border-black text-black bg-white p-2.5 rounded-md animate-pulse'><a href="cv.docx"download> Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></button>
+                    </div>
+</div>
+</div>
+       </section>
+
       <section id="resume" className="resume">
         <div className="container">
           <div className="row">
@@ -163,19 +190,19 @@ function Info() {
       </section>
                                {/* main section */}
 
-        <section>
+        <section id="skill">
    
         <div className='flex award-response mt-20'>
           <img src="ABOU.jpg" alt="" className='ml-16 w-[700px] h-[500px] aboutimg animationn6' />
           <div>
-          <h1 className='text-[#f54982] ml-8 -mt-4 font-bold text-4xl animationn1 h1'>Software Developer</h1>
+          <h1  className='text-[#f54982] ml-8 -mt-4 font-bold text-4xl animationn1 h1'>Software Developer</h1>
           <br />
           <p className='text-gray-500 text-xl ml-8 mr-16 -mt-2 text-response1 animation4'>Good at problem solving by implementing DSA and Web Development using variety of stacks</p>
           
           
           <div className='text-left justify-start text-xl ml-4 font-semibold award-btn1 '>
-                    <button className='border-2 border-white m-3 p-2 rounded-md hover:bg-white hover:text-black '><a href="">Main Skills</a></button>
-                    <button  className='border-2 border-black text-black bg-white p-2 rounded-md '><a href="">Awards</a></button>
+                    <button className='border-2 border-white m-3 p-2.5 rounded-md hover:bg-white hover:text-black '><a href="">Main Skills</a></button>
+                    <button  className='border-2 border-black text-black bg-white p-2.5 rounded-md '><a href="">Awards</a></button>
                     </div>  
                   <h1 className='text-gray-500 text-xl ml-8 mr-16 text-response '>Data Structures and Algorithms</h1>
 
@@ -188,7 +215,7 @@ function Info() {
 
                 <p className='text-[#f54892] text-xl ml-8 mr-16 text-response animationn4'>Manage backend, database, hosting and deployment</p>
                 <div className='text-left justify-start text-xl ml-8 font-semibold mt-8  header-btn'>
-                    <button  className='border-2 text-black bg-white p-2 rounded-md hover:bg-black hover:text-white award-btn'><a href="cv.docx"download>Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></button>
+                    <button  className='border-2 text-black bg-white p-2.5 rounded-md hover:bg-black hover:text-white award-btn'><a href="cv.docx"download>Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></button>
                     </div>
                     </div>
                     </div>

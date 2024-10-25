@@ -134,7 +134,7 @@ const Contact=()=> {
 <div id="contact" className="my-6 ">
 <h1 className='text-center justify-center mt-16 mb-16 text-5xl h1pro'>Contact me</h1>
     
-    <div className='flex contact-response'>
+    <div className='flex contact-response mb-12'>
             <div className="response1 animationn5 border-x-2 border-x-pink-400 rounded-lg sm:grid-cols-2 items-center gap-16 p-8 ml-28 max-w-xl  bg-[#06060f] shadow-[0_2px_10px_-3px_rgba(50,50,50,0.9)] text-[#fffce7] font-[sans-serif]">
                 <div className='contact-1'>
                     <h1 className="text-3xl font-extrabold">Let's Talk</h1>
@@ -248,6 +248,13 @@ const Contact=()=> {
   </div>
   </div>
 </div>
+
+<hr />
+<footer className='flex p-1.5 mt-4 text-lg justify-between ml-16 mr-16'>
+<p>Thank you for coming here &copy; 2024</p>
+<p>Terms & condition</p>
+
+</footer>
         </div>
     
   )
