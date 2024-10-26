@@ -159,7 +159,7 @@ const Contact=()=> {
             </div>
             </div>
  
-            <div className=" response2 animationn2 sm:grid-cols-1 border-x-2 rounded-lg border-x-pink-400 gap-16 p-8 ml-8 max-w-2xl bg-[#06060f] shadow-[0_2px_10px_-3px_rgba(50,50,50,0.9)] text-[#fffce7] font-[sans-serif]">
+            <div className=" response2 animationn4 sm:grid-cols-1 border-x-2 rounded-lg border-x-pink-400 gap-16 p-8 ml-8 max-w-2xl bg-[#06060f] shadow-[0_2px_10px_-3px_rgba(50,50,50,0.9)] text-[#fffce7] font-[sans-serif]">
             <h1 className="text-3xl text-center font-extrabold">My Skills</h1> 
             <p className="text-lg text-gray-400 mt-3 text-center"> Let me help you</p>
             <div className='flex flex-wrap justify-evenly' ref={counterSectionRef}>

@@ -9,6 +9,8 @@ function Info() {
     const h1pro= document.querySelectorAll('.h1pro');
     const h2pro= document.querySelectorAll('.h2pro');
     const textResponse= document.querySelectorAll('.text-response');
+    const imgbox= document.querySelectorAll('.imgbox');
+    const about2= document.querySelectorAll('.about2');
     const img= document.querySelectorAll('.aboutimg');
     const h1= document.querySelectorAll('.h1');
    const card= document.querySelectorAll('.card');
@@ -40,6 +42,12 @@ function Info() {
     textResponse.forEach((section) => {
       observer.observe(section);
     });
+    imgbox.forEach((section)=>{
+      observer.observe(section);
+    })
+    about2.forEach((section)=>{
+      observer.observe(section);
+    })
     img.forEach((section) => {
       observer.observe(section);
     });
@@ -66,6 +74,12 @@ function Info() {
       textResponse.forEach((section) => {
         observer.unobserve(section);
       });
+      imgbox.forEach((section)=>{
+        observer.unobserve(section);
+      })
+      about2.forEach((section)=>{
+        observer.observe(section);
+      })
       img.forEach((section) => {
         observer.unobserve(section);
       });
@@ -89,8 +103,8 @@ function Info() {
       </h1>
 
        <section>
-        <div className='flex justify-around ml-16 mt-24 mb-16'>
-       <div className='imgbox ' >
+        <div className='flex justify-around ml-16 mt-24 mb-24'>
+       <div className='imgbox h-[450px] w-[450px] shadow-none animationn6' >
                 <div className="content">
                   <img src="photo.jpg"/>
                   <h2>A Younger<br /><span>Full Stack Developer</span></h2>
@@ -98,8 +112,8 @@ function Info() {
                 </div>
               
               </div>
-        <div>
-          <h1 className='text-5xl font-semibold mb-8'>I Can Develop And Design <br /> Anything You Want</h1>
+        <div className='about2 animationn4'>
+          <h1 className='text-5xl text-[#f54982] font-semibold mb-8'>I Can Develop And Design <br /> Anything You Want</h1>
        <p className='text-lg mt-2 text-gray-500 text-respo flex-wrap mr-8'
 > I’m a dedicated Full-Stack Web Developer with experience in building  <br /> responsive,high-performance web applications.  Skilled in front-end technologies <br />like React, JavaScript, and HTML5, and back-end tools like Node.js, Express, <br /> and MongoDB, I specialize in creating seamless user experiences and scalable <br /> solutions. With a passion for problem-solving  and continuous learning, I enjoy <br /> turning ideas into functional products and  integrating services like Google login <br /> for added functionality.</p> 
 <div className='flex mt-12'>

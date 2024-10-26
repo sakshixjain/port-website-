@@ -67,7 +67,7 @@ function Header() {
       </header>
     </div>
   
-          <h1 className='mt-28 -mb-16 ml-44 text-gray-600 text-3xl world animationn1'
+          <h1 className='mt-28 -mb-8 ml-44 text-gray-600 text-3xl world animationn1'
         >Welcome to my World !...</h1>
      <div className=' wrapper '>
      
@@ -108,7 +108,7 @@ function Header() {
                     </div>
                     
  </div>
-              <div className='imgbox animationn2 ' >
+              <div className='imgbox h-[480px] w-[480px] animationn2 ' >
                 <div className="content">
                   <img src="photo.jpg"/>
                   <h2>A Younger<br /><span>Full Stack Developer</span></h2>
