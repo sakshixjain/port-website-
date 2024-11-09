@@ -32,6 +32,28 @@ box-shadow: 4px 0.5px 32px 3px #843662;
 .imgbox:hover::before{
   inset: -20px 50px;
 }
+
+.imgbox1{
+  position: relative;
+  /* width: 480px;
+  height: 480px; */
+  margin-top: -40px;
+  background-color: #06060f;
+  border-radius: 50%;
+box-shadow: 4px 0.5px 32px 3px #843662;
+  overflow: hidden;
+}
+.imgbox1::before{
+  content: '';
+  position: absolute;
+  inset: -10px 0px;
+  background: linear-gradient(315deg,#caafb8, #e40650be, #ec0854 , #fff);
+  transition: 0.5s;
+  animation: animate 3s linear infinite;
+}
+.imgbox1:hover::before{
+  inset: -20px 50px;
+}
 @keyframes animate {
   0%{
     transform: rotate(0deg);
@@ -41,6 +63,15 @@ box-shadow: 4px 0.5px 32px 3px #843662;
   }
 }
 .imgbox::after{
+  content: '';
+  position: absolute;
+  inset: 6px;
+  background: #06060f;
+  border-radius: 50%;
+  z-index: 1;
+
+}
+.imgbox1::after{
   content: '';
   position: absolute;
   inset: 6px;
@@ -75,6 +106,9 @@ box-shadow: 4px 0.5px 32px 3px #843662;
 }
 
 .imgbox:hover .content img{
+  opacity: 0;
+}
+.imgbox1:hover .content img{
   opacity: 0;
 }
 .content h2{

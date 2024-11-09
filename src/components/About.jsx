@@ -9,7 +9,7 @@ function Info() {
     const h1pro= document.querySelectorAll('.h1pro');
     const h2pro= document.querySelectorAll('.h2pro');
     const textResponse= document.querySelectorAll('.text-response');
-    const imgbox= document.querySelectorAll('.imgbox');
+    const imgbox= document.querySelectorAll('.imgbox1');
     const about2= document.querySelectorAll('.about2');
     const img= document.querySelectorAll('.aboutimg');
     const h1= document.querySelectorAll('.h1');
@@ -102,9 +102,9 @@ function Info() {
         About me
       </h1>
 
-       <section>
-        <div className='flex justify-around ml-16 mt-24 mb-24'>
-       <div className='imgbox h-[450px] w-[450px] shadow-none animationn6' >
+   
+        <div className='flex justify-around ml-16 mt-24 mb-24 aboutkiimg'>
+       <div className='imgbox1 h-[450px] w-[450px] shadow-none animationn6' >
                 <div className="content">
                   <img src="photo.jpg"/>
                   <h2>A Younger<br /><span>Full Stack Developer</span></h2>
@@ -126,7 +126,7 @@ function Info() {
                     </div>
 </div>
 </div>
-       </section>
+      
 
       <section id="resume" className="resume">
         <div className="container">

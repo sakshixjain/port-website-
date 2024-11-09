@@ -22,7 +22,6 @@
     
     }
     .award-response{
-     
         display: inline;
     }
     .icon-anima{
@@ -125,6 +124,7 @@
         text-align: center;
     }
     .ham{
+    
         font-size: 39px;
     }
     .world{
@@ -169,7 +169,12 @@ font-size: 50px;
         display:inline;
         text-align: center;
     }
+ 
+    .imgbox1{    
+        display: none;
+    }
     .dynastat{
+        text-align: center;
         display: inline;
     }
 
@@ -242,8 +247,10 @@ font-size: 50px;
         margin-right: -140px;
     }
     .aboutimg{
-       margin-left: 90px;
+        width: 630px;
+       /* margin-left: 90px; */
         margin-bottom: 70px;
+        
     }
     .award-response{
         display: inline;

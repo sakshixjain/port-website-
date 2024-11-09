@@ -52,7 +52,7 @@ function Header() {
     }, []);
   return (
     <>
-    <div className='headerbody'>
+    
       <header className=' z-20 top-0 fixed'>
         <nav>
         <p className= " ham mr-96 text-white text-2xl"><i className="fa-brands fa-algolia"></i> <span className='text-[#f54892] '> S</span>akshi </p>
@@ -65,7 +65,7 @@ function Header() {
       
         </nav>
       </header>
-    </div>
+    
   
           <h1 className='mt-28 -mb-8 ml-44 text-gray-600 text-3xl world animationn1'
         >Welcome to my World !...</h1>
