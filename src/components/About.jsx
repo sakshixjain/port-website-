@@ -116,7 +116,7 @@ function Info() {
           <h1 className='text-5xl text-[#f54982] font-semibold mb-8'>I Can Develop And Design <br /> Anything You Want</h1>
        <p className='text-lg mt-2 text-gray-500 text-respo flex-wrap mr-8'
 > I’m a dedicated Full-Stack Web Developer with experience in building  <br /> responsive,high-performance web applications.  Skilled in front-end technologies <br />like React, JavaScript, and HTML5, and back-end tools like Node.js, Express, <br /> and MongoDB, I specialize in creating seamless user experiences and scalable <br /> solutions. With a passion for problem-solving  and continuous learning, I enjoy <br /> turning ideas into functional products and  integrating services like Google login <br /> for added functionality.</p> 
-<div className='flex mt-12'>
+<div className='flex mt-8 '>
 <i className="fa-regular fa-circle-check text-5xl border-2 border-stone-900 bg-slate-950 rounded-lg p-2 m-2"></i>
   <p> <span className='text-3xl text-pink-700'>10+</span><br /> <span className='text-2xl'>Complete Project</span></p>
 </div>
