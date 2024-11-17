@@ -130,7 +130,7 @@ body{
   background: #06060f;
     color: white;
 }
-
+/* 
   nav{
     width: 1500px;
     display: flex;
@@ -146,6 +146,79 @@ body{
 nav:hover{
   transition: .5s;
   box-shadow: 2px 5px 5px 0 rgba(100, 100, 100, 0.5); 
+}
+  nav a{
+  text-decoration: none;
+  color: #898989;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0 10px;
+  margin: 0 30px;
+  position: relative;
+ }             
+
+ nav a:hover{
+  color: #fff;
+ }
+ nav a::before{
+  content: ' ';
+  position: absolute;
+  bottom:  -2px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #ee0653;
+  transition: all .3s;
+ }
+
+ nav a:hover::before{
+  width: 100%;
+ } */
+nav {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  background-color: #06060f;
+  color: white;
+  padding: 17px;
+}
+
+nav:hover {
+  transition: 0.5s;
+  box-shadow: 2px 5px 5px 0 rgba(100, 100, 100, 0.5);
+}
+
+nav a {
+  text-decoration: none;
+  color: #898989;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0 10px;
+  margin: 0 30px;
+  position: relative;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+nav a::before {
+  content: " ";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #ee0653;
+  transition: all 0.3s;
+}
+
+nav a:hover::before {
+  width: 100%;
 }
 .custom-ic{
   background:#06060f;
@@ -182,33 +255,6 @@ margin-top: 10px;
 }
 }
 
- nav a{
-  text-decoration: none;
-  color: #898989;
-  font-size: 18px;
-  font-weight: 600;
-  padding: 0 10px;
-  margin: 0 30px;
-  position: relative;
- }             
-
- nav a:hover{
-  color: #fff;
- }
- nav a::before{
-  content: ' ';
-  position: absolute;
-  bottom:  -2px;
-  left: 0;
-  width: 0%;
-  height: 2px;
-  background-color: #ee0653;
-  transition: all .3s;
- }
-
- nav a:hover::before{
-  width: 100%;
- }
 
  .wrapper{
   text-align: center;
