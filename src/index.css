@@ -220,6 +220,10 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
+.text-respo{
+  word-spacing: 0.2rem;
+  line-height: 2.3rem;
+}
 .custom-ic{
   background:#06060f;
   padding:15px;
