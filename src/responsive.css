@@ -51,15 +51,27 @@
 }
 
 @media (min-width: 601px) and (max-width: 1024px) {
+    header{
+        width: 100%;
+    }
     nav {
         flex-direction: row;
         padding: 15px;
         font-size: 20px;
       }
-    
       nav a {
+        display: none;
         margin: 15px;
         font-size: 17px;
+      }
+       p .ham{
+        text-align: center;
+        justify-content: center;
+        margin-right: 0;
+      }
+      .world{
+        margin-bottom: 0;
+
       }
       .contact-response{
         align-items: center;
@@ -67,23 +79,79 @@
         display: inline;
         margin: 15px;
     }
-    /* nav{
-        width: 800px;
+    .wrapper{
+        display:inline;
+        text-align: center;
     }
-    nav a {
-        display: none;
-        
+    .aboutkiimg{
+        display: inline;
+    }
+    .aboutimg{
+        margin-left: -0px;
+        width: 640px;
     }
     .award-response{
         display: inline;
     }
-    .ham{
-        margin-left: 30px;
-        display: block;
-        text-align: end;
-        justify-content: end;
-        align-items: end;
+    .dynastat{
+        display: inline;
     }
+    .text-respo{
+        br{
+            display: none;
+        }
+        word-spacing: 0.3rem;
+        line-height: 2.7rem;
+        text-wrap:wrap;
+        margin-left: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .imgbox{
+        margin-top: 75px;
+        width: 600px;
+        height: 600px;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgbox1{    
+        margin-top: 75px;  
+        width: 600px;
+        height: 600px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .about2{
+        margin-left: 20px;
+    }
+    .resume-education{
+        height: 100%;
+    }
+    .card-response{
+        flex-wrap: wrap-reverse;
+    }
+    .card{
+        margin: 7px;
+    }
+    .contact-response{
+        align-items: center;
+        justify-content: center;
+        display: inline;
+        margin: 15px;
+    }
+    .response1{
+       margin-left: 15px;
+       margin-right: 15px;
+    padding-bottom: 40px;
+        margin-bottom: 55px;
+        }
+        .response2{
+            margin-left: 15px;
+            margin-right: 15px;  
+        }
+    /*
+    
     .icon-anima{
         margin-left: 10px;
         margin-top: 25px;
@@ -94,16 +162,11 @@
         margin-left: 20px;
         align-items: center;
     }
-    .wrapper{
-        display:inline;
-        text-align: center;
-    }
 
     .dynamic-txt{
        margin-left: 190px;
         text-align: center;
         justify-content: center;
-   
     }
     .text-respo{
     
@@ -112,25 +175,6 @@
         align-items: center;
         justify-content: center;
     }
-    .resume-education{
-        height: 100%;
-    }
-    .card-response{
-        flex-wrap: wrap-reverse;
-    }
-    .card{
-        margin: 7px;
-      
-    }
- 
-    .imgbox{
-        margin-top: 65px;
-        margin-left: 190px;
-        
-        justify-content: center;
-   
-    }
-    
     .response1{
     margin-top: 15px;
     margin-bottom: 45px;
@@ -152,6 +196,7 @@
       padding: 5px;
     }
     nav p{
+        
         display: flex;
         text-align: center;
         justify-content: center;
@@ -165,6 +210,9 @@
     .dynastat{
         display: inline;
     }
+    .dynamic-txt li{
+        font-size: 45px;
+    }
     .text-respo{
         br{
             display: none;
@@ -177,6 +225,7 @@
         justify-content: center;
     }
     .imgbox{
+        margin-left: 0;
         margin-top: 75px;
         width: 410px;
         height: 410px;
@@ -185,7 +234,7 @@
     }
     .imgbox1{    
         margin-top: 75px;
-       
+       margin-left: 0;
         width: 410px;
         height: 410px;
         justify-content: center;
@@ -193,6 +242,7 @@
         margin-bottom: 40px;
     }
     .wrapper{
+        margin-left: 10px;
         display:inline;
         text-align: center;
     }
@@ -210,7 +260,9 @@
         align-items: center;
         justify-content: center;
      }
-
+ .about2{
+    margin-left: 10px;
+ }
      .award-response{
         display: inline;
     }
@@ -403,16 +455,4 @@ font-size: 50px;
         justify-content: space-around;
       } */
 } 
-  
-  /* Laptops and Larger Screens */
-  @media (min-width: 1025px) {
-  
-  
-    .custom-ic,
-    .custom-i {
-      width: 55px;
-      height: 55px;
-      font-size: 22px;
-    }
-  }
   
