@@ -1,10 +1,19 @@
-@media (max-width:1100px){
-    .world{
+@media (max-width:1025px){
+    nav {
+        font-size: 22px;
+        padding: 20px;
+      }
+    
+      nav a {
+        margin: 0 30px;
+        font-size: 18px;
+      }
+    /* .world{
         margin-left: 290px;
         margin-bottom: 40px;
     }
     .imgbox{
-        margin-top: 30px;
+        margin-top: 32px;
         margin-left: 240px;
     }
     .dynamic-txt{
@@ -37,12 +46,28 @@
     .wrapper{
         display:inline;
         text-align: center;
-    }
+    } */
     
 }
 
-@media (max-width:800px) {
-    nav{
+@media (min-width: 601px) and (max-width: 1024px) {
+    nav {
+        flex-direction: row;
+        padding: 15px;
+        font-size: 20px;
+      }
+    
+      nav a {
+        margin: 15px;
+        font-size: 17px;
+      }
+      .contact-response{
+        align-items: center;
+        justify-content: center;
+        display: inline;
+        margin: 15px;
+    }
+    /* nav{
         width: 800px;
     }
     nav a {
@@ -105,6 +130,98 @@
         justify-content: center;
    
     }
+    
+    .response1{
+    margin-top: 15px;
+    margin-bottom: 45px;
+    
+    } */
+}
+
+@media (max-width:600px){
+   nav {
+      flex-direction: column;
+      font-size: 18px;
+      padding: 10px;
+    }
+  
+    nav a {
+        display: none;
+      margin: 10px 0;
+      font-size: 16px;
+      padding: 5px;
+    }
+    nav p{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .world{
+  margin-left: 30px;
+        margin-top: 100px;
+        margin-bottom: 30px;
+      white-space: nowrap;
+    }
+    .dynastat{
+        display: inline;
+    }
+    .text-respo{
+        br{
+            display: none;
+        }
+        word-spacing: 0.3rem;
+        line-height: 2.7rem;
+        text-wrap:wrap;
+        margin-left: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .imgbox{
+        margin-top: 75px;
+        width: 410px;
+        height: 410px;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgbox1{    
+        margin-top: 75px;
+       
+        width: 410px;
+        height: 410px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .wrapper{
+        display:inline;
+        text-align: center;
+    }
+    .aboutimg{
+        margin-left: -0px;
+        width: 400px;
+    }
+    
+    .resume-education{
+       padding: 0;
+        height: 100%;
+    }
+    .aboutkiimg{
+        display: inline;
+        align-items: center;
+        justify-content: center;
+     }
+
+     .award-response{
+        display: inline;
+    }
+    .card-response{
+        
+        align-items: center;
+        flex-wrap: wrap-reverse;
+    }
+    .card{
+        margin: 10px;
+    }
     .contact-response{
         align-items: center;
         justify-content: center;
@@ -112,27 +229,27 @@
         margin: 15px;
     }
     .response1{
-    margin-top: 15px;
-    margin-bottom: 45px;
-    
-    }
-}
+        margin-top: 15px;
+       margin-left: 15px;
+       margin-right: 15px;
+    padding-bottom: 50px;
+        margin-bottom: 85px;
+        
+        }
+        .response2{
+            margin-left: 15px;
+            margin-right: 15px;  
+        }
+     footer p{
+        margin-left: 0;
+        margin-right: 0;
+        
+     }
+      .image-gallery {  
+        animation: 3s scroll infinite linear;
+      } 
+    /*
 
-@media screen and (max-width:640px){
-  
-    .h4{
-        text-align: center;
-    }
-    .ham{
-    
-        font-size: 39px;
-    }
-    .world{
-        font-size: 33px;
-        margin-top: 120px;
-        margin-bottom: 30px;
-      white-space: nowrap;
-    }
     .icon-div {
         text-align: center;
         width: 170px;
@@ -155,7 +272,7 @@ font-size: 50px;
         justify-content: center;
     }
     .header-btn{
-    /* padding: 30px; */
+ 
         margin-top: 50px;
         margin-left: 80px;
         margin-right: -190px;
@@ -165,56 +282,19 @@ font-size: 50px;
         margin: 10px;
         font-size: 34px;
     }
-    .wrapper{
-        display:inline;
-        text-align: center;
-    }
- 
-    .imgbox1{    
-        margin-top: 75px;
-        margin-left: 40px;
-        width: 630px;
-        height: 630px;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 40px;
-    }
+
     .about2{
         justify-content: center;
         text-align: center;
     }
-     .aboutkiimg{
-        display: inline;
-        align-items: center;
-        justify-content: center;
-     }
+ 
     .dynastat{
         text-align: center;
         display: inline;
     }
-
-    .text-respo{
-        br{
-            display: none;
-        }
-         font-size: 35px;
-        margin-left:25px;
-        word-spacing: 0.4rem;
-        line-height: 3rem;
-        text-wrap:wrap;
-        margin-right: -230px;
-        align-items: center;
-        justify-content: center;
-    }
    
     .h3{
         display: none;
-    }
-
-    .resume-education{
-        margin-left: 50px;
-        height: 100%;
-        width: 630px;
     }
     .h4{
         font-size: 30px;
@@ -223,10 +303,6 @@ font-size: 50px;
         margin-bottom: 10px;
         margin-right: -40px;
         font-size: 26px;
-    }
-    .card-response{
-        align-items: center;
-        flex-wrap: wrap-reverse;
     }
     .card{
         width: 635px;
@@ -248,41 +324,23 @@ font-size: 50px;
     padding-left: 32px;
     margin-bottom: 5px;  
  }
-
-    .imgbox{
-        margin-top: 75px;
-        margin-left: 40px;
-        width: 630px;
-        height: 630px;
-        justify-content: center;
-        align-items: center;
-    }
     .h1{
         font-size: 40px;
         margin-left: 160px;
         margin-right: -140px;
     }
     .aboutimg{
-        width: 630px;
-       /* margin-left: 90px; */
+        width: 630px; 
         margin-bottom: 70px;
-        
     }
-    .award-response{
-        display: inline;
-    }
+  
     .text-response{
         font-size: 27px;
         margin-right: -310px;
         text-wrap: wrap;
         margin-left: 90px;
     }
-    .text-response1{
-        font-size: 27px;
-        margin-right: -250px;
-        text-wrap: wrap;
-        margin-left: 90px;
-    }
+    
     .award-btn{
         margin-top: -12px;
        margin-left: -40px;
@@ -304,14 +362,6 @@ font-size: 50px;
         margin-left: 210px;
         margin-right: -40px;
     }
-    .response1{
-    margin-top: 15px;
-    width: 640px;
-    height: 100%;
-padding-bottom: 50px;
-    margin-bottom: 85px;
-    
-    }
     .contact-1 h1{
         font-size: 40px;
     }
@@ -325,13 +375,6 @@ padding-bottom: 50px;
    .name{
     display: inline;
    }
-    .response2{
-        padding-bottom: 90px;
-        padding: 40px;
-         margin-top: 30px;
-        width: 640px;
-        height: 100%;
-    }
 
     .skill{
         margin-bottom: 80px;
@@ -353,15 +396,23 @@ padding-bottom: 50px;
        justify-content: center;
        
     }
-    .image-gallery-container{
-        margin-right: -350px;
-    }
-    .image-gallery {  
-        animation: 3s scroll infinite linear;
-      } 
+
       footer{
         text-align: center;
         display: flex;
         justify-content: space-around;
-      }
-}
+      } */
+} 
+  
+  /* Laptops and Larger Screens */
+  @media (min-width: 1025px) {
+  
+  
+    .custom-ic,
+    .custom-i {
+      width: 55px;
+      height: 55px;
+      font-size: 22px;
+    }
+  }
+  
