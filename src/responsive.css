@@ -272,8 +272,20 @@
         flex-wrap: wrap-reverse;
     }
     .card{
-        margin: 10px;
+        width: 350px;
+       height: 430px;
+        margin: 26px;
     }
+  
+    .custom-icon{ 
+        width:90px;
+        height:90px;
+        margin-left: 110px;
+        font-size: 43px;
+        padding:23px;  
+        margin-bottom: 5px;  
+     }
+
     .contact-response{
         align-items: center;
         justify-content: center;
@@ -281,11 +293,10 @@
         margin: 15px;
     }
     .response1{
-        margin-top: 15px;
        margin-left: 15px;
        margin-right: 15px;
     padding-bottom: 50px;
-        margin-bottom: 85px;
+        margin-bottom: 50px;
         
         }
         .response2{
@@ -302,27 +313,7 @@
       } 
     /*
 
-    .icon-div {
-        text-align: center;
-        width: 170px;
-    }
-    .icon-div i{
-        padding: 18px;
-        margin: 20px;
-        width:91px;
-        height:90px;
-font-size: 50px;
-    }
-    .icon-div span{
-        font-size: 1.7rem;
-    }
-    .icon-anima{
-        margin-left: 250px;
-        padding-left: 10px;
-        margin-top: 45px;
-        align-items: center;
-        justify-content: center;
-    }
+   
     .header-btn{
  
         margin-top: 50px;
@@ -364,18 +355,8 @@ font-size: 50px;
          padding: 40px;
         margin-bottom: 90px;
     }
-    .card p{
-        font-size: 34px;
-    }
- .custom-icon{
-    margin-left: 200px;
-    width:130px;
-    height:130px;
-    font-size: 53px;
-    padding:43px;
-    padding-left: 32px;
-    margin-bottom: 5px;  
- }
+    
+ 
     .h1{
         font-size: 40px;
         margin-left: 160px;
