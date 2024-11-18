@@ -10,7 +10,9 @@
   box-sizing: border-box;
    font-family: 'Poppins', sans-serif;
 }
-
+header{
+  width: 100%;
+}
 .imgbox{
   position: relative;
   /* width: 480px;
