@@ -87,7 +87,7 @@
         display: inline;
     }
     .aboutimg{
-        margin-left: -0px;
+        margin-left: 30px;
         width: 640px;
     }
     .award-response{
@@ -96,12 +96,26 @@
     .dynastat{
         display: inline;
     }
+    
+    .dynamic-txt li{
+        margin-left: 40px;
+    }
+    .icon-anima{
+        margin-left: 10px;
+        margin-top: 25px;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-btn{
+        text-align: center;
+        justify-content: center;
+    }
     .text-respo{
         br{
             display: none;
         }
         word-spacing: 0.3rem;
-        line-height: 2.7rem;
+        line-height: 2.4rem;
         text-wrap:wrap;
         margin-left: 10px;
         align-items: center;
@@ -111,11 +125,13 @@
         margin-top: 75px;
         width: 600px;
         height: 600px;
+        margin-left: 50px;
         justify-content: center;
         align-items: center;
     }
     .imgbox1{    
         margin-top: 75px;  
+        margin-left: 50px;
         width: 600px;
         height: 600px;
         justify-content: center;
@@ -128,11 +144,14 @@
     .resume-education{
         height: 100%;
     }
+    .resume-third-item{
+        margin-left:10px;
+    }
     .card-response{
         flex-wrap: wrap-reverse;
     }
     .card{
-        margin: 7px;
+        margin: 9px;
     }
     .contact-response{
         align-items: center;
@@ -141,27 +160,19 @@
         margin: 15px;
     }
     .response1{
-       margin-left: 15px;
+       margin-left: 30px;
        margin-right: 15px;
     padding-bottom: 40px;
         margin-bottom: 55px;
         }
         .response2{
-            margin-left: 15px;
+            margin-left: 30px;
             margin-right: 15px;  
         }
     /*
     
-    .icon-anima{
-        margin-left: 10px;
-        margin-top: 25px;
-        align-items: center;
-        justify-content: center;
-    }
-    .header-btn{
-        margin-left: 20px;
-        align-items: center;
-    }
+  
+    
 
     .dynamic-txt{
        margin-left: 190px;
@@ -183,6 +194,7 @@
 }
 
 @media (max-width:600px){
+
    nav {
       flex-direction: column;
       font-size: 18px;
@@ -201,6 +213,12 @@
         text-align: center;
         justify-content: center;
     }
+       .ham{
+        text-align: center;
+        justify-content: center;
+        margin-right: 0;
+     
+      }
     .world{
   margin-left: 30px;
         margin-top: 100px;
@@ -218,7 +236,7 @@
             display: none;
         }
         word-spacing: 0.2rem;
-        line-height: 2.5rem;
+        line-height: 2.2rem;
         text-wrap:wrap;
         margin-left: 10px;
         align-items: center;
@@ -272,7 +290,7 @@
         flex-wrap: wrap-reverse;
     }
     .card{
-        width: 350px;
+        width: 340px;
        height: 430px;
         margin: 26px;
     }
@@ -282,7 +300,7 @@
         height:90px;
         margin-left: 110px;
         font-size: 43px;
-        padding:23px;  
+        padding:22px;  
         margin-bottom: 5px;  
      }
 
@@ -303,11 +321,19 @@
             margin-left: 15px;
             margin-right: 15px;  
         }
-     footer p{
-        margin-left: 0;
-        margin-right: 0;
-        
+     footer {
+
+       padding:35px 0;
+        flex-wrap: wrap;
+  
      }
+     footer p  {
+        
+        margin-left: -45px;
+        
+              line-height: 2.3rem;
+     }
+    
       .image-gallery {  
         animation: 3s scroll infinite linear;
       } 
