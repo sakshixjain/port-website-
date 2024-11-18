@@ -122,7 +122,7 @@ function Info() {
 </div>
 <div className='text-left justify-start text-xl font-semibold mt-8 pl-4 header-btn'>
                    
-                    <button  className='border-2 border-black text-black bg-white p-2.5 rounded-md animate-pulse'><a href="cv.docx"download> Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></button>
+                    <button  className='border-2 border-black text-black bg-white p-2.5 rounded-md animate-pulse'><a href="Sakshi_jain.pdf"download> Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></button>
                     </div>
 </div>
 </div>
@@ -229,7 +229,7 @@ function Info() {
 
                 <p className='text-[#f54892] text-xl ml-8 mr-16 text-response animationn4'>Manage backend, database, hosting and deployment</p>
                 <div className='text-left justify-start text-xl ml-8 font-semibold mt-8  header-btn'>
-                    <button  className='border-2 text-black bg-white p-2.5 rounded-md hover:bg-black hover:text-white award-btn'><a href="cv.docx"download>Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></button>
+                    <button  className='border-2 text-black bg-white p-2.5 rounded-md hover:bg-black hover:text-white award-btn'><a href="Sakshi_jain.pdf"download>Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></button>
                     </div>
                     </div>
                     </div>
