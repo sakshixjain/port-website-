@@ -251,8 +251,9 @@ const Contact=()=> {
 
 <hr />
 <footer className='flex p-1.5 mt-4 text-lg justify-between ml-16 mr-16'>
-<p>Thank you for coming here &copy; 2024</p>
+<p>All Rights Reserved &copy; 2024</p>
 <p>Terms & condition</p>
+<p>Privacy Policy</p>
 
 </footer>
         </div>
