@@ -104,7 +104,7 @@ function Header() {
                     </div>
                     <div className='text-left justify-start text-xl font-semibold mt-8 header-btn'>
                     <button className='border-2 border-white m-4 p-2.5 rounded-md hover:bg-white hover:text-black'><a href="https://www.linkedin.com/in/sakshi-jain-a0048621b/">Hire me Now !</a></button>
-                    <button  className='border-2 border-black text-black bg-white p-2.5 rounded-md animate-pulse'><a href="cv.docx"download>Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></button>
+                    <button  className='border-2 border-black text-black bg-white p-2.5 rounded-md animate-pulse'><a href="sakshi_jain.pdf"download>Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></button>
                     </div>
                     
  </div>
