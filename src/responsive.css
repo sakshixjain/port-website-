@@ -118,6 +118,7 @@
         line-height: 2.4rem;
         text-wrap:wrap;
         margin-left: 10px;
+         text-align: left;
         align-items: center;
         justify-content: center;
     }
@@ -238,6 +239,7 @@
         word-spacing: 0.2rem;
         line-height: 2.2rem;
         text-wrap:wrap;
+         text-align: left;
         margin-left: 10px;
         align-items: center;
         justify-content: center;
