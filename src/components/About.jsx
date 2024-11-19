@@ -1,9 +1,11 @@
 
-import {  useEffect } from 'react';
+import {  useEffect,useState } from 'react';
 import '../components/about.css'
 import '../components/skeleton.css'
 function Info() {
   
+  const [activeDiv, setActiveDiv] = useState("main-div");
+
   useEffect(() => {
     const h = document.querySelectorAll('.h3');
     const h1pro= document.querySelectorAll('.h1pro');
@@ -98,7 +100,7 @@ function Info() {
     <>
                <h1
         id="about"
-        className="text-center justify-center mt-32 mb-8 text-5xl h1pro animationn7">
+        className="text-center justify-center mt-32 text-5xl h1pro animationn7">
         About me
       </h1>
 
@@ -122,7 +124,7 @@ function Info() {
 </div>
 <div className='text-left justify-start text-xl font-semibold mt-4 pl-4 header-btn'>
                    
-                    <button  className='border-2 border-black text-black bg-white p-2.5 rounded-md animate-pulse'><a href="cv.docx"download> Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></button>
+                    <button  className='border-2 border-black mb-4 text-black bg-white p-2.5 rounded-md animate-pulse'><a href="cv.docx"download> Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></button>
                     </div>
 </div>
 </div>
@@ -252,10 +254,13 @@ function Info() {
           <br />
           <p className='text-gray-500 text-xl ml-8 mr-16 -mt-2 text-response1 animation4'>Good at problem solving by implementing DSA and Web Development using variety of stacks</p>
           
-          
-          <div className='text-left justify-start text-xl ml-4 font-semibold award-btn1 '>
-                    <button className='border-2 border-white m-3 p-2.5 rounded-md hover:bg-white hover:text-black '><a href="">Main Skills</a></button>
-                    <div className='main-div'>
+          <div className='text-left justify-start text-xl ml-4 font-medium award-btn1 '>
+                    <button onClick={() => setActiveDiv("main-div")}  className='border-2 border-white m-3 
+                    p-2.5 rounded-md hover:bg-white hover:text-black '>Main Skills</button>
+<button onClick={() => setActiveDiv("award-div")}  className='border-2 border-black text-black bg-white hover:bg-black hover:text-white p-2.5 rounded-md '>Awards</button>
+
+{activeDiv === "main-div" ? (
+          <div className='main-div'>
                   <h1 className='text-gray-500 text-xl ml-8 mr-16 text-response '>Data Structures and Algorithms</h1>
 
                 <p className='text-[#f54892] text-xl ml-8 mr-16 text-response animationn4'>Execute and design algorithms and implement data structures</p>
@@ -267,20 +272,24 @@ function Info() {
 
                 <p className='text-[#f54892] text-xl ml-8 mr-16 text-response animationn4'>Manage backend, database, hosting and deployment</p>
                 </div>
-                    <button  className='border-2 border-black text-black bg-white p-2.5 rounded-md '><a href="">Awards</a></button>
+      ) : (
+       <div className='award-div'>
+                  <h1 className='text-gray-500 text-xl ml-8 mr-16 text-response '>Leetcode</h1>
+
+                <p className='text-[#f54892] text-xl ml-8 mr-16 text-response animationn4'>I have solved over 350+ problems on Leetcode</p>
+                <br />
+                <h1 className='text-gray-500 text-xl ml-8 mr-16 text-response '>Geeks for Geeks</h1>
+                <p className='text-[#f54892] text-xl ml-8 mr-16 text-response animationn4'>I have solved 300+ problems on Geeks for Geeks and hold a rank of 45 at MDU, Rohtak. </p>
+                <br />
+                <h1 className='text-gray-500 text-xl ml-8 mr-16 text-response '>Database</h1>
+
+                <p className='text-[#f54892] text-xl ml-8 mr-16 text-response animationn4'>have Completed 50+ MySQL questions on Leetcode, demonstrating proficiency in database querying and problem-solving.</p>
+                </div> 
+      )}
+                  
+                    
                     </div> 
-                    <div className='award-div'>
-                  <h1 className='text-gray-500 text-xl ml-8 mr-16 text-response '>Data Structures and Algorithms</h1>
-
-                <p className='text-[#f54892] text-xl ml-8 mr-16 text-response animationn4'>Execute </p>
-                <br />
-                <h1 className='text-gray-500 text-xl ml-8 mr-16 text-response '>Frontend development</h1>
-                <p className='text-[#f54892] text-xl ml-8 mr-16 text-response animationn4'>Delight the </p>
-                <br />
-                <h1 className='text-gray-500 text-xl ml-8 mr-16 text-response '>Backend development</h1>
-
-                <p className='text-[#f54892] text-xl ml-8 mr-16 text-response animationn4'>Manage </p>
-                </div>
+                    
                 <div className='text-left justify-start text-xl ml-8 font-semibold mt-8  header-btn'>
                     <button  className='border-2 text-black bg-white p-2.5 rounded-md hover:bg-black hover:text-white award-btn'><a href="cv.docx"download>Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></button>
                     </div>
