@@ -118,7 +118,6 @@
         line-height: 2.4rem;
         text-wrap:wrap;
         margin-left: 10px;
-         text-align: left;
         align-items: center;
         justify-content: center;
     }
@@ -239,8 +238,8 @@
         word-spacing: 0.2rem;
         line-height: 2.2rem;
         text-wrap:wrap;
-         text-align: left;
         margin-left: 10px;
+        text-align: left;
         align-items: center;
         justify-content: center;
     }
@@ -273,7 +272,10 @@
     
     .resume-education{
        padding: 0;
-        height: 100%;
+        height: 350px;
+    }
+    .resume-topic-one, .resume-topic-two, .resume-topic-three{
+display: none;
     }
     .aboutkiimg{
         display: inline;
@@ -286,6 +288,16 @@
      .award-response{
         display: inline;
     }
+    .text-response{
+      margin-left: 2px;
+      margin-right: 2px;
+        text-wrap: wrap;
+    }
+    .text-response1{
+        margin-left: 13px;
+        margin-right: 2px;
+          text-wrap: wrap;
+      }
     .card-response{
         
         align-items: center;
@@ -395,12 +407,7 @@
         margin-bottom: 70px;
     }
   
-    .text-response{
-        font-size: 27px;
-        margin-right: -310px;
-        text-wrap: wrap;
-        margin-left: 90px;
-    }
+  
     
     .award-btn{
         margin-top: -12px;
