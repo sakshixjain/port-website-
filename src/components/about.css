@@ -33,8 +33,9 @@
     z-index: 0;
     overflow: hidden;
     position: relative;
-    padding: 30px;
-    height: 500px;
+    padding: 10px;
+    margin-top: 20px;
+    height: 280px;
   }
   
   .resume-education::before {
@@ -72,19 +73,19 @@
 
 
 .resume-first-item {
-    padding-left: 40px;
-    padding-right: 38px;
+    padding-left: 28px;
+    padding-right: 20px;
 }
 
 .resume-second-item {
-    padding-right: 48px;
-    padding-left: 40px;
+    padding-right: 28px;
+    padding-left: 20px;
     position: relative;
 }
 
 .resume-third-item {
-    padding-right: 58px;
-    padding-left: 60px;
+    padding-right: 28px;
+    padding-left: 20px;
 }
 
 .resume-second-item::before {
@@ -119,6 +120,15 @@
     top: 110px;
     margin-left: 23px;
 }
+.resume-topic-two {
+    top: 410px;
+    margin-left: 23px;
+}
+
+.resume-topic-three {
+    bottom: 185px;
+    margin-left: 23px;
+}
 
 .resume-topics::before {
     content: '';
@@ -134,12 +144,14 @@
     position: absolute;
     width: 18px;
     height: 18px;
-    background-color: var(--orange-color);
+    background-color:#e6257f;
+    box-shadow: 4px 0.5px 22px 3px #d8b1c7;
+    border:2px  wheat;
     display: inline-block;
     border-radius: 50%;
     top: 50%;
     transform: translateY(-50%);
-    left: -31px;
+    left: -21px;
 }
 
 .resume-two .resume-content-right {
