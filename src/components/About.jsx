@@ -120,13 +120,13 @@ function Info() {
 <i className="fa-regular fa-circle-check text-5xl border-2 border-stone-900 bg-slate-950 rounded-lg p-2 m-2"></i>
   <p> <span className='text-3xl text-pink-700'>10+</span><br /> <span className='text-2xl'>Complete Project</span></p>
 </div>
-<div className='text-left justify-start text-xl font-semibold mt-8 pl-4 header-btn'>
+<div className='text-left justify-start text-xl font-semibold mt-4 pl-4 header-btn'>
                    
-                    <button  className='border-2 border-black text-black bg-white p-2.5 rounded-md animate-pulse'><a href="Sakshi_jain.pdf"download> Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></button>
+                    <button  className='border-2 border-black text-black bg-white p-2.5 rounded-md animate-pulse'><a href="cv.docx"download> Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></button>
                     </div>
 </div>
 </div>
-      
+<h1 className='text-center justify-center text-slate-500 text-5xl h2pro' >Education</h1>
 
       <section id="resume" className="resume">
         <div className="container">
@@ -136,64 +136,103 @@ function Info() {
                 <div className="row row-mobile-margin">
                   <div className="col-12 col-lg-2">
                     <div
-                      className="resume-topics h-100 flex-column justify-content-center position-relative "
-                      
-                    >
-                      <h3 className="h3 animationn2 line-height-1 resume-topic-item resume-topic-one font-medium text-white position-absolute">
-                        Education
-                      </h3>
+                      className="resume-topics h-100 flex justify-content-center position-relative ">
+                        <h3
+                                            className="h3 line-height-3 resume-topic-item resume-topic-one fw-500 text-white position-absolute">
+                                            </h3>
+                                            <h3
+                                            className="h3 line-height-3 resume-topic-item resume-topic-two fw-500 text-white position-absolute">
+                                            </h3>
+                                            <h3
+                                            className="h3 line-height-3 resume-topic-item resume-topic-three fw-500 text-white position-absolute">
+                                            </h3>
+                                            
                     </div>
                   </div>
-                  <div className="col-12 col-lg-10">
+                  <div className="col-12 col-lg-9">
+                  
+                                        
                     <div
                       data-aos="fade-up"
                       data-aos-delay="100"
                       data-aos-duration="800"
                       id="box"
-                      className="resume-education animationn5 bg-[#06060f] wn"
-                      
-                    >
+                      className="resume-education animationn5 bg-[#06060f] wn">
                       <div className="row">
-                        <div className="col-lg-4 resume-first-item">
+                        <div className="col-lg resume-first-item">
                           <h4 className="h4 mt-4 text-[#f54982] font-bold">
-                            B-Tech in Computer Science & Engineering
+                           Maharshi Dayananad University , Rohtak 
                           </h4>
-                          <p className="p secondary-black font-semibold text-xl line-height-12 mt-10">
-                            Maharshi Dayananad University (2021 - 2024)
+                          <p className="p secondary-black font-medium text-xl line-height-12 mt-10">
+                             B-Tech - Computer Science & Engineering
                           </p>
-                          <p className="p secondary-black fw-400 line-height-12 mt-10 text-lg text-gray-400">
-                            <b>Software development,</b> <b>web technologies</b>, and{' '}
+                          <p className='text-gray-500'>Sep 2021 - May 2024</p>
+                          <p>Grade: 77%</p>
+                          
+                          <p className="p secondary-black fw-400 line-height-12 text-lg mt-2 text-gray-400">
+                             Learning: <b>Software development,</b> <b>web technologies</b>, and{' '}
                             <b>data structures</b>, providing a strong foundation for my
                             career as a full-stack web developer.
+                            
                           </p>
                         </div>
-                        <div className="col-lg-4 resume-second-item">
+                    
+                      </div>
+                      
+                    </div>
+                    <div
+                      data-aos="fade-up"
+                      data-aos-delay="100"
+                      data-aos-duration="800"
+                      id="box"
+                      className="resume-education animationn5 bg-[#06060f] wn">
+                      <div className="row">
+                      
+                        <div className="col-lg resume-second-item">
                           <h4 className="h4 mt-4 text-[#f54982] font-bold">
-                            Diploma in Digital Electronics
+                            Board Of Technical Education, New Delhi 
                           </h4>
-                          <p className="p secondary-black text-xl font-semibold line-height-12 mt-10">
-                            Board Of Technical Education (2017 - 2020)
+                          
+                          <p className="p secondary-black text-xl font-medium line-height-12 mt-10">
+                            Diploma - Electronics and Communication Engineering
                           </p>
-                          <p className="p secondary-black fw-400 line-height-12 mt-10 text-lg text-gray-400">
+                          <p className='text-gray-500'> July 2017 - Sep 2020 </p>
+                          <p> Grade: 78%</p>
+                          <p className="p secondary-black fw-400 line-height-12 mt-2 text-lg text-gray-400">
                             Gained a solid understanding of programming, software
                             development, and web technologies, laying the groundwork for
                             my journey as a full-stack web developer.
                           </p>
                         </div>
-                        <div className="col-lg-4 resume-third-item">
+                        
+                      </div>
+                      
+                    </div>
+                    <div
+                      data-aos="fade-up"
+                      data-aos-delay="100"
+                      data-aos-duration="800"
+                      id="box"
+                      className="resume-education animationn5 bg-[#06060f] wn">
+                      <div className="row">
+                       
+                        <div className="col-lg resume-third-item">
                           <h4 className="h4 mt-4 text-[#f54982] font-bold">
-                            Secondary School Education
+                             Vanasthali Public School , Baraut UP
                           </h4>
-                          <p className="p secondary-black text-xl font-semibold line-height-12 mt-10">
-                            VPS, Baraut (2016 - 2017)
+                          <p className="p secondary-black text-xl font-medium line-height-12 mt-10">
+                           CBSE(X)
                           </p>
-                          <p className="p secondary-black fw-400 line-height-12 mt-10 text-lg text-gray-400">
+                          <p className='text-gray-500'>April 2016 - May 2017 </p>
+                          <p> Grade: 95%</p>
+                          <p className="p secondary-black fw-400 line-height-12 mt-2 text-lg text-gray-400">
                             Completed with a focus on foundational subjects in
                             mathematics, science, and computer studies, sparking my
                             interest in technology and software development.
                           </p>
                         </div>
                       </div>
+                      
                     </div>
                   </div>
                 </div>
@@ -216,8 +255,7 @@ function Info() {
           
           <div className='text-left justify-start text-xl ml-4 font-semibold award-btn1 '>
                     <button className='border-2 border-white m-3 p-2.5 rounded-md hover:bg-white hover:text-black '><a href="">Main Skills</a></button>
-                    <button  className='border-2 border-black text-black bg-white p-2.5 rounded-md '><a href="">Awards</a></button>
-                    </div>  
+                    <div className='main-div'>
                   <h1 className='text-gray-500 text-xl ml-8 mr-16 text-response '>Data Structures and Algorithms</h1>
 
                 <p className='text-[#f54892] text-xl ml-8 mr-16 text-response animationn4'>Execute and design algorithms and implement data structures</p>
@@ -228,8 +266,23 @@ function Info() {
                 <h1 className='text-gray-500 text-xl ml-8 mr-16 text-response '>Backend development</h1>
 
                 <p className='text-[#f54892] text-xl ml-8 mr-16 text-response animationn4'>Manage backend, database, hosting and deployment</p>
+                </div>
+                    <button  className='border-2 border-black text-black bg-white p-2.5 rounded-md '><a href="">Awards</a></button>
+                    </div> 
+                    <div className='award-div'>
+                  <h1 className='text-gray-500 text-xl ml-8 mr-16 text-response '>Data Structures and Algorithms</h1>
+
+                <p className='text-[#f54892] text-xl ml-8 mr-16 text-response animationn4'>Execute </p>
+                <br />
+                <h1 className='text-gray-500 text-xl ml-8 mr-16 text-response '>Frontend development</h1>
+                <p className='text-[#f54892] text-xl ml-8 mr-16 text-response animationn4'>Delight the </p>
+                <br />
+                <h1 className='text-gray-500 text-xl ml-8 mr-16 text-response '>Backend development</h1>
+
+                <p className='text-[#f54892] text-xl ml-8 mr-16 text-response animationn4'>Manage </p>
+                </div>
                 <div className='text-left justify-start text-xl ml-8 font-semibold mt-8  header-btn'>
-                    <button  className='border-2 text-black bg-white p-2.5 rounded-md hover:bg-black hover:text-white award-btn'><a href="Sakshi_jain.pdf"download>Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></button>
+                    <button  className='border-2 text-black bg-white p-2.5 rounded-md hover:bg-black hover:text-white award-btn'><a href="cv.docx"download>Resume &nbsp; <i className="fa-solid fa-arrow-down"></i></a></button>
                     </div>
                     </div>
                     </div>
