@@ -9,12 +9,20 @@ function Project () {
             <h1 className='text-center justify-center mt-4 mb-12 text-slate-500 text-3xl h2pro animationn5' >My Latest work</h1>
       <div className='image-gallery-container '>
   <div className='image-gallery'>
+  <div className="image-item h-[430px]" >
+           <figure> <img src="Screenshot 2025-02-14 185823.png" alt="Cinque Terre" className="image-scroll" /></figure>
+              <p className="caption text-[#f54982]">Ed Tech Platform</p>
+            
+              <p className='text-wrap p-3 text-gray-400'>Built an ED-Tech Ed-Tech website for creating, enrolling, and rating content with JWT auth, Role-based
+access.</p>
+              <a href="studynotion-frontend.vercel.app/"> <button className='skill-btn '>More info</button></a>
+          </div>
   <div className="image-item h-[450px]" >
            <figure> <img src="todo-list.png" alt="Cinque Terre" className="image-scroll" /></figure>
               <p className="caption text-[#f54982]">Responsive Todo App</p>
             
               <p className='text-wrap p-3 text-gray-400'>A responsive todo app Built with React's component-based architecture, the app features an intuitive interface where users can add, edit, delete, and mark tasks as completed.</p>
-              <a href="https://github.com/sakshixjain"> <button className='skill-btn '>More info</button></a>
+              <a href="https://todo-list-using-redux-tool-kit.vercel.app/"> <button className='skill-btn '>More info</button></a>
           </div>
           <div className="image-item h-[500px]" >
             <figure><img src="login-form.png" alt="Cinque Terre" className="image-scroll" /></figure>
@@ -23,7 +31,7 @@ function Project () {
             
               <p className='text-wrap p-3 text-gray-400'>
               A login form with theme mode allows users to switch between light and dark themes while providing a user-friendly authentication interface. Built with HTML, CSS, and Vanilla JavaScript, the form includes input fields for a username and password, along with a login button. </p>
-              <a href="https://github.com/sakshixjain"> <button className='skill-btn'>More info</button></a>
+              <a href="sakshixjain.github.io/login-form1/"> <button className='skill-btn'>More info</button></a>
           </div>
           <div className="image-item h-[490px]" >
            <figure> <img src="Screenshot 2024-10-16 145727.png" alt="Cinque Terre" className="image-scroll " /></figure>
