@@ -300,7 +300,15 @@ display: none;
      }
     
       .image-gallery {  
-        animation: 3s scroll infinite linear;
+        /* animation: 3s scroll infinite linear; */
+        display: inline;
+        
+        
       } 
+
+      .image-gallery div{
+        width: 360px;
+        margin: 30px;
+      }
 } 
   
