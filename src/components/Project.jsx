@@ -34,7 +34,7 @@ access.</p>
               <a href="sakshixjain.github.io/login-form1/"> <button className='skill-btn'>More info</button></a>
           </div>
           <div className="image-item h-[490px]" >
-           <figure> <img src="chat-app.png" alt="Cinque Terre" className="image-scroll " /></figure>
+           <figure> <img src="chat.png" alt="Cinque Terre" className="image-scroll " /></figure>
             
               <p  className="caption text-[#f54982]">Chat Application</p>
              
