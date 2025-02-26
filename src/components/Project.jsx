@@ -39,7 +39,7 @@ access.</p>
               <p  className="caption text-[#f54982]">Chat Application</p>
              
               <p className='text-wrap p-3 text-gray-400'>A real-time chat application enables users to send and receive messages instantly. It typically uses <b>MERN</b> Stack for maintaining a continuous connection between the client and server, ensuring messages are delivered without the need for frequent page refreshes.</p>
-              <a href="https://github.com/sakshixjain"> <button className='skill-btn'>More info</button></a>
+              <a href="https://real-time-chat-application-mern.vercel.app/signup"> <button className='skill-btn'>More info</button></a>
           
           </div>
           <div className="image-item h-[465px]" >
@@ -56,7 +56,7 @@ access.</p>
             
               <p className='caption text-[#f54982]'>E-commerce Website</p>
               <p className='text-wrap p-3 text-gray-400'>An e-commerce website for purchasing food allows users to browse a variety of food items, including fresh produce, packaged goods, and Gifts. It features categories  filters to sort items by price, cuisine,Recipes of an item.</p>
-              <a href="https://github.com/sakshixjain"> <button className='skill-btn mt-2'>More info</button></a>
+              <a href="https://ecommerce-teal-iota.vercel.app/"> <button className='skill-btn mt-2'>More info</button></a>
           </div>
 <div className="image-item h-[520px]" >
             <figure><img src="alarm-clock.png" alt="Cinque Terre" className="image-scroll" /></figure>
@@ -64,15 +64,9 @@ access.</p>
               <p className="caption text-[#f54982]">Alarm Clock</p>
              
               <p className='text-wrap p-3 text-gray-400'>An alarm clock built with HTML, CSS, and Vanilla JavaScript allows users to set specific times for alerts directly in their web browser. JavaScript handles the logic, comparing the current time with the set time and triggering a sound when they match</p>
-              <a href="https://github.com/sakshixjain"> <button className='skill-btn mt-2'>More info</button></a>
+              <a href="https://sakshixjain.github.io/Alarm-clock/"> <button className='skill-btn mt-2'>More info</button></a>
           </div>
-          <div className="image-item h-[450px]" >
-           <figure> <img src="todo-list.png" alt="Cinque Terre" className="image-scroll" /></figure>
-              <p className="caption text-[#f54982]">Responsive Todo App</p>
-            
-              <p className='text-wrap p-3 text-gray-400'>A responsive todo app Built with React's component-based architecture, the app features an intuitive interface where users can add, edit, delete, and mark tasks as completed.</p>
-              <a href="https://github.com/sakshixjain"> <button className='skill-btn '>More info</button></a>
-          </div>
+          
   
           </div>
           </div>
